@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="trackDBModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="trackDBModelStoreContainer">
+          <EntitySet Name="Hands" EntityType="trackDBModel.Store.Hands" store:Type="Tables" />
+          <EntitySet Name="LogFiles" EntityType="trackDBModel.Store.LogFiles" store:Type="Tables" />
+          <EntitySet Name="LogImport" EntityType="trackDBModel.Store.LogImport" store:Type="Tables" />
+          <EntitySet Name="MyCards" EntityType="trackDBModel.Store.MyCards" store:Type="Tables" />
+        </EntityContainer>
+        <EntityType Name="Hands">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="User" Type="nvarchar" MaxLength="100" />
+          <Property Name="Net" Type="float" />
+          <Property Name="Time" Type="datetime" />
+          <Property Name="ActionPreflop" Type="nvarchar" MaxLength="100" />
+          <Property Name="ActionFlop" Type="nvarchar" MaxLength="100" />
+          <Property Name="ActionTurn" Type="nvarchar" MaxLength="100" />
+          <Property Name="ActionRiver" Type="nvarchar" MaxLength="100" />
+          <Property Name="Card1" Type="nvarchar" MaxLength="100" />
+          <Property Name="Card2" Type="nvarchar" MaxLength="100" />
+          <Property Name="BB" Type="float" />
+        </EntityType>
+        <EntityType Name="LogFiles">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FileName" Type="nvarchar" MaxLength="100" />
+          <Property Name="StartDate" Type="datetime" />
+          <Property Name="EndDate" Type="datetime" />
+          <Property Name="Status" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="LogImport">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="BeginDate" Type="datetime" />
+          <Property Name="EndDate" Type="datetime" />
+          <Property Name="Status" Type="nvarchar" />
+          <Property Name="Directory" Type="nvarchar" />
+        </EntityType>
+        <EntityType Name="MyCards">
+          <Key>
+            <PropertyRef Name="HandId" />
+          </Key>
+          <Property Name="HandId" Type="int" Nullable="false" />
+          <Property Name="Card1" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="Card2" Type="nvarchar" Nullable="false" MaxLength="100" />
+        </EntityType>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="trackDBModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="trackDBEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="MyCards" EntityType="trackDBModel.MyCards" />
+          <EntitySet Name="LogFiles" EntityType="trackDBModel.LogFiles" />
+          <EntitySet Name="LogImport" EntityType="trackDBModel.LogImport" />
+          <EntitySet Name="Hands" EntityType="trackDBModel.Hands" />
+        </EntityContainer>
+        <EntityType Name="MyCards">
+          <Key>
+            <PropertyRef Name="HandId" />
+          </Key>
+          <Property Name="HandId" Type="Int32" Nullable="false" />
+          <Property Name="Card1" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="Card2" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="LogFiles">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="FileName" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="StartDate" />
+          <Property Type="DateTime" Name="EndDate" />
+          <Property Type="String" Name="Status" MaxLength="4000" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="LogImport">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="DateTime" Name="BeginDate" />
+          <Property Type="DateTime" Name="EndDate" />
+          <Property Type="String" Name="Status" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Directory" MaxLength="4000" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Hands">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Type="String" Name="Id" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="User" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="Double" Name="Net" />
+          <Property Type="DateTime" Name="Time" />
+          <Property Type="String" Name="ActionPreflop" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ActionFlop" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ActionTurn" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ActionRiver" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Card1" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Card2" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="Double" Name="BB" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="trackDBModelStoreContainer" CdmEntityContainer="trackDBEntities2">
+          <EntitySetMapping Name="MyCards"><EntityTypeMapping TypeName="trackDBModel.MyCards"><MappingFragment StoreEntitySet="MyCards">
+            <ScalarProperty Name="HandId" ColumnName="HandId" />
+            <ScalarProperty Name="Card1" ColumnName="Card1" />
+            <ScalarProperty Name="Card2" ColumnName="Card2" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="LogFiles">
+            <EntityTypeMapping TypeName="trackDBModel.LogFiles">
+              <MappingFragment StoreEntitySet="LogFiles">
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+                <ScalarProperty Name="FileName" ColumnName="FileName" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LogImport">
+            <EntityTypeMapping TypeName="trackDBModel.LogImport">
+              <MappingFragment StoreEntitySet="LogImport">
+                <ScalarProperty Name="Directory" ColumnName="Directory" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+                <ScalarProperty Name="BeginDate" ColumnName="BeginDate" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Hands">
+            <EntityTypeMapping TypeName="trackDBModel.Hands">
+              <MappingFragment StoreEntitySet="Hands">
+                <ScalarProperty Name="BB" ColumnName="BB" />
+                <ScalarProperty Name="Card2" ColumnName="Card2" />
+                <ScalarProperty Name="Card1" ColumnName="Card1" />
+                <ScalarProperty Name="ActionRiver" ColumnName="ActionRiver" />
+                <ScalarProperty Name="ActionTurn" ColumnName="ActionTurn" />
+                <ScalarProperty Name="ActionFlop" ColumnName="ActionFlop" />
+                <ScalarProperty Name="ActionPreflop" ColumnName="ActionPreflop" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="Net" ColumnName="Net" />
+                <ScalarProperty Name="User" ColumnName="User" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Model">
+        <EntityTypeShape EntityType="trackDBModel.MyCards" Width="1.5" PointX="0.5" PointY="0.5" Height="1.59568359375" IsExpanded="true" />
+        <EntityTypeShape EntityType="trackDBModel.LogFiles" Width="1.5" PointX="0.75" PointY="2.5" Height="1.9802864583333326" />
+        <EntityTypeShape EntityType="trackDBModel.LogImport" Width="1.5" PointX="5.75" PointY="0.875" Height="1.7879850260416657" />
+        <EntityTypeShape EntityType="trackDBModel.Hands" Width="1.5" PointX="3.5" PointY="0.625" Height="3.1340950520833317" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>
