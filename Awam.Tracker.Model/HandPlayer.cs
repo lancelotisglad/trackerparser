@@ -24,5 +24,7 @@ namespace Awam.Tracker.Model
         public float PaidFlop { get; set; }
         public float PaidTurn { get; set; }
         public float PaidRiver { get; set; }
+
+        public double SeatNumber { get; set; }
     }
 }

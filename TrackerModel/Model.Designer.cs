@@ -68,18 +68,18 @@ namespace TrackerModel
         /// <summary>
         /// No Metadata Documentation available.
         /// </summary>
-        public ObjectSet<MyCards> MyCards
+        public ObjectSet<Hands> Hands
         {
             get
             {
-                if ((_MyCards == null))
+                if ((_Hands == null))
                 {
-                    _MyCards = base.CreateObjectSet<MyCards>("MyCards");
+                    _Hands = base.CreateObjectSet<Hands>("Hands");
                 }
-                return _MyCards;
+                return _Hands;
             }
         }
-        private ObjectSet<MyCards> _MyCards;
+        private ObjectSet<Hands> _Hands;
     
         /// <summary>
         /// No Metadata Documentation available.
@@ -116,28 +116,28 @@ namespace TrackerModel
         /// <summary>
         /// No Metadata Documentation available.
         /// </summary>
-        public ObjectSet<Hands> Hands
+        public ObjectSet<MyCards> MyCards
         {
             get
             {
-                if ((_Hands == null))
+                if ((_MyCards == null))
                 {
-                    _Hands = base.CreateObjectSet<Hands>("Hands");
+                    _MyCards = base.CreateObjectSet<MyCards>("MyCards");
                 }
-                return _Hands;
+                return _MyCards;
             }
         }
-        private ObjectSet<Hands> _Hands;
+        private ObjectSet<MyCards> _MyCards;
 
         #endregion
         #region AddTo Methods
     
         /// <summary>
-        /// Deprecated Method for adding a new object to the MyCards EntitySet. Consider using the .Add method of the associated ObjectSet&lt;T&gt; property instead.
+        /// Deprecated Method for adding a new object to the Hands EntitySet. Consider using the .Add method of the associated ObjectSet&lt;T&gt; property instead.
         /// </summary>
-        public void AddToMyCards(MyCards myCards)
+        public void AddToHands(Hands hands)
         {
-            base.AddObject("MyCards", myCards);
+            base.AddObject("Hands", hands);
         }
     
         /// <summary>
@@ -157,11 +157,11 @@ namespace TrackerModel
         }
     
         /// <summary>
-        /// Deprecated Method for adding a new object to the Hands EntitySet. Consider using the .Add method of the associated ObjectSet&lt;T&gt; property instead.
+        /// Deprecated Method for adding a new object to the MyCards EntitySet. Consider using the .Add method of the associated ObjectSet&lt;T&gt; property instead.
         /// </summary>
-        public void AddToHands(Hands hands)
+        public void AddToMyCards(MyCards myCards)
         {
-            base.AddObject("Hands", hands);
+            base.AddObject("MyCards", myCards);
         }
 
         #endregion
@@ -185,11 +185,11 @@ namespace TrackerModel
         /// <summary>
         /// Create a new Hands object.
         /// </summary>
-        /// <param name="id">Initial value of the Id property.</param>
-        public static Hands CreateHands(global::System.String id)
+        /// <param name="pk">Initial value of the pk property.</param>
+        public static Hands CreateHands(global::System.Int32 pk)
         {
             Hands hands = new Hands();
-            hands.Id = id;
+            hands.pk = pk;
             return hands;
         }
 
@@ -199,7 +199,7 @@ namespace TrackerModel
         /// <summary>
         /// No Metadata Documentation available.
         /// </summary>
-        [EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
         [DataMemberAttribute()]
         public global::System.String Id
         {
@@ -209,14 +209,11 @@ namespace TrackerModel
             }
             set
             {
-                if (_Id != value)
-                {
-                    OnIdChanging(value);
-                    ReportPropertyChanging("Id");
-                    _Id = StructuralObject.SetValidValue(value, false);
-                    ReportPropertyChanged("Id");
-                    OnIdChanged();
-                }
+                OnIdChanging(value);
+                ReportPropertyChanging("Id");
+                _Id = StructuralObject.SetValidValue(value, true);
+                ReportPropertyChanged("Id");
+                OnIdChanged();
             }
         }
         private global::System.String _Id;
@@ -462,6 +459,81 @@ namespace TrackerModel
         private Nullable<global::System.Double> _BB;
         partial void OnBBChanging(Nullable<global::System.Double> value);
         partial void OnBBChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public Nullable<global::System.Int32> Position
+        {
+            get
+            {
+                return _Position;
+            }
+            set
+            {
+                OnPositionChanging(value);
+                ReportPropertyChanging("Position");
+                _Position = StructuralObject.SetValidValue(value);
+                ReportPropertyChanged("Position");
+                OnPositionChanged();
+            }
+        }
+        private Nullable<global::System.Int32> _Position;
+        partial void OnPositionChanging(Nullable<global::System.Int32> value);
+        partial void OnPositionChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=true, IsNullable=false)]
+        [DataMemberAttribute()]
+        public global::System.Int32 pk
+        {
+            get
+            {
+                return _pk;
+            }
+            set
+            {
+                if (_pk != value)
+                {
+                    OnpkChanging(value);
+                    ReportPropertyChanging("pk");
+                    _pk = StructuralObject.SetValidValue(value);
+                    ReportPropertyChanged("pk");
+                    OnpkChanged();
+                }
+            }
+        }
+        private global::System.Int32 _pk;
+        partial void OnpkChanging(global::System.Int32 value);
+        partial void OnpkChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public Nullable<global::System.Int32> PositionButton
+        {
+            get
+            {
+                return _PositionButton;
+            }
+            set
+            {
+                OnPositionButtonChanging(value);
+                ReportPropertyChanging("PositionButton");
+                _PositionButton = StructuralObject.SetValidValue(value);
+                ReportPropertyChanged("PositionButton");
+                OnPositionButtonChanged();
+            }
+        }
+        private Nullable<global::System.Int32> _PositionButton;
+        partial void OnPositionButtonChanging(Nullable<global::System.Int32> value);
+        partial void OnPositionButtonChanged();
 
         #endregion
     

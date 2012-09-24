@@ -23,6 +23,8 @@ namespace Awam.Tracker.Model
 
         public List<HandPlayer> Players { get; set; }
 
+        public int ButtonPosition {get; set; }
+
         public HandPlayer this[string player]
         {
             get { return Players.Single(p => p.Player == player); }

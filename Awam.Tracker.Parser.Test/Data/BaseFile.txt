@@ -1,0 +1,3318 @@
+Winamax Poker - CashGame - HandId: #2863240-273-1335391174 - Holdem no limit (0.02€/0.05€) - 2012/04/25 21:59:34 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #2 is the button
+Seat 1: azzarro123 (6.17€)
+Seat 2: sarmaelle (5.56€)
+Seat 3: RemL1ke (5€)
+Seat 4: Nzashryl (5€)
+Seat 5: vince1351 (4.95€)
+Seat 6: doulali (2.65€)
+Seat 7: MrMorison (6.18€)
+Seat 8: saadliig (8.50€)
+Seat 9: TheEraser94 (5.75€)
+*** ANTE/BLINDS ***
+Nzashryl posts small blind 0.02€
+vince1351 posts big blind 0.05€
+Dealt to saadliig [4d Qc]
+*** PRE-FLOP *** 
+doulali calls 0.05€
+MrMorison folds
+saadliig folds
+azzarro123 raises 0.05€ to 0.10€
+sarmaelle folds
+Nzashryl folds
+vince1351 folds
+doulali calls 0.05€
+*** FLOP *** [6s 7c 3d]
+doulali checks
+azzarro123 bets 0.16€
+doulali calls 0.16€
+*** TURN *** [6s 7c 3d][9d]
+doulali bets 0.59€
+azzarro123 folds
+doulali collected 1.14€ from pot
+*** SUMMARY ***
+Total pot 1.14€ | Rake 0.04€
+Board: [6s 7c 3d 9d]
+Seat 1: azzarro123 folded on the turn
+Seat 2: sarmaelle (button) folded on the pre-flop
+Seat 4: Nzashryl (small blind) folded on the pre-flop
+Seat 5: vince1351 (big blind) folded on the pre-flop
+Seat 6: doulali won 1.14€
+Seat 7: MrMorison folded on the pre-flop
+Seat 8: saadliig folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-274-1335391222 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:00:22 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #4 is the button
+Seat 1: azzarro123 (5.91€)
+Seat 2: sarmaelle (5.56€)
+Seat 3: RemL1ke (5€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.90€)
+Seat 6: doulali (2.94€)
+Seat 7: MrMorison (6.18€)
+Seat 8: saadliig (8.50€)
+Seat 9: TheEraser94 (5.75€)
+*** ANTE/BLINDS ***
+vince1351 posts small blind 0.02€
+doulali posts big blind 0.05€
+Dealt to saadliig [5d 3d]
+*** PRE-FLOP *** 
+MrMorison calls 0.05€
+saadliig folds
+azzarro123 calls 0.05€
+sarmaelle folds
+Nzashryl folds
+vince1351 calls 0.03€
+doulali raises 0.05€ to 0.10€
+MrMorison calls 0.05€
+azzarro123 calls 0.05€
+vince1351 calls 0.05€
+*** FLOP *** [Ks Td 4d]
+vince1351 checks
+doulali bets 0.40€
+MrMorison folds
+azzarro123 folds
+vince1351 folds
+doulali collected 0.77€ from pot
+*** SUMMARY ***
+Total pot 0.77€ | Rake 0.03€
+Board: [Ks Td 4d]
+Seat 1: azzarro123 folded on the flop
+Seat 2: sarmaelle folded on the pre-flop
+Seat 4: Nzashryl (button) folded on the pre-flop
+Seat 5: vince1351 (small blind) folded on the flop
+Seat 6: doulali (big blind) won 0.77€
+Seat 7: MrMorison folded on the flop
+Seat 8: saadliig folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-275-1335391286 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:01:26 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #5 is the button
+Seat 1: azzarro123 (5.81€)
+Seat 2: sarmaelle (5.56€)
+Seat 3: RemL1ke (5€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.80€)
+Seat 6: doulali (3.21€)
+Seat 7: MrMorison (6.08€)
+Seat 8: saadliig (8.50€)
+Seat 9: TheEraser94 (5.75€)
+*** ANTE/BLINDS ***
+doulali posts small blind 0.02€
+MrMorison posts big blind 0.05€
+Dealt to saadliig [4d 6s]
+*** PRE-FLOP *** 
+saadliig folds
+azzarro123 folds
+sarmaelle folds
+Nzashryl folds
+vince1351 folds
+doulali calls 0.03€
+MrMorison checks
+*** FLOP *** [6c 5d Ac]
+doulali checks
+MrMorison checks
+*** TURN *** [6c 5d Ac][7s]
+doulali checks
+MrMorison checks
+*** RIVER *** [6c 5d Ac 7s][2c]
+doulali checks
+MrMorison checks
+*** SHOW DOWN ***
+MrMorison shows [Kh 3d] (High card : Ace)
+doulali shows [8h Ad] (One pair : Aces)
+doulali collected 0.09€ from pot
+*** SUMMARY ***
+Total pot 0.09€ | Rake 0.01€
+Board: [6c 5d Ac 7s 2c]
+Seat 1: azzarro123 folded on the pre-flop
+Seat 2: sarmaelle folded on the pre-flop
+Seat 4: Nzashryl folded on the pre-flop
+Seat 5: vince1351 (button) folded on the pre-flop
+Seat 6: doulali (small blind) showed [8h Ad] and won 0.09€ with One pair : Aces
+Seat 7: MrMorison (big blind) showed [Kh 3d] and lost with High card : Ace
+Seat 8: saadliig folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-276-1335391340 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:02:20 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #6 is the button
+Seat 1: azzarro123 (5.81€)
+Seat 2: sarmaelle (5.56€)
+Seat 3: RemL1ke (5€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.80€)
+Seat 6: doulali (3.25€)
+Seat 7: MrMorison (6.03€)
+Seat 8: saadliig (8.50€)
+Seat 9: TheEraser94 (5.75€)
+*** ANTE/BLINDS ***
+MrMorison posts small blind 0.02€
+saadliig posts big blind 0.05€
+Dealt to saadliig [Js 4h]
+*** PRE-FLOP *** 
+azzarro123 raises 0.05€ to 0.10€
+sarmaelle folds
+Nzashryl folds
+vince1351 folds
+doulali calls 0.10€
+MrMorison folds
+saadliig folds
+*** FLOP *** [Kh Tc 7h]
+azzarro123 bets 0.20€
+doulali calls 0.20€
+*** TURN *** [Kh Tc 7h][As]
+azzarro123 checks
+doulali checks
+*** RIVER *** [Kh Tc 7h As][Qd]
+azzarro123 checks
+doulali bets 0.67€
+azzarro123 folds
+doulali collected 1.30€ from pot
+*** SUMMARY ***
+Total pot 1.30€ | Rake 0.04€
+Board: [Kh Tc 7h As Qd]
+Seat 1: azzarro123 folded on the river
+Seat 2: sarmaelle folded on the pre-flop
+Seat 4: Nzashryl folded on the pre-flop
+Seat 5: vince1351 folded on the pre-flop
+Seat 6: doulali (button) won 1.30€
+Seat 7: MrMorison (small blind) folded on the pre-flop
+Seat 8: saadliig (big blind) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-277-1335391407 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:03:27 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #7 is the button
+Seat 1: azzarro123 (5.51€)
+Seat 2: sarmaelle (5.56€)
+Seat 3: RemL1ke (5€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.80€)
+Seat 6: doulali (3.58€)
+Seat 7: MrMorison (6.01€)
+Seat 8: saadliig (8.45€)
+Seat 9: TheEraser94 (5.75€)
+*** ANTE/BLINDS ***
+saadliig posts small blind 0.02€
+TheEraser94 posts big blind 0.05€
+Dealt to saadliig [Ks Jh]
+*** PRE-FLOP *** 
+azzarro123 calls 0.05€
+sarmaelle folds
+Nzashryl folds
+vince1351 calls 0.05€
+doulali calls 0.05€
+MrMorison folds
+saadliig calls 0.03€
+TheEraser94 checks
+*** FLOP *** [Th Qd 2s]
+saadliig checks
+TheEraser94 checks
+azzarro123 bets 0.17€
+vince1351 folds
+doulali raises 0.17€ to 0.34€
+saadliig folds
+TheEraser94 folds
+azzarro123 folds
+doulali collected 0.72€ from pot
+*** SUMMARY ***
+Total pot 0.72€ | Rake 0.04€
+Board: [Th Qd 2s]
+Seat 1: azzarro123 folded on the flop
+Seat 2: sarmaelle folded on the pre-flop
+Seat 4: Nzashryl folded on the pre-flop
+Seat 5: vince1351 folded on the flop
+Seat 6: doulali won 0.72€
+Seat 7: MrMorison (button) folded on the pre-flop
+Seat 8: saadliig (small blind) folded on the flop
+Seat 9: TheEraser94 (big blind) folded on the flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-278-1335391473 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:04:33 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #8 is the button
+Seat 1: azzarro123 (5.29€)
+Seat 2: sarmaelle (5.56€)
+Seat 3: RemL1ke (5€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.75€)
+Seat 6: doulali (3.91€)
+Seat 7: MrMorison (6.01€)
+Seat 8: saadliig (8.40€)
+Seat 9: TheEraser94 (5.70€)
+*** ANTE/BLINDS ***
+TheEraser94 posts small blind 0.02€
+azzarro123 posts big blind 0.05€
+Dealt to saadliig [9d 9c]
+*** PRE-FLOP *** 
+sarmaelle folds
+Nzashryl folds
+vince1351 folds
+doulali raises 0.05€ to 0.10€
+MrMorison folds
+saadliig calls 0.10€
+TheEraser94 folds
+azzarro123 calls 0.05€
+*** FLOP *** [Kd 5s Ad]
+azzarro123 checks
+doulali bets 0.32€
+saadliig folds
+azzarro123 folds
+doulali collected 0.62€ from pot
+*** SUMMARY ***
+Total pot 0.62€ | Rake 0.02€
+Board: [Kd 5s Ad]
+Seat 1: azzarro123 (big blind) folded on the flop
+Seat 2: sarmaelle folded on the pre-flop
+Seat 4: Nzashryl folded on the pre-flop
+Seat 5: vince1351 folded on the pre-flop
+Seat 6: doulali won 0.62€
+Seat 7: MrMorison folded on the pre-flop
+Seat 8: saadliig (button) folded on the flop
+Seat 9: TheEraser94 (small blind) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-279-1335391531 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:05:31 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #9 is the button
+Seat 1: azzarro123 (5.19€)
+Seat 2: sarmaelle (5.56€)
+Seat 3: RemL1ke (5€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.75€)
+Seat 6: doulali (4.11€)
+Seat 7: MrMorison (6.01€)
+Seat 8: saadliig (8.30€)
+Seat 9: TheEraser94 (5.68€)
+*** ANTE/BLINDS ***
+azzarro123 posts small blind 0.02€
+sarmaelle posts big blind 0.05€
+Dealt to saadliig [Qd Kh]
+*** PRE-FLOP *** 
+Nzashryl folds
+vince1351 folds
+doulali calls 0.05€
+MrMorison folds
+saadliig calls 0.05€
+TheEraser94 calls 0.05€
+azzarro123 folds
+sarmaelle checks
+*** FLOP *** [Kc 2c 5h]
+sarmaelle checks
+doulali bets 0.22€
+saadliig calls 0.22€
+TheEraser94 folds
+sarmaelle folds
+*** TURN *** [Kc 2c 5h][7c]
+doulali bets 0.66€
+saadliig folds
+doulali collected 1.28€ from pot
+*** SUMMARY ***
+Total pot 1.28€ | Rake 0.04€
+Board: [Kc 2c 5h 7c]
+Seat 1: azzarro123 (small blind) folded on the pre-flop
+Seat 2: sarmaelle (big blind) folded on the flop
+Seat 4: Nzashryl folded on the pre-flop
+Seat 5: vince1351 folded on the pre-flop
+Seat 6: doulali won 1.28€
+Seat 7: MrMorison folded on the pre-flop
+Seat 8: saadliig folded on the turn
+Seat 9: TheEraser94 (button) folded on the flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-280-1335391599 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:06:39 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #1 is the button
+Seat 1: azzarro123 (5.17€)
+Seat 2: sarmaelle (5.51€)
+Seat 3: RemL1ke (5€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.75€)
+Seat 6: doulali (4.46€)
+Seat 7: MrMorison (6.01€)
+Seat 8: saadliig (8.03€)
+Seat 9: TheEraser94 (5.63€)
+*** ANTE/BLINDS ***
+sarmaelle posts small blind 0.02€
+RemL1ke posts big blind 0.05€
+Dealt to saadliig [5s 3c]
+*** PRE-FLOP *** 
+Nzashryl folds
+vince1351 folds
+doulali calls 0.05€
+MrMorison folds
+saadliig folds
+TheEraser94 folds
+azzarro123 folds
+sarmaelle raises 0.20€ to 0.25€
+RemL1ke folds
+doulali calls 0.20€
+*** FLOP *** [Ts Ks Tc]
+sarmaelle bets 0.55€
+doulali folds
+sarmaelle collected 1.06€ from pot
+*** SUMMARY ***
+Total pot 1.06€ | Rake 0.04€
+Board: [Ts Ks Tc]
+Seat 1: azzarro123 (button) folded on the pre-flop
+Seat 2: sarmaelle (small blind) won 1.06€
+Seat 3: RemL1ke (big blind) folded on the pre-flop
+Seat 4: Nzashryl folded on the pre-flop
+Seat 5: vince1351 folded on the pre-flop
+Seat 6: doulali folded on the flop
+Seat 7: MrMorison folded on the pre-flop
+Seat 8: saadliig folded on the pre-flop
+Seat 9: TheEraser94 folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-281-1335391746 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:09:06 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #2 is the button
+Seat 1: azzarro123 (5.17€)
+Seat 2: sarmaelle (5.77€)
+Seat 3: RemL1ke (4.95€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.75€)
+Seat 6: doulali (4.21€)
+Seat 7: MrMorison (6.01€)
+Seat 8: saadliig (8.03€)
+Seat 9: TheEraser94 (5.63€)
+*** ANTE/BLINDS ***
+RemL1ke posts small blind 0.02€
+Nzashryl posts big blind 0.05€
+Dealt to saadliig [Jd 9c]
+*** PRE-FLOP *** 
+vince1351 folds
+doulali calls 0.05€
+saadliig folds
+TheEraser94 raises 0.15€ to 0.20€
+azzarro123 folds
+sarmaelle folds
+RemL1ke folds
+Nzashryl folds
+doulali calls 0.15€
+*** FLOP *** [8s Jc 9s]
+doulali checks
+TheEraser94 bets 0.35€
+doulali raises 0.35€ to 0.70€
+TheEraser94 calls 0.35€
+*** TURN *** [8s Jc 9s][Qh]
+doulali checks
+TheEraser94 checks
+*** RIVER *** [8s Jc 9s Qh][6h]
+doulali bets 1.87€
+TheEraser94 folds
+doulali collected 3.62€ from pot
+*** SUMMARY ***
+Total pot 3.62€ | Rake 0.12€
+Board: [8s Jc 9s Qh 6h]
+Seat 1: azzarro123 folded on the pre-flop
+Seat 2: sarmaelle (button) folded on the pre-flop
+Seat 3: RemL1ke (small blind) folded on the pre-flop
+Seat 4: Nzashryl (big blind) folded on the pre-flop
+Seat 5: vince1351 folded on the pre-flop
+Seat 6: doulali won 3.62€
+Seat 8: saadliig folded on the pre-flop
+Seat 9: TheEraser94 folded on the river
+
+
+Winamax Poker - CashGame - HandId: #2863240-282-1335391836 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:10:36 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #3 is the button
+Seat 1: azzarro123 (5.17€)
+Seat 2: sarmaelle (5.77€)
+Seat 3: RemL1ke (4.93€)
+Seat 4: Nzashryl (5€)
+Seat 5: vince1351 (4.75€)
+Seat 6: doulali (5.06€)
+Seat 7: MrMorison (6.01€)
+Seat 8: saadliig (8.03€)
+Seat 9: TheEraser94 (5€)
+*** ANTE/BLINDS ***
+Nzashryl posts small blind 0.02€
+vince1351 posts big blind 0.05€
+Dealt to saadliig [8s Ac]
+*** PRE-FLOP *** 
+doulali calls 0.05€
+saadliig folds
+TheEraser94 folds
+azzarro123 folds
+sarmaelle folds
+RemL1ke folds
+Nzashryl folds
+vince1351 checks
+*** FLOP *** [Qc 3d 8c]
+vince1351 checks
+doulali bets 0.12€
+vince1351 folds
+doulali collected 0.23€ from pot
+*** SUMMARY ***
+Total pot 0.23€ | Rake 0.01€
+Board: [Qc 3d 8c]
+Seat 1: azzarro123 folded on the pre-flop
+Seat 2: sarmaelle folded on the pre-flop
+Seat 3: RemL1ke (button) folded on the pre-flop
+Seat 4: Nzashryl (small blind) folded on the pre-flop
+Seat 5: vince1351 (big blind) folded on the flop
+Seat 6: doulali won 0.23€
+Seat 8: saadliig folded on the pre-flop
+Seat 9: TheEraser94 folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-283-1335391879 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:11:19 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #4 is the button
+Seat 1: azzarro123 (5.17€)
+Seat 2: sarmaelle (5.77€)
+Seat 3: RemL1ke (4.93€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.70€)
+Seat 6: doulali (5.12€)
+Seat 7: MrMorison (6.01€)
+Seat 8: saadliig (8.03€)
+Seat 9: TheEraser94 (5€)
+*** ANTE/BLINDS ***
+vince1351 posts small blind 0.02€
+doulali posts big blind 0.05€
+Dealt to saadliig [3h Td]
+*** PRE-FLOP *** 
+saadliig folds
+TheEraser94 folds
+azzarro123 raises 0.05€ to 0.10€
+sarmaelle folds
+RemL1ke folds
+Nzashryl folds
+vince1351 folds
+doulali calls 0.05€
+*** FLOP *** [Qs 7d 9h]
+doulali bets 0.05€
+azzarro123 calls 0.05€
+*** TURN *** [Qs 7d 9h][Ks]
+doulali bets 0.05€
+azzarro123 calls 0.05€
+*** RIVER *** [Qs 7d 9h Ks][Ts]
+doulali bets 0.42€
+azzarro123 folds
+doulali collected 0.81€ from pot
+*** SUMMARY ***
+Total pot 0.81€ | Rake 0.03€
+Board: [Qs 7d 9h Ks Ts]
+Seat 1: azzarro123 folded on the river
+Seat 2: sarmaelle folded on the pre-flop
+Seat 3: RemL1ke folded on the pre-flop
+Seat 4: Nzashryl (button) folded on the pre-flop
+Seat 5: vince1351 (small blind) folded on the pre-flop
+Seat 6: doulali (big blind) won 0.81€
+Seat 8: saadliig folded on the pre-flop
+Seat 9: TheEraser94 folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-284-1335391929 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:12:09 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #5 is the button
+Seat 1: azzarro123 (4.97€)
+Seat 2: sarmaelle (5.77€)
+Seat 3: RemL1ke (4.93€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.68€)
+Seat 6: doulali (5.31€)
+Seat 7: MrMorison (6.01€)
+Seat 8: saadliig (8.03€)
+Seat 9: TheEraser94 (5€)
+*** ANTE/BLINDS ***
+doulali posts small blind 0.02€
+MrMorison posts big blind 0.05€
+Dealt to saadliig [Qc 4c]
+*** PRE-FLOP *** 
+saadliig folds
+TheEraser94 folds
+azzarro123 raises 0.05€ to 0.10€
+sarmaelle folds
+RemL1ke folds
+Nzashryl folds
+vince1351 folds
+doulali raises 0.06€ to 0.16€
+MrMorison folds
+azzarro123 raises 0.48€ to 0.64€
+doulali calls 0.48€
+*** FLOP *** [7c 7d 9d]
+doulali bets 1.33€
+azzarro123 raises 3€ to 4.33€ and is all-in
+doulali calls 3€
+*** TURN *** [7c 7d 9d][5h]
+*** RIVER *** [7c 7d 9d 5h][8d]
+*** SHOW DOWN ***
+azzarro123 shows [Ks Kd] (Two pairs : Kings and 7)
+doulali shows [3d Jd] (Flush Jack high)
+doulali collected 9.34€ from pot
+*** SUMMARY ***
+Total pot 9.34€ | Rake 0.65€
+Board: [7c 7d 9d 5h 8d]
+Seat 1: azzarro123 showed [Ks Kd] and lost with Two pairs : Kings and 7
+Seat 2: sarmaelle folded on the pre-flop
+Seat 3: RemL1ke folded on the pre-flop
+Seat 4: Nzashryl folded on the pre-flop
+Seat 5: vince1351 (button) folded on the pre-flop
+Seat 6: doulali (small blind) showed [3d Jd] and won 9.34€ with Flush Jack high
+Seat 7: MrMorison (big blind) folded on the pre-flop
+Seat 8: saadliig folded on the pre-flop
+Seat 9: TheEraser94 folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-285-1335391973 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:12:53 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #6 is the button
+Seat 1: azzarro123 (0€)
+Seat 2: sarmaelle (5.77€)
+Seat 3: RemL1ke (4.93€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.68€)
+Seat 6: doulali (9.68€)
+Seat 7: MrMorison (5.96€)
+Seat 8: saadliig (8.03€)
+Seat 9: TheEraser94 (5€)
+*** ANTE/BLINDS ***
+MrMorison posts small blind 0.02€
+saadliig posts big blind 0.05€
+Dealt to saadliig [8c 9h]
+*** PRE-FLOP *** 
+TheEraser94 folds
+sarmaelle folds
+RemL1ke folds
+Nzashryl folds
+vince1351 calls 0.05€
+doulali calls 0.05€
+MrMorison calls 0.03€
+saadliig checks
+*** FLOP *** [5h 7s As]
+MrMorison checks
+saadliig checks
+vince1351 checks
+doulali bets 0.20€
+MrMorison folds
+saadliig folds
+vince1351 folds
+doulali collected 0.39€ from pot
+*** SUMMARY ***
+Total pot 0.39€ | Rake 0.01€
+Board: [5h 7s As]
+Seat 2: sarmaelle folded on the pre-flop
+Seat 3: RemL1ke folded on the pre-flop
+Seat 4: Nzashryl folded on the pre-flop
+Seat 5: vince1351 folded on the flop
+Seat 6: doulali (button) won 0.39€
+Seat 7: MrMorison (small blind) folded on the flop
+Seat 8: saadliig (big blind) folded on the flop
+Seat 9: TheEraser94 folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-286-1335392052 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:14:12 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #7 is the button
+Seat 1: azzarro123 (5€)
+Seat 2: sarmaelle (5.77€)
+Seat 3: RemL1ke (4.93€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.63€)
+Seat 6: doulali (9.82€)
+Seat 7: MrMorison (5.91€)
+Seat 8: saadliig (7.98€)
+Seat 9: TheEraser94 (5€)
+*** ANTE/BLINDS ***
+saadliig posts small blind 0.02€
+TheEraser94 posts big blind 0.05€
+azzarro123 posts big blind 0.05€ out of position
+Dealt to saadliig [Qd 6c]
+*** PRE-FLOP *** 
+azzarro123 checks
+sarmaelle folds
+RemL1ke folds
+Nzashryl folds
+vince1351 folds
+doulali calls 0.05€
+MrMorison calls 0.05€
+saadliig folds
+TheEraser94 checks
+*** FLOP *** [Ad 6d 7s]
+TheEraser94 checks
+azzarro123 checks
+doulali bets 0.05€
+MrMorison calls 0.05€
+TheEraser94 folds
+azzarro123 calls 0.05€
+*** TURN *** [Ad 6d 7s][5s]
+azzarro123 checks
+doulali bets 0.05€
+MrMorison calls 0.05€
+azzarro123 calls 0.05€
+*** RIVER *** [Ad 6d 7s 5s][8d]
+azzarro123 bets 0.52€
+doulali calls 0.52€
+MrMorison folds
+*** SHOW DOWN ***
+doulali shows [Th 8s] (One pair : 8)
+azzarro123 shows [Ts 9h] (Straight Ten high)
+azzarro123 collected 1.46€ from pot
+*** SUMMARY ***
+Total pot 1.46€ | Rake 0.10€
+Board: [Ad 6d 7s 5s 8d]
+Seat 1: azzarro123 showed [Ts 9h] and won 1.46€ with Straight Ten high
+Seat 2: sarmaelle folded on the pre-flop
+Seat 3: RemL1ke folded on the pre-flop
+Seat 4: Nzashryl folded on the pre-flop
+Seat 5: vince1351 folded on the pre-flop
+Seat 6: doulali showed [Th 8s] and lost with One pair : 8
+Seat 7: MrMorison (button) folded on the river
+Seat 8: saadliig (small blind) folded on the pre-flop
+Seat 9: TheEraser94 (big blind) folded on the flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-287-1335392147 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:15:47 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #8 is the button
+Seat 1: azzarro123 (5.79€)
+Seat 2: sarmaelle (5.77€)
+Seat 3: RemL1ke (4.93€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.63€)
+Seat 6: doulali (9.15€)
+Seat 7: MrMorison (5.76€)
+Seat 8: saadliig (7.96€)
+Seat 9: TheEraser94 (5€)
+*** ANTE/BLINDS ***
+TheEraser94 posts small blind 0.02€
+azzarro123 posts big blind 0.05€
+Dealt to saadliig [3c 7h]
+*** PRE-FLOP *** 
+sarmaelle calls 0.05€
+RemL1ke folds
+Nzashryl folds
+vince1351 calls 0.05€
+doulali calls 0.05€
+MrMorison folds
+saadliig folds
+TheEraser94 folds
+azzarro123 checks
+*** FLOP *** [Ks Qc Ac]
+azzarro123 checks
+sarmaelle checks
+vince1351 checks
+doulali bets 0.22€
+azzarro123 calls 0.22€
+sarmaelle folds
+vince1351 folds
+*** TURN *** [Ks Qc Ac][8s]
+azzarro123 checks
+doulali bets 0.66€
+azzarro123 calls 0.66€
+*** RIVER *** [Ks Qc Ac 8s][Jc]
+azzarro123 checks
+doulali checks
+*** SHOW DOWN ***
+azzarro123 shows [Js 7s] (One pair : Jacks)
+doulali shows [Jh 5h] (One pair : Jacks)
+doulali collected 0.93€ from pot
+azzarro123 collected 0.92€ from pot
+*** SUMMARY ***
+Total pot 1.85€ | Rake 0.13€
+Board: [Ks Qc Ac 8s Jc]
+Seat 1: azzarro123 (big blind) showed [Js 7s] and won 0.92€ with One pair : Jacks
+Seat 2: sarmaelle folded on the flop
+Seat 3: RemL1ke folded on the pre-flop
+Seat 4: Nzashryl folded on the pre-flop
+Seat 5: vince1351 folded on the flop
+Seat 6: doulali showed [Jh 5h] and won 0.93€ with One pair : Jacks
+Seat 7: MrMorison folded on the pre-flop
+Seat 8: saadliig (button) folded on the pre-flop
+Seat 9: TheEraser94 (small blind) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-288-1335392240 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:17:20 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #9 is the button
+Seat 1: azzarro123 (5.78€)
+Seat 2: sarmaelle (5.72€)
+Seat 3: RemL1ke (4.93€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.58€)
+Seat 6: doulali (9.15€)
+Seat 8: saadliig (7.96€)
+Seat 9: TheEraser94 (4.98€)
+*** ANTE/BLINDS ***
+azzarro123 posts small blind 0.02€
+sarmaelle posts big blind 0.05€
+Dealt to saadliig [7s 9h]
+*** PRE-FLOP *** 
+RemL1ke folds
+Nzashryl folds
+vince1351 folds
+doulali calls 0.05€
+saadliig folds
+TheEraser94 folds
+azzarro123 raises 0.05€ to 0.10€
+sarmaelle folds
+doulali calls 0.05€
+*** FLOP *** [Qc Jh 7d]
+azzarro123 bets 0.17€
+doulali folds
+azzarro123 collected 0.40€ from pot
+*** SUMMARY ***
+Total pot 0.40€ | Rake 0.02€
+Board: [Qc Jh 7d]
+Seat 1: azzarro123 (small blind) won 0.40€
+Seat 2: sarmaelle (big blind) folded on the pre-flop
+Seat 3: RemL1ke folded on the pre-flop
+Seat 4: Nzashryl folded on the pre-flop
+Seat 5: vince1351 folded on the pre-flop
+Seat 6: doulali folded on the flop
+Seat 8: saadliig folded on the pre-flop
+Seat 9: TheEraser94 (button) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-289-1335392277 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:17:57 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #1 is the button
+Seat 1: azzarro123 (5.91€)
+Seat 2: sarmaelle (5.67€)
+Seat 3: RemL1ke (4.93€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.58€)
+Seat 6: doulali (9.05€)
+Seat 8: saadliig (7.96€)
+Seat 9: TheEraser94 (4.98€)
+*** ANTE/BLINDS ***
+sarmaelle posts small blind 0.02€
+RemL1ke posts big blind 0.05€
+Dealt to saadliig [4h 2h]
+*** PRE-FLOP *** 
+Nzashryl folds
+vince1351 calls 0.05€
+doulali calls 0.05€
+saadliig folds
+TheEraser94 calls 0.05€
+azzarro123 folds
+sarmaelle folds
+RemL1ke raises 0.20€ to 0.25€
+vince1351 calls 0.20€
+doulali calls 0.20€
+TheEraser94 calls 0.20€
+*** FLOP *** [8d 7s 4d]
+RemL1ke checks
+vince1351 checks
+doulali bets 1.02€
+TheEraser94 folds
+RemL1ke folds
+vince1351 folds
+doulali collected 1.97€ from pot
+*** SUMMARY ***
+Total pot 1.97€ | Rake 0.07€
+Board: [8d 7s 4d]
+Seat 1: azzarro123 (button) folded on the pre-flop
+Seat 2: sarmaelle (small blind) folded on the pre-flop
+Seat 3: RemL1ke (big blind) folded on the flop
+Seat 4: Nzashryl folded on the pre-flop
+Seat 5: vince1351 folded on the flop
+Seat 6: doulali won 1.97€
+Seat 8: saadliig folded on the pre-flop
+Seat 9: TheEraser94 folded on the flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-290-1335392347 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:19:07 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #2 is the button
+Seat 1: azzarro123 (5.91€)
+Seat 2: sarmaelle (5.65€)
+Seat 3: RemL1ke (4.68€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.33€)
+Seat 6: doulali (9.75€)
+Seat 8: saadliig (7.96€)
+Seat 9: TheEraser94 (5€)
+*** ANTE/BLINDS ***
+RemL1ke posts small blind 0.02€
+Nzashryl posts big blind 0.05€
+Dealt to saadliig [Jh 6s]
+*** PRE-FLOP *** 
+vince1351 folds
+doulali calls 0.05€
+saadliig folds
+TheEraser94 folds
+azzarro123 calls 0.05€
+sarmaelle folds
+RemL1ke folds
+Nzashryl checks
+*** FLOP *** [3d 3h 5h]
+Nzashryl checks
+doulali bets 0.17€
+azzarro123 folds
+Nzashryl folds
+doulali collected 0.33€ from pot
+*** SUMMARY ***
+Total pot 0.33€ | Rake 0.01€
+Board: [3d 3h 5h]
+Seat 1: azzarro123 folded on the flop
+Seat 2: sarmaelle (button) folded on the pre-flop
+Seat 3: RemL1ke (small blind) folded on the pre-flop
+Seat 4: Nzashryl (big blind) folded on the flop
+Seat 5: vince1351 folded on the pre-flop
+Seat 6: doulali won 0.33€
+Seat 8: saadliig folded on the pre-flop
+Seat 9: TheEraser94 folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-291-1335392402 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:20:02 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #3 is the button
+Seat 1: azzarro123 (5.86€)
+Seat 2: sarmaelle (5.65€)
+Seat 3: RemL1ke (4.66€)
+Seat 4: Nzashryl (5€)
+Seat 5: vince1351 (4.33€)
+Seat 6: doulali (9.86€)
+Seat 8: saadliig (7.96€)
+Seat 9: TheEraser94 (5€)
+*** ANTE/BLINDS ***
+Nzashryl posts small blind 0.02€
+vince1351 posts big blind 0.05€
+Dealt to saadliig [3s 8s]
+*** PRE-FLOP *** 
+doulali calls 0.05€
+saadliig folds
+TheEraser94 folds
+azzarro123 folds
+sarmaelle raises 0.15€ to 0.20€
+RemL1ke folds
+Nzashryl folds
+vince1351 folds
+doulali calls 0.15€
+*** FLOP *** [Td Ad 8c]
+doulali bets 0.47€
+sarmaelle raises 0.47€ to 0.94€
+doulali folds
+sarmaelle collected 1.79€ from pot
+*** SUMMARY ***
+Total pot 1.79€ | Rake 0.09€
+Board: [Td Ad 8c]
+Seat 1: azzarro123 folded on the pre-flop
+Seat 2: sarmaelle won 1.79€
+Seat 3: RemL1ke (button) folded on the pre-flop
+Seat 4: Nzashryl (small blind) folded on the pre-flop
+Seat 5: vince1351 (big blind) folded on the pre-flop
+Seat 6: doulali folded on the flop
+Seat 8: saadliig folded on the pre-flop
+Seat 9: TheEraser94 folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2863240-292-1335392442 - Holdem no limit (0.02€/0.05€) - 2012/04/25 22:20:42 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #4 is the button
+Seat 1: azzarro123 (5.86€)
+Seat 2: sarmaelle (6.30€)
+Seat 3: RemL1ke (4.66€)
+Seat 4: Nzashryl (4.98€)
+Seat 5: vince1351 (4.28€)
+Seat 6: doulali (9.19€)
+Seat 8: saadliig (7.96€)
+Seat 9: TheEraser94 (5€)
+*** ANTE/BLINDS ***
+vince1351 posts small blind 0.02€
+doulali posts big blind 0.05€
+Dealt to saadliig [4h 8s]
+*** PRE-FLOP *** 
+saadliig folds
+TheEraser94 folds
+azzarro123 folds
+sarmaelle folds
+RemL1ke folds
+Nzashryl folds
+vince1351 calls 0.03€
+doulali checks
+*** FLOP *** [9d Js Kh]
+vince1351 checks
+doulali bets 0.10€
+vince1351 folds
+doulali collected 0.19€ from pot
+*** SUMMARY ***
+Total pot 0.19€ | Rake 0.01€
+Board: [9d Js Kh]
+Seat 1: azzarro123 folded on the pre-flop
+Seat 2: sarmaelle folded on the pre-flop
+Seat 3: RemL1ke folded on the pre-flop
+Seat 4: Nzashryl (button) folded on the pre-flop
+Seat 5: vince1351 (small blind) folded on the flop
+Seat 6: doulali (big blind) won 0.19€
+Seat 8: saadliig folded on the pre-flop
+Seat 9: TheEraser94 folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-7-1335468309 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:25:09 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #5 is the button
+Seat 1: Grugul69 (6.33€)
+Seat 2: saadliig (5€)
+Seat 3: kidcassidy (4.93€)
+Seat 4: Araz (4.33€)
+Seat 5: billgames (2.48€)
+Seat 6: Kitzigo (5€)
+Seat 7: faridass (3.91€)
+Seat 8: Driton22Fish (0.95€)
+Seat 9: zhenren (5€)
+*** ANTE/BLINDS ***
+Kitzigo posts small blind 0.02€
+faridass posts big blind 0.05€
+saadliig posts big blind 0.05€ out of position
+Dealt to saadliig [9d 7d]
+*** PRE-FLOP *** 
+Driton22Fish calls 0.05€
+saadliig checks
+kidcassidy calls 0.05€
+Araz folds
+billgames calls 0.05€
+Kitzigo calls 0.03€
+faridass checks
+*** FLOP *** [Js Ac Qs]
+Kitzigo bets 0.20€
+faridass folds
+Driton22Fish calls 0.20€
+saadliig folds
+kidcassidy folds
+billgames calls 0.20€
+*** TURN *** [Js Ac Qs][8s]
+Kitzigo checks
+Driton22Fish checks
+billgames bets 0.25€
+Kitzigo folds
+Driton22Fish folds
+billgames collected 1.09€ from pot
+*** SUMMARY ***
+Total pot 1.09€ | Rake 0.06€
+Board: [Js Ac Qs 8s]
+Seat 2: saadliig folded on the flop
+Seat 3: kidcassidy folded on the flop
+Seat 4: Araz folded on the pre-flop
+Seat 5: billgames (button) won 1.09€
+Seat 6: Kitzigo (small blind) folded on the turn
+Seat 7: faridass (big blind) folded on the flop
+Seat 8: Driton22Fish folded on the turn
+
+
+Winamax Poker - CashGame - HandId: #2868821-8-1335468395 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:26:35 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #6 is the button
+Seat 1: Grugul69 (6.33€)
+Seat 2: saadliig (4.95€)
+Seat 3: kidcassidy (4.88€)
+Seat 4: Araz (4.33€)
+Seat 5: billgames (3.07€)
+Seat 6: Kitzigo (5€)
+Seat 7: faridass (3.86€)
+Seat 8: Driton22Fish (0.70€)
+Seat 9: zhenren (5€)
+*** ANTE/BLINDS ***
+faridass posts small blind 0.02€
+Driton22Fish posts big blind 0.05€
+Dealt to saadliig [5c Jd]
+*** PRE-FLOP *** 
+saadliig folds
+kidcassidy folds
+Araz folds
+billgames raises 0.05€ to 0.10€
+Kitzigo folds
+faridass folds
+Driton22Fish folds
+billgames collected 0.17€ from pot
+*** SUMMARY ***
+Total pot 0.17€ | No rake
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: Araz folded on the pre-flop
+Seat 5: billgames won 0.17€
+Seat 6: Kitzigo (button) folded on the pre-flop
+Seat 7: faridass (small blind) folded on the pre-flop
+Seat 8: Driton22Fish (big blind) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-9-1335468439 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:27:19 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #7 is the button
+Seat 1: Grugul69 (6.33€)
+Seat 2: saadliig (4.95€)
+Seat 3: kidcassidy (4.88€)
+Seat 4: Araz (4.33€)
+Seat 5: billgames (3.14€)
+Seat 6: Kitzigo (5€)
+Seat 7: faridass (3.84€)
+Seat 8: Driton22Fish (0.65€)
+Seat 9: zhenren (5€)
+*** ANTE/BLINDS ***
+Driton22Fish posts small blind 0.02€
+zhenren posts big blind 0.05€
+Dealt to saadliig [6c 7s]
+*** PRE-FLOP *** 
+saadliig folds
+kidcassidy folds
+Araz folds
+billgames raises 0.05€ to 0.10€
+Kitzigo folds
+faridass raises 0.06€ to 0.16€
+Driton22Fish folds
+zhenren folds
+billgames calls 0.06€
+*** FLOP *** [Jh Kd Qd]
+billgames bets 0.50€
+faridass calls 0.50€
+*** TURN *** [Jh Kd Qd][As]
+billgames bets 0.50€
+faridass raises 0.50€ to 1€
+billgames calls 0.50€
+*** RIVER *** [Jh Kd Qd As][3s]
+billgames checks
+faridass bets 2.18€ and is all-in
+billgames calls 1.48€ and is all-in
+*** SHOW DOWN ***
+billgames shows [Qc Jd] (Two pairs : Queens and Jacks)
+faridass shows [Ts Ah] (Straight Ace high)
+faridass collected 6.64€ from pot
+*** SUMMARY ***
+Total pot 6.64€ | Rake 0.41€
+Board: [Jh Kd Qd As 3s]
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: Araz folded on the pre-flop
+Seat 5: billgames showed [Qc Jd] and lost with Two pairs : Queens and Jacks
+Seat 6: Kitzigo folded on the pre-flop
+Seat 7: faridass (button) showed [Ts Ah] and won 6.64€ with Straight Ace high
+Seat 8: Driton22Fish (small blind) folded on the pre-flop
+Seat 9: zhenren (big blind) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-10-1335468497 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:28:17 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #8 is the button
+Seat 1: Grugul69 (6.33€)
+Seat 2: saadliig (4.95€)
+Seat 3: kidcassidy (4.88€)
+Seat 4: Araz (4.33€)
+Seat 5: billgames (0€)
+Seat 6: Kitzigo (5€)
+Seat 7: faridass (6.64€)
+Seat 8: Driton22Fish (0.63€)
+Seat 9: zhenren (4.95€)
+*** ANTE/BLINDS ***
+zhenren posts small blind 0.02€
+saadliig posts big blind 0.05€
+Dealt to saadliig [2c 6c]
+*** PRE-FLOP *** 
+kidcassidy folds
+Araz folds
+Kitzigo folds
+faridass raises 0.05€ to 0.10€
+Driton22Fish calls 0.10€
+zhenren folds
+saadliig folds
+*** FLOP *** [Ts Qd 9s]
+faridass bets 0.05€
+Driton22Fish folds
+faridass collected 0.30€ from pot
+*** SUMMARY ***
+Total pot 0.30€ | Rake 0.02€
+Board: [Ts Qd 9s]
+Seat 2: saadliig (big blind) folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: Araz folded on the pre-flop
+Seat 6: Kitzigo folded on the pre-flop
+Seat 7: faridass won 0.30€
+Seat 8: Driton22Fish (button) folded on the flop
+Seat 9: zhenren (small blind) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-11-1335468548 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:29:08 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #9 is the button
+Seat 1: Grugul69 (6.33€)
+Seat 2: saadliig (4.90€)
+Seat 3: kidcassidy (4.88€)
+Seat 4: Araz (4.33€)
+Seat 5: scottypep63 (5€)
+Seat 6: Kitzigo (5€)
+Seat 7: faridass (6.79€)
+Seat 8: Driton22Fish (0.53€)
+Seat 9: zhenren (4.93€)
+*** ANTE/BLINDS ***
+saadliig posts small blind 0.02€
+kidcassidy posts big blind 0.05€
+Dealt to saadliig [6d Jc]
+*** PRE-FLOP *** 
+Araz raises 0.10€ to 0.15€
+Kitzigo folds
+faridass calls 0.15€
+Driton22Fish calls 0.15€
+zhenren folds
+saadliig folds
+kidcassidy folds
+*** FLOP *** [8c 8s 6s]
+Araz checks
+faridass checks
+Driton22Fish bets 0.30€
+Araz folds
+faridass folds
+Driton22Fish collected 0.79€ from pot
+*** SUMMARY ***
+Total pot 0.79€ | Rake 0.03€
+Board: [8c 8s 6s]
+Seat 2: saadliig (small blind) folded on the pre-flop
+Seat 3: kidcassidy (big blind) folded on the pre-flop
+Seat 4: Araz folded on the flop
+Seat 6: Kitzigo folded on the pre-flop
+Seat 7: faridass folded on the flop
+Seat 8: Driton22Fish won 0.79€
+Seat 9: zhenren (button) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-12-1335468581 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:29:41 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #2 is the button
+Seat 1: Grugul69 (6.33€)
+Seat 2: saadliig (4.88€)
+Seat 3: kidcassidy (4.83€)
+Seat 4: Araz (4.18€)
+Seat 5: scottypep63 (5€)
+Seat 6: Kitzigo (5€)
+Seat 7: faridass (6.64€)
+Seat 8: Driton22Fish (0.87€)
+Seat 9: zhenren (4.93€)
+*** ANTE/BLINDS ***
+kidcassidy posts small blind 0.02€
+Araz posts big blind 0.05€
+Dealt to saadliig [6s Kh]
+*** PRE-FLOP *** 
+Kitzigo folds
+faridass calls 0.05€
+Driton22Fish calls 0.05€
+zhenren folds
+saadliig folds
+kidcassidy folds
+Araz checks
+*** FLOP *** [Qh 5d Qc]
+Araz bets 0.11€
+faridass folds
+Driton22Fish folds
+Araz collected 0.27€ from pot
+*** SUMMARY ***
+Total pot 0.27€ | Rake 0.01€
+Board: [Qh 5d Qc]
+Seat 2: saadliig (button) folded on the pre-flop
+Seat 3: kidcassidy (small blind) folded on the pre-flop
+Seat 4: Araz (big blind) won 0.27€
+Seat 6: Kitzigo folded on the pre-flop
+Seat 7: faridass folded on the flop
+Seat 8: Driton22Fish folded on the flop
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-13-1335468627 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:30:27 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #3 is the button
+Seat 1: Grugul69 (6.33€)
+Seat 2: saadliig (4.88€)
+Seat 3: kidcassidy (4.81€)
+Seat 4: Araz (4.29€)
+Seat 5: scottypep63 (5€)
+Seat 6: Kitzigo (5€)
+Seat 7: faridass (6.59€)
+Seat 8: Driton22Fish (0.82€)
+Seat 9: zhenren (4.93€)
+*** ANTE/BLINDS ***
+Araz posts small blind 0.02€
+scottypep63 posts big blind 0.05€
+Dealt to saadliig [9s 7c]
+*** PRE-FLOP *** 
+Kitzigo folds
+faridass calls 0.05€
+Driton22Fish folds
+zhenren folds
+saadliig folds
+kidcassidy folds
+Araz calls 0.03€
+scottypep63 checks
+*** FLOP *** [4d 7h 2d]
+Araz bets 0.10€
+scottypep63 folds
+faridass raises 0.10€ to 0.20€
+Araz calls 0.10€
+*** TURN *** [4d 7h 2d][8c]
+Araz checks
+faridass bets 0.05€
+Araz calls 0.05€
+*** RIVER *** [4d 7h 2d 8c][2c]
+Araz checks
+faridass bets 2.02€
+Araz folds
+faridass collected 2.63€ from pot
+*** SUMMARY ***
+Total pot 2.63€ | Rake 0.04€
+Board: [4d 7h 2d 8c 2c]
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy (button) folded on the pre-flop
+Seat 4: Araz (small blind) folded on the river
+Seat 5: scottypep63 (big blind) folded on the flop
+Seat 6: Kitzigo folded on the pre-flop
+Seat 7: faridass won 2.63€
+Seat 8: Driton22Fish folded on the pre-flop
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-14-1335468698 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:31:38 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #4 is the button
+Seat 1: Grugul69 (6.33€)
+Seat 2: saadliig (4.88€)
+Seat 3: kidcassidy (4.81€)
+Seat 4: Araz (3.99€)
+Seat 5: scottypep63 (5€)
+Seat 6: Kitzigo (5€)
+Seat 7: faridass (6.90€)
+Seat 8: Driton22Fish (0.82€)
+Seat 9: zhenren (4.93€)
+*** ANTE/BLINDS ***
+Kitzigo denies big blind
+scottypep63 posts small blind 0.02€
+faridass posts big blind 0.05€
+Dealt to saadliig [3s 7s]
+*** PRE-FLOP *** 
+Driton22Fish folds
+zhenren folds
+saadliig folds
+kidcassidy raises 0.10€ to 0.15€
+Araz folds
+scottypep63 folds
+faridass calls 0.10€
+*** FLOP *** [Kc 2s Qh]
+faridass checks
+kidcassidy bets 0.16€
+faridass calls 0.16€
+*** TURN *** [Kc 2s Qh][Ah]
+faridass checks
+kidcassidy bets 0.43€
+faridass calls 0.43€
+*** RIVER *** [Kc 2s Qh Ah][8d]
+faridass checks
+kidcassidy bets 0.40€
+faridass calls 0.40€
+*** SHOW DOWN ***
+faridass shows [4s Jc] (High card : Ace)
+kidcassidy shows [Ac Kh] (Two pairs : Aces and Kings)
+kidcassidy collected 2.15€ from pot
+*** SUMMARY ***
+Total pot 2.15€ | Rake 0.15€
+Board: [Kc 2s Qh Ah 8d]
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy showed [Ac Kh] and won 2.15€ with Two pairs : Aces and Kings
+Seat 4: Araz (button) folded on the pre-flop
+Seat 5: scottypep63 (small blind) folded on the pre-flop
+Seat 7: faridass (big blind) showed [4s Jc] and lost with High card : Ace
+Seat 8: Driton22Fish folded on the pre-flop
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-15-1335468779 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:32:59 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #5 is the button
+Seat 1: Grugul69 (6.33€)
+Seat 2: saadliig (4.88€)
+Seat 3: kidcassidy (5.82€)
+Seat 4: Araz (3.99€)
+Seat 5: scottypep63 (4.98€)
+Seat 6: Rastock (2€)
+Seat 7: faridass (5.76€)
+Seat 8: Driton22Fish (0.82€)
+Seat 9: zhenren (4.93€)
+*** ANTE/BLINDS ***
+faridass posts small blind 0.02€
+Driton22Fish posts big blind 0.05€
+Dealt to saadliig [Js Jc]
+*** PRE-FLOP *** 
+zhenren raises 0.15€ to 0.20€
+saadliig calls 0.20€
+kidcassidy folds
+Araz folds
+scottypep63 calls 0.20€
+faridass calls 0.18€
+Driton22Fish folds
+*** FLOP *** [4d Jh 3s]
+faridass checks
+zhenren bets 0.43€
+saadliig calls 0.43€
+scottypep63 raises 0.77€ to 1.20€
+faridass folds
+zhenren folds
+saadliig raises 3.48€ to 4.68€ and is all-in
+scottypep63 calls 3.48€
+*** TURN *** [4d Jh 3s][Ah]
+*** RIVER *** [4d Jh 3s Ah][7d]
+*** SHOW DOWN ***
+scottypep63 shows [Qd Qs] (One pair : Queens)
+saadliig shows [Js Jc] (Trips of Jacks)
+saadliig collected 9.95€ from pot
+*** SUMMARY ***
+Total pot 9.95€ | Rake 0.69€
+Board: [4d Jh 3s Ah 7d]
+Seat 2: saadliig showed [Js Jc] and won 9.95€ with Trips of Jacks
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: Araz folded on the pre-flop
+Seat 5: scottypep63 (button) showed [Qd Qs] and lost with One pair : Queens
+Seat 7: faridass (small blind) folded on the flop
+Seat 8: Driton22Fish (big blind) folded on the pre-flop
+Seat 9: zhenren folded on the flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-16-1335468875 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:34:35 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #7 is the button
+Seat 1: Grugul69 (6.33€)
+Seat 2: saadliig (9.95€)
+Seat 3: kidcassidy (5.82€)
+Seat 4: Araz (3.99€)
+Seat 5: scottypep63 (5€)
+Seat 6: Rastock (2€)
+Seat 7: faridass (5.56€)
+Seat 8: Driton22Fish (0.77€)
+Seat 9: zhenren (4.30€)
+*** ANTE/BLINDS ***
+Driton22Fish posts small blind 0.02€
+zhenren posts big blind 0.05€
+Dealt to saadliig [Kh Qh]
+*** PRE-FLOP *** 
+saadliig calls 0.05€
+kidcassidy folds
+Araz folds
+scottypep63 folds
+faridass calls 0.05€
+Driton22Fish calls 0.03€
+zhenren checks
+*** FLOP *** [9s Qc Ks]
+Driton22Fish bets 0.09€
+zhenren calls 0.09€
+saadliig calls 0.09€
+faridass calls 0.09€
+*** TURN *** [9s Qc Ks][Ad]
+Driton22Fish checks
+zhenren checks
+saadliig bets 0.05€
+faridass raises 0.05€ to 0.10€
+Driton22Fish calls 0.10€
+zhenren calls 0.10€
+saadliig calls 0.05€
+*** RIVER *** [9s Qc Ks Ad][2h]
+Driton22Fish checks
+zhenren checks
+saadliig checks
+faridass bets 0.48€
+Driton22Fish folds
+zhenren folds
+saadliig calls 0.48€
+*** SHOW DOWN ***
+faridass shows [As 6d] (One pair : Aces)
+saadliig shows [Kh Qh] (Two pairs : Kings and Queens)
+saadliig collected 1.80€ from pot
+*** SUMMARY ***
+Total pot 1.80€ | Rake 0.12€
+Board: [9s Qc Ks Ad 2h]
+Seat 2: saadliig showed [Kh Qh] and won 1.80€ with Two pairs : Kings and Queens
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: Araz folded on the pre-flop
+Seat 5: scottypep63 folded on the pre-flop
+Seat 7: faridass (button) showed [As 6d] and lost with One pair : Aces
+Seat 8: Driton22Fish (small blind) folded on the river
+Seat 9: zhenren (big blind) folded on the river
+
+
+Winamax Poker - CashGame - HandId: #2868821-17-1335469022 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:37:02 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #8 is the button
+Seat 1: kinou56 (3€)
+Seat 2: saadliig (11.03€)
+Seat 3: kidcassidy (5.82€)
+Seat 4: Araz (3.99€)
+Seat 5: scottypep63 (5€)
+Seat 6: Rastock (2€)
+Seat 7: faridass (4.84€)
+Seat 8: Driton22Fish (0.53€)
+Seat 9: zhenren (4.06€)
+*** ANTE/BLINDS ***
+zhenren posts small blind 0.02€
+kinou56 posts big blind 0.05€
+Dealt to saadliig [Js 2h]
+*** PRE-FLOP *** 
+saadliig folds
+kidcassidy folds
+Araz folds
+scottypep63 folds
+faridass raises 0.05€ to 0.10€
+Driton22Fish folds
+zhenren folds
+kinou56 calls 0.05€
+*** FLOP *** [Qh 2c 9c]
+kinou56 bets 0.22€
+faridass raises 4.52€ to 4.74€ and is all-in
+kinou56 calls 2.68€ and is all-in
+*** TURN *** [Qh 2c 9c][9h]
+*** RIVER *** [Qh 2c 9c 9h][Qs]
+*** SHOW DOWN ***
+kinou56 shows [8d Qd] (Full of Queens and 9)
+faridass shows [7c 7d] (Two pairs : Queens and 9)
+faridass collected 1.84€ from side pot 1
+kinou56 collected 5.63€ from main pot
+*** SUMMARY ***
+Total pot 7.47€ | Rake 0.39€
+Board: [Qh 2c 9c 9h Qs]
+Seat 1: kinou56 (big blind) showed [8d Qd] and won 5.63€ with Full of Queens and 9
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: Araz folded on the pre-flop
+Seat 5: scottypep63 folded on the pre-flop
+Seat 7: faridass showed [7c 7d] and won 1.84€ with Two pairs : Queens and 9
+Seat 8: Driton22Fish (button) folded on the pre-flop
+Seat 9: zhenren (small blind) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-18-1335469062 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:37:42 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #9 is the button
+Seat 1: kinou56 (5.63€)
+Seat 2: saadliig (11.03€)
+Seat 3: kidcassidy (5.82€)
+Seat 4: Araz (3.99€)
+Seat 5: scottypep63 (5€)
+Seat 6: Rastock (2€)
+Seat 7: faridass (1.84€)
+Seat 8: Driton22Fish (0.53€)
+Seat 9: zhenren (4.04€)
+*** ANTE/BLINDS ***
+kinou56 posts small blind 0.02€
+saadliig posts big blind 0.05€
+Dealt to saadliig [4h 3h]
+*** PRE-FLOP *** 
+kidcassidy folds
+Araz folds
+scottypep63 folds
+faridass folds
+Driton22Fish folds
+zhenren folds
+kinou56 calls 0.03€
+saadliig checks
+*** FLOP *** [9h 5c 2s]
+kinou56 bets 0.10€
+saadliig calls 0.10€
+*** TURN *** [9h 5c 2s][Qc]
+kinou56 bets 0.05€
+saadliig calls 0.05€
+*** RIVER *** [9h 5c 2s Qc][As]
+kinou56 checks
+saadliig bets 1.18€
+kinou56 folds
+saadliig collected 1.55€ from pot
+*** SUMMARY ***
+Total pot 1.55€ | Rake 0.03€
+Board: [9h 5c 2s Qc As]
+Seat 1: kinou56 (small blind) folded on the river
+Seat 2: saadliig (big blind) won 1.55€
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: Araz folded on the pre-flop
+Seat 5: scottypep63 folded on the pre-flop
+Seat 7: faridass folded on the pre-flop
+Seat 8: Driton22Fish folded on the pre-flop
+Seat 9: zhenren (button) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-19-1335469098 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:38:18 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #1 is the button
+Seat 1: kinou56 (5.43€)
+Seat 2: saadliig (11.20€)
+Seat 3: kidcassidy (5.82€)
+Seat 4: Araz (3.99€)
+Seat 5: scottypep63 (5€)
+Seat 6: Rastock (2€)
+Seat 7: faridass (1.84€)
+Seat 8: Driton22Fish (0.53€)
+Seat 9: zhenren (4.04€)
+*** ANTE/BLINDS ***
+saadliig posts small blind 0.02€
+kidcassidy posts big blind 0.05€
+Dealt to saadliig [8c 2c]
+*** PRE-FLOP *** 
+Araz folds
+scottypep63 folds
+faridass folds
+Driton22Fish folds
+zhenren folds
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy checks
+*** FLOP *** [7c Qc Kd]
+kidcassidy bets 0.05€
+kinou56 raises 0.13€ to 0.18€
+kidcassidy calls 0.13€
+*** TURN *** [7c Qc Kd][7d]
+kidcassidy checks
+kinou56 bets 0.24€
+kidcassidy calls 0.24€
+*** RIVER *** [7c Qc Kd 7d][4h]
+kidcassidy checks
+kinou56 checks
+*** SHOW DOWN ***
+kinou56 shows [Ks 9h] (Two pairs : Kings and 7)
+kidcassidy shows [9s Kh] (Two pairs : Kings and 7)
+kidcassidy collected 0.45€ from pot
+kinou56 collected 0.45€ from pot
+*** SUMMARY ***
+Total pot 0.90€ | Rake 0.06€
+Board: [7c Qc Kd 7d 4h]
+Seat 1: kinou56 (button) showed [Ks 9h] and won 0.45€ with Two pairs : Kings and 7
+Seat 2: saadliig (small blind) folded on the pre-flop
+Seat 3: kidcassidy (big blind) showed [9s Kh] and won 0.45€ with Two pairs : Kings and 7
+Seat 4: Araz folded on the pre-flop
+Seat 5: scottypep63 folded on the pre-flop
+Seat 7: faridass folded on the pre-flop
+Seat 8: Driton22Fish folded on the pre-flop
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-20-1335469148 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:39:08 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #2 is the button
+Seat 1: kinou56 (5.41€)
+Seat 2: saadliig (11.18€)
+Seat 3: kidcassidy (5.80€)
+Seat 4: Araz (3.99€)
+Seat 5: scottypep63 (5€)
+Seat 6: Rastock (2€)
+Seat 7: faridass (1.84€)
+Seat 8: Driton22Fish (0.53€)
+Seat 9: zhenren (4.04€)
+*** ANTE/BLINDS ***
+kidcassidy posts small blind 0.02€
+Araz posts big blind 0.05€
+Dealt to saadliig [Kd 5s]
+*** PRE-FLOP *** 
+scottypep63 calls 0.05€
+faridass folds
+Driton22Fish raises 0.08€ to 0.13€
+zhenren folds
+kinou56 folds
+saadliig folds
+kidcassidy calls 0.11€
+Araz folds
+scottypep63 calls 0.08€
+*** FLOP *** [Jc 9c 7d]
+kidcassidy checks
+scottypep63 checks
+Driton22Fish bets 0.30€
+kidcassidy calls 0.30€
+scottypep63 folds
+*** TURN *** [Jc 9c 7d][9d]
+kidcassidy checks
+Driton22Fish bets 0.05€
+kidcassidy raises 0.05€ to 0.10€
+Driton22Fish calls 0.05€ and is all-in
+*** RIVER *** [Jc 9c 7d 9d][5h]
+*** SHOW DOWN ***
+kidcassidy shows [Qs Ts] (One pair : 9)
+Driton22Fish shows [Ad Jh] (Two pairs : Jacks and 9)
+Driton22Fish collected 1.16€ from pot
+*** SUMMARY ***
+Total pot 1.16€ | Rake 0.08€
+Board: [Jc 9c 7d 9d 5h]
+Seat 1: kinou56 folded on the pre-flop
+Seat 2: saadliig (button) folded on the pre-flop
+Seat 3: kidcassidy (small blind) showed [Qs Ts] and lost with One pair : 9
+Seat 4: Araz (big blind) folded on the pre-flop
+Seat 5: scottypep63 folded on the flop
+Seat 7: faridass folded on the pre-flop
+Seat 8: Driton22Fish showed [Ad Jh] and won 1.16€ with Two pairs : Jacks and 9
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-21-1335469235 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:40:35 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #3 is the button
+Seat 1: kinou56 (5.41€)
+Seat 2: saadliig (11.18€)
+Seat 3: kidcassidy (5.27€)
+Seat 4: Araz (3.94€)
+Seat 5: scottypep63 (5€)
+Seat 6: Rastock (2€)
+Seat 7: faridass (1.84€)
+Seat 8: Driton22Fish (1.16€)
+Seat 9: zhenren (4.04€)
+*** ANTE/BLINDS ***
+Araz posts small blind 0.02€
+scottypep63 posts big blind 0.05€
+Dealt to saadliig [7h Qs]
+*** PRE-FLOP *** 
+faridass raises 0.05€ to 0.10€
+Driton22Fish folds
+zhenren folds
+kinou56 calls 0.10€
+saadliig folds
+kidcassidy folds
+Araz folds
+scottypep63 folds
+*** FLOP *** [4s 6c 4h]
+faridass bets 1.74€ and is all-in
+kinou56 folds
+faridass collected 1.99€ from pot
+*** SUMMARY ***
+Total pot 1.99€ | Rake 0.02€
+Board: [4s 6c 4h]
+Seat 1: kinou56 folded on the flop
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy (button) folded on the pre-flop
+Seat 4: Araz (small blind) folded on the pre-flop
+Seat 5: scottypep63 (big blind) folded on the pre-flop
+Seat 7: faridass won 1.99€
+Seat 8: Driton22Fish folded on the pre-flop
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-22-1335469289 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:41:29 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #4 is the button
+Seat 1: kinou56 (5.31€)
+Seat 2: saadliig (11.18€)
+Seat 3: kidcassidy (5.27€)
+Seat 4: Araz (3.92€)
+Seat 5: scottypep63 (5€)
+Seat 6: Rastock (2€)
+Seat 7: faridass (1.99€)
+Seat 8: Driton22Fish (1.16€)
+Seat 9: zhenren (4.04€)
+*** ANTE/BLINDS ***
+scottypep63 posts small blind 0.02€
+faridass posts big blind 0.05€
+Dealt to saadliig [Jh Ac]
+*** PRE-FLOP *** 
+Driton22Fish folds
+zhenren folds
+kinou56 calls 0.05€
+saadliig calls 0.05€
+kidcassidy folds
+Araz folds
+scottypep63 folds
+faridass raises 0.05€ to 0.10€
+kinou56 calls 0.05€
+saadliig calls 0.05€
+*** FLOP *** [Kc 8c As]
+faridass checks
+kinou56 bets 0.16€
+saadliig calls 0.16€
+faridass calls 0.16€
+*** TURN *** [Kc 8c As][8h]
+faridass bets 1.73€ and is all-in
+kinou56 folds
+saadliig calls 1.73€
+*** RIVER *** [Kc 8c As 8h][9c]
+*** SHOW DOWN ***
+saadliig shows [Jh Ac] (Two pairs : Aces and 8)
+faridass shows [Qd Ah] (Two pairs : Aces and 8)
+faridass collected 1.99€ from pot
+saadliig collected 1.99€ from pot
+*** SUMMARY ***
+Total pot 3.98€ | Rake 0.28€
+Board: [Kc 8c As 8h 9c]
+Seat 1: kinou56 folded on the turn
+Seat 2: saadliig showed [Jh Ac] and won 1.99€ with Two pairs : Aces and 8
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: Araz (button) folded on the pre-flop
+Seat 5: scottypep63 (small blind) folded on the pre-flop
+Seat 7: faridass (big blind) showed [Qd Ah] and won 1.99€ with Two pairs : Aces and 8
+Seat 8: Driton22Fish folded on the pre-flop
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-23-1335469356 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:42:36 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #5 is the button
+Seat 1: kinou56 (5.05€)
+Seat 2: saadliig (11.18€)
+Seat 3: kidcassidy (5.27€)
+Seat 4: Araz (3.92€)
+Seat 5: scottypep63 (4.98€)
+Seat 6: Rastock (2€)
+Seat 7: faridass (1.99€)
+Seat 8: Driton22Fish (1.16€)
+Seat 9: zhenren (4.04€)
+*** ANTE/BLINDS ***
+faridass posts small blind 0.02€
+Driton22Fish posts big blind 0.05€
+Dealt to saadliig [2d 6h]
+*** PRE-FLOP *** 
+zhenren folds
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy folds
+Araz folds
+scottypep63 folds
+faridass raises 1.94€ to 1.99€ and is all-in
+Driton22Fish folds
+kinou56 folds
+faridass shows [2s 3d] (High card : 3)
+faridass collected 2.09€ from pot
+*** SUMMARY ***
+Total pot 2.09€ | No rake
+Seat 1: kinou56 folded on the pre-flop
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: Araz folded on the pre-flop
+Seat 5: scottypep63 (button) folded on the pre-flop
+Seat 7: faridass (small blind) showed [2s 3d] and won 2.09€ with High card : 3
+Seat 8: Driton22Fish (big blind) folded on the pre-flop
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-24-1335469408 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:43:28 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #7 is the button
+Seat 1: kinou56 (5€)
+Seat 2: saadliig (11.18€)
+Seat 3: kidcassidy (5.27€)
+Seat 4: Araz (3.92€)
+Seat 5: scottypep63 (4.98€)
+Seat 6: Rastock (2€)
+Seat 7: faridass (2.09€)
+Seat 8: Driton22Fish (1.11€)
+Seat 9: zhenren (4.04€)
+*** ANTE/BLINDS ***
+Driton22Fish posts small blind 0.02€
+zhenren posts big blind 0.05€
+Dealt to saadliig [4c Ts]
+*** PRE-FLOP *** 
+kinou56 folds
+saadliig folds
+kidcassidy folds
+Araz folds
+scottypep63 folds
+faridass raises 2.04€ to 2.09€ and is all-in
+Driton22Fish folds
+zhenren folds
+faridass collected 2.16€ from pot
+*** SUMMARY ***
+Total pot 2.16€ | No rake
+Seat 1: kinou56 folded on the pre-flop
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: Araz folded on the pre-flop
+Seat 5: scottypep63 folded on the pre-flop
+Seat 7: faridass (button) won 2.16€
+Seat 8: Driton22Fish (small blind) folded on the pre-flop
+Seat 9: zhenren (big blind) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-25-1335469446 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:44:06 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #8 is the button
+Seat 1: kinou56 (5€)
+Seat 2: saadliig (11.18€)
+Seat 3: kidcassidy (5.27€)
+Seat 4: Araz (3.92€)
+Seat 5: scottypep63 (4.98€)
+Seat 6: Rastock (2€)
+Seat 7: faridass (2.16€)
+Seat 8: Driton22Fish (1.09€)
+Seat 9: zhenren (3.99€)
+*** ANTE/BLINDS ***
+zhenren posts small blind 0.02€
+kinou56 posts big blind 0.05€
+Dealt to saadliig [7c 7h]
+*** PRE-FLOP *** 
+saadliig raises 0.15€ to 0.20€
+kidcassidy folds
+Araz folds
+scottypep63 folds
+faridass raises 1.96€ to 2.16€ and is all-in
+Driton22Fish folds
+zhenren raises 1.83€ to 3.99€ and is all-in
+kinou56 folds
+saadliig folds
+*** FLOP *** [4h 3s Jd]
+*** TURN *** [4h 3s Jd][2c]
+*** RIVER *** [4h 3s Jd 2c][Ts]
+*** SHOW DOWN ***
+faridass shows [7s 5s] (High card : Jack)
+zhenren shows [Kd Ad] (High card : Ace)
+zhenren collected 6.10€ from pot
+*** SUMMARY ***
+Total pot 6.10€ | Rake 0.30€
+Board: [4h 3s Jd 2c Ts]
+Seat 1: kinou56 (big blind) folded on the pre-flop
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: Araz folded on the pre-flop
+Seat 5: scottypep63 folded on the pre-flop
+Seat 7: faridass showed [7s 5s] and lost with High card : Jack
+Seat 8: Driton22Fish (button) folded on the pre-flop
+Seat 9: zhenren (small blind) showed [Kd Ad] and won 6.10€ with High card : Ace
+
+
+Winamax Poker - CashGame - HandId: #2868821-26-1335469492 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:44:52 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #9 is the button
+Seat 1: kinou56 (4.95€)
+Seat 2: saadliig (10.98€)
+Seat 3: kidcassidy (5.27€)
+Seat 4: Araz (3.92€)
+Seat 5: scottypep63 (4.98€)
+Seat 6: Rastock (2€)
+Seat 7: faridass (0€)
+Seat 8: Driton22Fish (1.09€)
+Seat 9: zhenren (6.10€)
+*** ANTE/BLINDS ***
+kinou56 posts small blind 0.02€
+saadliig posts big blind 0.05€
+Dealt to saadliig [6d 7h]
+*** PRE-FLOP *** 
+kidcassidy folds
+Araz calls 0.05€
+scottypep63 folds
+Driton22Fish folds
+zhenren raises 0.10€ to 0.15€
+kinou56 folds
+saadliig folds
+Araz calls 0.10€
+*** FLOP *** [5d 8h 9s]
+Araz checks
+zhenren bets 0.08€
+Araz calls 0.08€
+*** TURN *** [5d 8h 9s][Ts]
+Araz checks
+zhenren bets 0.10€
+Araz calls 0.10€
+*** RIVER *** [5d 8h 9s Ts][4h]
+Araz checks
+zhenren bets 0.37€
+Araz folds
+zhenren collected 1.05€ from pot
+*** SUMMARY ***
+Total pot 1.05€ | Rake 0.05€
+Board: [5d 8h 9s Ts 4h]
+Seat 1: kinou56 (small blind) folded on the pre-flop
+Seat 2: saadliig (big blind) folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: Araz folded on the river
+Seat 5: scottypep63 folded on the pre-flop
+Seat 8: Driton22Fish folded on the pre-flop
+Seat 9: zhenren (button) won 1.05€
+
+
+Winamax Poker - CashGame - HandId: #2868821-27-1335469565 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:46:05 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #1 is the button
+Seat 1: kinou56 (4.93€)
+Seat 2: saadliig (10.93€)
+Seat 3: kidcassidy (5.27€)
+Seat 4: Araz (3.59€)
+Seat 5: scottypep63 (4.98€)
+Seat 7: spigaouwin (5€)
+Seat 8: Driton22Fish (1.09€)
+Seat 9: zhenren (6.45€)
+*** ANTE/BLINDS ***
+saadliig posts small blind 0.02€
+kidcassidy posts big blind 0.05€
+Dealt to saadliig [Ts 2s]
+*** PRE-FLOP *** 
+Araz folds
+scottypep63 folds
+Driton22Fish folds
+zhenren folds
+kinou56 folds
+saadliig folds
+kidcassidy collected 0.07€ from pot
+*** SUMMARY ***
+Total pot 0.07€ | No rake
+Seat 1: kinou56 (button) folded on the pre-flop
+Seat 2: saadliig (small blind) folded on the pre-flop
+Seat 3: kidcassidy (big blind) won 0.07€
+Seat 4: Araz folded on the pre-flop
+Seat 5: scottypep63 folded on the pre-flop
+Seat 8: Driton22Fish folded on the pre-flop
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-28-1335469578 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:46:18 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #2 is the button
+Seat 1: kinou56 (4.93€)
+Seat 2: saadliig (10.91€)
+Seat 3: kidcassidy (5.29€)
+Seat 4: Araz (3.59€)
+Seat 5: scottypep63 (4.98€)
+Seat 7: spigaouwin (5€)
+Seat 8: Driton22Fish (1.09€)
+Seat 9: zhenren (6.45€)
+*** ANTE/BLINDS ***
+kidcassidy posts small blind 0.02€
+scottypep63 posts big blind 0.05€
+Dealt to saadliig [8s Tc]
+*** PRE-FLOP *** 
+Driton22Fish raises 0.14€ to 0.19€
+zhenren folds
+kinou56 calls 0.19€
+saadliig folds
+kidcassidy folds
+scottypep63 folds
+*** FLOP *** [7c 9h 7d]
+Driton22Fish checks
+kinou56 checks
+*** TURN *** [7c 9h 7d][4d]
+Driton22Fish bets 0.05€
+kinou56 calls 0.05€
+*** RIVER *** [7c 9h 7d 4d][5d]
+Driton22Fish bets 0.05€
+kinou56 calls 0.05€
+*** SHOW DOWN ***
+kinou56 shows [Kc Qh] (One pair : 7)
+Driton22Fish shows [Ac Th] (One pair : 7)
+Driton22Fish collected 0.61€ from pot
+*** SUMMARY ***
+Total pot 0.61€ | Rake 0.04€
+Board: [7c 9h 7d 4d 5d]
+Seat 1: kinou56 showed [Kc Qh] and lost with One pair : 7
+Seat 2: saadliig (button) folded on the pre-flop
+Seat 3: kidcassidy (small blind) folded on the pre-flop
+Seat 5: scottypep63 (big blind) folded on the pre-flop
+Seat 8: Driton22Fish showed [Ac Th] and won 0.61€ with One pair : 7
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-29-1335469638 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:47:18 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #3 is the button
+Seat 1: kinou56 (4.64€)
+Seat 2: saadliig (10.91€)
+Seat 3: kidcassidy (5.27€)
+Seat 4: FILTONFLOUSE (5€)
+Seat 5: scottypep63 (5€)
+Seat 6: boroillot (5€)
+Seat 7: spigaouwin (5€)
+Seat 8: Driton22Fish (1.41€)
+Seat 9: zhenren (6.45€)
+*** ANTE/BLINDS ***
+scottypep63 posts small blind 0.02€
+boroillot posts big blind 0.05€
+Dealt to saadliig [7h Qh]
+*** PRE-FLOP *** 
+Driton22Fish calls 0.05€
+zhenren folds
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy folds
+scottypep63 folds
+boroillot checks
+*** FLOP *** [3c 4d Kd]
+boroillot checks
+Driton22Fish bets 0.08€
+kinou56 calls 0.08€
+boroillot folds
+*** TURN *** [3c 4d Kd][Qc]
+Driton22Fish bets 0.05€
+kinou56 calls 0.05€
+*** RIVER *** [3c 4d Kd Qc][Ad]
+Driton22Fish bets 0.28€
+kinou56 calls 0.28€
+*** SHOW DOWN ***
+kinou56 shows [8s Kh] (One pair : Kings)
+Driton22Fish shows [7d 5d] (Flush Ace high)
+Driton22Fish collected 0.93€ from pot
+*** SUMMARY ***
+Total pot 0.93€ | Rake 0.06€
+Board: [3c 4d Kd Qc Ad]
+Seat 1: kinou56 showed [8s Kh] and lost with One pair : Kings
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy (button) folded on the pre-flop
+Seat 5: scottypep63 (small blind) folded on the pre-flop
+Seat 6: boroillot (big blind) folded on the flop
+Seat 8: Driton22Fish showed [7d 5d] and won 0.93€ with Flush Ace high
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-30-1335469702 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:48:22 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #5 is the button
+Seat 1: kinou56 (4.18€)
+Seat 2: saadliig (10.91€)
+Seat 3: kidcassidy (5.27€)
+Seat 4: FILTONFLOUSE (5€)
+Seat 5: scottypep63 (4.98€)
+Seat 6: boroillot (4.95€)
+Seat 7: spigaouwin (5€)
+Seat 8: Driton22Fish (1.88€)
+Seat 9: zhenren (6.45€)
+*** ANTE/BLINDS ***
+boroillot posts small blind 0.02€
+spigaouwin posts big blind 0.05€
+Dealt to saadliig [3s Qd]
+*** PRE-FLOP *** 
+Driton22Fish folds
+zhenren folds
+kinou56 raises 0.05€ to 0.10€
+saadliig folds
+kidcassidy folds
+scottypep63 folds
+boroillot calls 0.08€
+spigaouwin folds
+*** FLOP *** [9s Jd Ac]
+boroillot checks
+kinou56 bets 0.25€
+boroillot folds
+kinou56 collected 0.48€ from pot
+*** SUMMARY ***
+Total pot 0.48€ | Rake 0.02€
+Board: [9s Jd Ac]
+Seat 1: kinou56 won 0.48€
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 5: scottypep63 (button) folded on the pre-flop
+Seat 6: boroillot (small blind) folded on the flop
+Seat 7: spigaouwin (big blind) folded on the pre-flop
+Seat 8: Driton22Fish folded on the pre-flop
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-31-1335469754 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:49:14 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #6 is the button
+Seat 1: kinou56 (4.31€)
+Seat 2: saadliig (10.91€)
+Seat 3: kidcassidy (5.27€)
+Seat 4: FILTONFLOUSE (5€)
+Seat 5: scottypep63 (4.98€)
+Seat 6: boroillot (4.85€)
+Seat 7: spigaouwin (5€)
+Seat 9: zhenren (6.45€)
+*** ANTE/BLINDS ***
+spigaouwin posts small blind 0.02€
+zhenren posts big blind 0.05€
+Dealt to saadliig [2d 7s]
+*** PRE-FLOP *** 
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy folds
+scottypep63 folds
+boroillot folds
+spigaouwin folds
+zhenren checks
+*** FLOP *** [Qc Jc Th]
+zhenren checks
+kinou56 checks
+*** TURN *** [Qc Jc Th][Ad]
+zhenren bets 0.08€
+kinou56 folds
+zhenren collected 0.19€ from pot
+*** SUMMARY ***
+Total pot 0.19€ | Rake 0.01€
+Board: [Qc Jc Th Ad]
+Seat 1: kinou56 folded on the turn
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 5: scottypep63 folded on the pre-flop
+Seat 6: boroillot (button) folded on the pre-flop
+Seat 7: spigaouwin (small blind) folded on the pre-flop
+Seat 9: zhenren (big blind) won 0.19€
+
+
+Winamax Poker - CashGame - HandId: #2868821-32-1335469808 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:50:08 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #7 is the button
+Seat 1: kinou56 (4.26€)
+Seat 2: saadliig (10.91€)
+Seat 3: kidcassidy (5.27€)
+Seat 4: FILTONFLOUSE (5€)
+Seat 5: scottypep63 (4.98€)
+Seat 6: boroillot (4.85€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (5€)
+Seat 9: zhenren (6.51€)
+*** ANTE/BLINDS ***
+zhenren posts small blind 0.02€
+kinou56 posts big blind 0.05€
+Dealt to saadliig [5d 6d]
+*** PRE-FLOP *** 
+saadliig folds
+kidcassidy folds
+scottypep63 folds
+boroillot folds
+spigaouwin folds
+zhenren raises 0.05€ to 0.10€
+kinou56 calls 0.05€
+*** FLOP *** [8h Kh 9d]
+zhenren bets 0.08€
+kinou56 calls 0.08€
+*** TURN *** [8h Kh 9d][Ks]
+zhenren bets 0.18€
+kinou56 calls 0.18€
+*** RIVER *** [8h Kh 9d Ks][Qh]
+zhenren checks
+kinou56 checks
+*** SHOW DOWN ***
+kinou56 shows [As 4h] (One pair : Kings)
+zhenren shows [9h Ts] (Two pairs : Kings and 9)
+zhenren collected 0.67€ from pot
+*** SUMMARY ***
+Total pot 0.67€ | Rake 0.05€
+Board: [8h Kh 9d Ks Qh]
+Seat 1: kinou56 (big blind) showed [As 4h] and lost with One pair : Kings
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 5: scottypep63 folded on the pre-flop
+Seat 6: boroillot folded on the pre-flop
+Seat 7: spigaouwin (button) folded on the pre-flop
+Seat 9: zhenren (small blind) showed [9h Ts] and won 0.67€ with Two pairs : Kings and 9
+
+
+Winamax Poker - CashGame - HandId: #2868821-33-1335469852 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:50:52 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #9 is the button
+Seat 1: kinou56 (3.90€)
+Seat 2: saadliig (10.91€)
+Seat 3: kidcassidy (5.27€)
+Seat 4: FILTONFLOUSE (5€)
+Seat 5: scottypep63 (4.98€)
+Seat 6: boroillot (4.85€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (5€)
+Seat 9: zhenren (6.82€)
+*** ANTE/BLINDS ***
+kinou56 posts small blind 0.02€
+saadliig posts big blind 0.05€
+Dealt to saadliig [Jh 7h]
+*** PRE-FLOP *** 
+kidcassidy folds
+scottypep63 folds
+boroillot calls 0.05€
+spigaouwin folds
+zhenren folds
+kinou56 calls 0.03€
+saadliig checks
+*** FLOP *** [9c 9s 9d]
+kinou56 checks
+saadliig checks
+boroillot bets 0.15€
+kinou56 folds
+saadliig folds
+boroillot collected 0.29€ from pot
+*** SUMMARY ***
+Total pot 0.29€ | Rake 0.01€
+Board: [9c 9s 9d]
+Seat 1: kinou56 (small blind) folded on the flop
+Seat 2: saadliig (big blind) folded on the flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 5: scottypep63 folded on the pre-flop
+Seat 6: boroillot won 0.29€
+Seat 7: spigaouwin folded on the pre-flop
+Seat 9: zhenren (button) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-34-1335469892 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:51:32 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #1 is the button
+Seat 1: kinou56 (3.85€)
+Seat 2: saadliig (10.86€)
+Seat 3: kidcassidy (5.27€)
+Seat 4: FILTONFLOUSE (5€)
+Seat 5: scottypep63 (4.98€)
+Seat 6: boroillot (4.94€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (5€)
+Seat 9: zhenren (6.82€)
+*** ANTE/BLINDS ***
+saadliig posts small blind 0.02€
+kidcassidy posts big blind 0.05€
+yvan42230 posts big blind 0.05€ out of position
+Dealt to saadliig [Kh 3s]
+*** PRE-FLOP *** 
+scottypep63 folds
+boroillot calls 0.05€
+spigaouwin folds
+yvan42230 checks
+zhenren raises 0.15€ to 0.20€
+kinou56 folds
+saadliig folds
+kidcassidy folds
+boroillot calls 0.15€
+yvan42230 folds
+*** FLOP *** [As 7d Qc]
+boroillot checks
+zhenren bets 0.08€
+boroillot calls 0.08€
+*** TURN *** [As 7d Qc][Jh]
+boroillot checks
+zhenren bets 0.45€
+boroillot calls 0.45€
+*** RIVER *** [As 7d Qc Jh][9s]
+boroillot checks
+zhenren bets 1.20€
+boroillot folds
+zhenren collected 2.68€ from pot
+*** SUMMARY ***
+Total pot 2.68€ | Rake 0.10€
+Board: [As 7d Qc Jh 9s]
+Seat 1: kinou56 (button) folded on the pre-flop
+Seat 2: saadliig (small blind) folded on the pre-flop
+Seat 3: kidcassidy (big blind) folded on the pre-flop
+Seat 5: scottypep63 folded on the pre-flop
+Seat 6: boroillot folded on the river
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 folded on the pre-flop
+Seat 9: zhenren won 2.68€
+
+
+Winamax Poker - CashGame - HandId: #2868821-35-1335469965 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:52:45 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #2 is the button
+Seat 1: kinou56 (3.85€)
+Seat 2: saadliig (10.84€)
+Seat 3: kidcassidy (5.22€)
+Seat 4: FILTONFLOUSE (5€)
+Seat 5: scottypep63 (4.98€)
+Seat 6: boroillot (4.21€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (4.95€)
+Seat 9: zhenren (7.57€)
+*** ANTE/BLINDS ***
+kidcassidy posts small blind 0.02€
+FILTONFLOUSE posts big blind 0.05€
+Dealt to saadliig [9d Jc]
+*** PRE-FLOP *** 
+scottypep63 folds
+boroillot folds
+spigaouwin folds
+yvan42230 calls 0.05€
+zhenren raises 0.10€ to 0.15€
+kinou56 calls 0.15€
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE folds
+yvan42230 calls 0.10€
+*** FLOP *** [6d 7c Td]
+yvan42230 checks
+zhenren bets 0.08€
+kinou56 calls 0.08€
+yvan42230 calls 0.08€
+*** TURN *** [6d 7c Td][5s]
+yvan42230 checks
+zhenren bets 0.10€
+kinou56 folds
+yvan42230 calls 0.10€
+*** RIVER *** [6d 7c Td 5s][5c]
+yvan42230 checks
+zhenren bets 0.48€
+yvan42230 folds
+zhenren collected 1.38€ from pot
+*** SUMMARY ***
+Total pot 1.38€ | Rake 0.06€
+Board: [6d 7c Td 5s 5c]
+Seat 1: kinou56 folded on the turn
+Seat 2: saadliig (button) folded on the pre-flop
+Seat 3: kidcassidy (small blind) folded on the pre-flop
+Seat 4: FILTONFLOUSE (big blind) folded on the pre-flop
+Seat 5: scottypep63 folded on the pre-flop
+Seat 6: boroillot folded on the pre-flop
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 folded on the river
+Seat 9: zhenren won 1.38€
+
+
+Winamax Poker - CashGame - HandId: #2868821-36-1335470062 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:54:22 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #3 is the button
+Seat 1: kinou56 (3.62€)
+Seat 2: saadliig (10.84€)
+Seat 3: kidcassidy (5.20€)
+Seat 4: FILTONFLOUSE (5€)
+Seat 5: scottypep63 (4.98€)
+Seat 6: boroillot (4.21€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (4.62€)
+Seat 9: zhenren (8.14€)
+*** ANTE/BLINDS ***
+FILTONFLOUSE posts small blind 0.02€
+scottypep63 posts big blind 0.05€
+Dealt to saadliig [5s Kd]
+*** PRE-FLOP *** 
+boroillot folds
+spigaouwin folds
+yvan42230 calls 0.05€
+zhenren folds
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE folds
+scottypep63 checks
+*** FLOP *** [3h Qc 8d]
+scottypep63 checks
+yvan42230 checks
+kinou56 checks
+*** TURN *** [3h Qc 8d][4d]
+scottypep63 bets 0.14€
+yvan42230 calls 0.14€
+kinou56 folds
+*** RIVER *** [3h Qc 8d 4d][4c]
+scottypep63 bets 0.34€
+yvan42230 calls 0.34€
+*** SHOW DOWN ***
+yvan42230 shows [3c Ac] (Two pairs : 4 and 3)
+scottypep63 shows [4h 5d] (Trips of 4)
+scottypep63 collected 1.06€ from pot
+*** SUMMARY ***
+Total pot 1.06€ | Rake 0.07€
+Board: [3h Qc 8d 4d 4c]
+Seat 1: kinou56 folded on the turn
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy (button) folded on the pre-flop
+Seat 4: FILTONFLOUSE (small blind) folded on the pre-flop
+Seat 5: scottypep63 (big blind) showed [4h 5d] and won 1.06€ with Trips of 4
+Seat 6: boroillot folded on the pre-flop
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 showed [3c Ac] and lost with Two pairs : 4 and 3
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-37-1335470162 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:56:02 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #4 is the button
+Seat 1: kinou56 (3.57€)
+Seat 2: saadliig (10.84€)
+Seat 3: kidcassidy (5.20€)
+Seat 4: FILTONFLOUSE (4.98€)
+Seat 5: scottypep63 (5.51€)
+Seat 6: boroillot (4.21€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (4.09€)
+Seat 9: zhenren (8.14€)
+*** ANTE/BLINDS ***
+scottypep63 posts small blind 0.02€
+boroillot posts big blind 0.05€
+Dealt to saadliig [8c 6s]
+*** PRE-FLOP *** 
+spigaouwin folds
+yvan42230 folds
+zhenren folds
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE raises 0.15€ to 0.20€
+scottypep63 folds
+boroillot calls 0.15€
+kinou56 calls 0.15€
+*** FLOP *** [3h Ah Td]
+boroillot checks
+kinou56 checks
+FILTONFLOUSE checks
+*** TURN *** [3h Ah Td][Qd]
+boroillot checks
+kinou56 checks
+FILTONFLOUSE checks
+*** RIVER *** [3h Ah Td Qd][Tc]
+boroillot checks
+kinou56 checks
+FILTONFLOUSE checks
+*** SHOW DOWN ***
+kinou56 shows [3c 4d] (Two pairs : Tens and 3)
+boroillot shows [7h 5d] (One pair : Tens)
+FILTONFLOUSE shows [Qs Jd] (Two pairs : Queens and Tens)
+FILTONFLOUSE collected 0.58€ from pot
+*** SUMMARY ***
+Total pot 0.58€ | Rake 0.04€
+Board: [3h Ah Td Qd Tc]
+Seat 1: kinou56 showed [3c 4d] and lost with Two pairs : Tens and 3
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE (button) showed [Qs Jd] and won 0.58€ with Two pairs : Queens and Tens
+Seat 5: scottypep63 (small blind) folded on the pre-flop
+Seat 6: boroillot (big blind) showed [7h 5d] and lost with One pair : Tens
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 folded on the pre-flop
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-38-1335470232 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:57:12 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #5 is the button
+Seat 1: kinou56 (3.37€)
+Seat 2: saadliig (10.84€)
+Seat 3: kidcassidy (5.20€)
+Seat 4: FILTONFLOUSE (5.36€)
+Seat 5: scottypep63 (5.49€)
+Seat 6: boroillot (4.01€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (4.09€)
+Seat 9: zhenren (8.14€)
+*** ANTE/BLINDS ***
+boroillot posts small blind 0.02€
+spigaouwin posts big blind 0.05€
+Dealt to saadliig [2h Ks]
+*** PRE-FLOP *** 
+yvan42230 folds
+zhenren folds
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE folds
+boroillot calls 0.03€
+spigaouwin checks
+*** FLOP *** [9s 4h Ah]
+boroillot checks
+spigaouwin checks
+kinou56 bets 0.15€
+boroillot folds
+spigaouwin calls 0.15€
+*** TURN *** [9s 4h Ah][3d]
+spigaouwin checks
+kinou56 checks
+*** RIVER *** [9s 4h Ah 3d][6s]
+spigaouwin checks
+kinou56 bets 0.45€
+spigaouwin folds
+kinou56 collected 0.87€ from pot
+*** SUMMARY ***
+Total pot 0.87€ | Rake 0.03€
+Board: [9s 4h Ah 3d 6s]
+Seat 1: kinou56 won 0.87€
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE folded on the pre-flop
+Seat 6: boroillot (small blind) folded on the flop
+Seat 7: spigaouwin (big blind) folded on the river
+Seat 8: yvan42230 folded on the pre-flop
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-39-1335470296 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:58:16 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #6 is the button
+Seat 1: kinou56 (3.59€)
+Seat 2: saadliig (10.84€)
+Seat 3: kidcassidy (5.20€)
+Seat 4: FILTONFLOUSE (5.36€)
+Seat 5: scottypep63 (5.49€)
+Seat 6: boroillot (3.96€)
+Seat 7: spigaouwin (5€)
+Seat 8: yvan42230 (4.09€)
+Seat 9: zhenren (8.14€)
+*** ANTE/BLINDS ***
+spigaouwin posts small blind 0.02€
+yvan42230 posts big blind 0.05€
+Dealt to saadliig [8h 7c]
+*** PRE-FLOP *** 
+zhenren folds
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE folds
+boroillot raises 0.20€ to 0.25€
+spigaouwin folds
+yvan42230 folds
+kinou56 folds
+boroillot collected 0.37€ from pot
+*** SUMMARY ***
+Total pot 0.37€ | No rake
+Seat 1: kinou56 folded on the pre-flop
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE folded on the pre-flop
+Seat 6: boroillot (button) won 0.37€
+Seat 7: spigaouwin (small blind) folded on the pre-flop
+Seat 8: yvan42230 (big blind) folded on the pre-flop
+Seat 9: zhenren folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-40-1335470337 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:58:57 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #7 is the button
+Seat 1: kinou56 (3.54€)
+Seat 2: saadliig (10.84€)
+Seat 3: kidcassidy (5.20€)
+Seat 4: FILTONFLOUSE (5.36€)
+Seat 5: scottypep63 (5.49€)
+Seat 6: boroillot (4.08€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (4.04€)
+Seat 9: EQUEUR (0€)
+*** ANTE/BLINDS ***
+yvan42230 posts small blind 0.02€
+kinou56 posts big blind 0.05€
+Dealt to saadliig [As 4s]
+*** PRE-FLOP *** 
+saadliig calls 0.05€
+kidcassidy folds
+FILTONFLOUSE folds
+boroillot raises 0.20€ to 0.25€
+spigaouwin folds
+yvan42230 folds
+kinou56 calls 0.20€
+saadliig folds
+*** FLOP *** [5h 3d 6c]
+kinou56 checks
+boroillot bets 0.57€
+kinou56 folds
+boroillot collected 1.10€ from pot
+*** SUMMARY ***
+Total pot 1.10€ | Rake 0.04€
+Board: [5h 3d 6c]
+Seat 1: kinou56 (big blind) folded on the flop
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE folded on the pre-flop
+Seat 6: boroillot won 1.10€
+Seat 7: spigaouwin (button) folded on the pre-flop
+Seat 8: yvan42230 (small blind) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-41-1335470371 - Holdem no limit (0.02€/0.05€) - 2012/04/26 19:59:31 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #8 is the button
+Seat 1: kinou56 (3.29€)
+Seat 2: saadliig (10.79€)
+Seat 3: kidcassidy (5.20€)
+Seat 4: FILTONFLOUSE (5.36€)
+Seat 5: scottypep63 (5.49€)
+Seat 6: boroillot (4.36€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (4.02€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+kinou56 posts small blind 0.02€
+saadliig posts big blind 0.05€
+Dealt to saadliig [4s Qd]
+*** PRE-FLOP *** 
+kidcassidy folds
+FILTONFLOUSE folds
+boroillot raises 0.20€ to 0.25€
+spigaouwin folds
+yvan42230 folds
+kinou56 folds
+saadliig folds
+boroillot collected 0.32€ from pot
+*** SUMMARY ***
+Total pot 0.32€ | No rake
+Seat 1: kinou56 (small blind) folded on the pre-flop
+Seat 2: saadliig (big blind) folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE folded on the pre-flop
+Seat 6: boroillot won 0.32€
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 (button) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-42-1335470407 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:00:07 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #1 is the button
+Seat 1: kinou56 (3.27€)
+Seat 2: saadliig (10.74€)
+Seat 3: kidcassidy (5.20€)
+Seat 4: FILTONFLOUSE (5.36€)
+Seat 5: scottypep63 (5.49€)
+Seat 6: boroillot (4.43€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (4.02€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+saadliig posts small blind 0.02€
+kidcassidy posts big blind 0.05€
+Dealt to saadliig [5c Kd]
+*** PRE-FLOP *** 
+FILTONFLOUSE folds
+boroillot calls 0.05€
+spigaouwin folds
+yvan42230 raises 0.15€ to 0.20€
+kinou56 calls 0.20€
+saadliig folds
+kidcassidy folds
+boroillot folds
+*** FLOP *** [4d 4h Tc]
+yvan42230 bets 0.20€
+kinou56 calls 0.20€
+*** TURN *** [4d 4h Tc][9h]
+yvan42230 bets 0.05€
+kinou56 raises 0.50€ to 0.55€
+yvan42230 folds
+kinou56 collected 1.45€ from pot
+*** SUMMARY ***
+Total pot 1.45€ | Rake 0.07€
+Board: [4d 4h Tc 9h]
+Seat 1: kinou56 (button) won 1.45€
+Seat 2: saadliig (small blind) folded on the pre-flop
+Seat 3: kidcassidy (big blind) folded on the pre-flop
+Seat 4: FILTONFLOUSE folded on the pre-flop
+Seat 6: boroillot folded on the pre-flop
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 folded on the turn
+
+
+Winamax Poker - CashGame - HandId: #2868821-43-1335470459 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:00:59 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #2 is the button
+Seat 1: kinou56 (3.77€)
+Seat 2: saadliig (10.72€)
+Seat 3: kidcassidy (5.15€)
+Seat 4: FILTONFLOUSE (5.36€)
+Seat 5: scottypep63 (5.49€)
+Seat 6: boroillot (4.38€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (3.57€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+kidcassidy posts small blind 0.02€
+FILTONFLOUSE posts big blind 0.05€
+Dealt to saadliig [8h 2c]
+*** PRE-FLOP *** 
+boroillot folds
+spigaouwin folds
+yvan42230 folds
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy calls 0.03€
+FILTONFLOUSE checks
+*** FLOP *** [5h 7c 3s]
+kidcassidy checks
+FILTONFLOUSE checks
+kinou56 checks
+*** TURN *** [5h 7c 3s][Jc]
+kidcassidy checks
+FILTONFLOUSE checks
+kinou56 checks
+*** RIVER *** [5h 7c 3s Jc][Jh]
+kidcassidy checks
+FILTONFLOUSE checks
+kinou56 checks
+*** SHOW DOWN ***
+kinou56 shows [8d Ah] (One pair : Jacks)
+kidcassidy shows [6h 3d] (Two pairs : Jacks and 3)
+FILTONFLOUSE shows [5c 2d] (Two pairs : Jacks and 5)
+FILTONFLOUSE collected 0.14€ from pot
+*** SUMMARY ***
+Total pot 0.14€ | Rake 0.01€
+Board: [5h 7c 3s Jc Jh]
+Seat 1: kinou56 showed [8d Ah] and lost with One pair : Jacks
+Seat 2: saadliig (button) folded on the pre-flop
+Seat 3: kidcassidy (small blind) showed [6h 3d] and lost with Two pairs : Jacks and 3
+Seat 4: FILTONFLOUSE (big blind) showed [5c 2d] and won 0.14€ with Two pairs : Jacks and 5
+Seat 6: boroillot folded on the pre-flop
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-44-1335470518 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:01:58 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #3 is the button
+Seat 1: kinou56 (3.72€)
+Seat 2: saadliig (10.72€)
+Seat 3: kidcassidy (5.10€)
+Seat 4: FILTONFLOUSE (5.45€)
+Seat 5: scottypep63 (5.49€)
+Seat 6: boroillot (4.38€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (3.57€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+FILTONFLOUSE posts small blind 0.02€
+boroillot posts big blind 0.05€
+Dealt to saadliig [5h 9c]
+*** PRE-FLOP *** 
+spigaouwin folds
+yvan42230 calls 0.05€
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE folds
+boroillot checks
+*** FLOP *** [7d 2c Ad]
+boroillot checks
+yvan42230 checks
+kinou56 checks
+*** TURN *** [7d 2c Ad][3s]
+boroillot checks
+yvan42230 checks
+kinou56 checks
+*** RIVER *** [7d 2c Ad 3s][Kh]
+boroillot checks
+yvan42230 bets 0.05€
+kinou56 folds
+boroillot folds
+yvan42230 collected 0.21€ from pot
+*** SUMMARY ***
+Total pot 0.21€ | Rake 0.01€
+Board: [7d 2c Ad 3s Kh]
+Seat 1: kinou56 folded on the river
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy (button) folded on the pre-flop
+Seat 4: FILTONFLOUSE (small blind) folded on the pre-flop
+Seat 6: boroillot (big blind) folded on the river
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 won 0.21€
+
+
+Winamax Poker - CashGame - HandId: #2868821-45-1335470619 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:03:39 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #4 is the button
+Seat 1: kinou56 (3.67€)
+Seat 2: saadliig (10.72€)
+Seat 3: kidcassidy (5.10€)
+Seat 4: FILTONFLOUSE (5.43€)
+Seat 5: scottypep63 (5.49€)
+Seat 6: boroillot (4.33€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (3.68€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+boroillot posts small blind 0.02€
+spigaouwin posts big blind 0.05€
+Dealt to saadliig [9d 2d]
+*** PRE-FLOP *** 
+yvan42230 folds
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE folds
+boroillot calls 0.03€
+spigaouwin checks
+*** FLOP *** [5d Kh 5h]
+boroillot checks
+spigaouwin checks
+kinou56 checks
+*** TURN *** [5d Kh 5h][2h]
+boroillot checks
+spigaouwin checks
+kinou56 bets 0.15€
+boroillot folds
+spigaouwin folds
+kinou56 collected 0.29€ from pot
+*** SUMMARY ***
+Total pot 0.29€ | Rake 0.01€
+Board: [5d Kh 5h 2h]
+Seat 1: kinou56 won 0.29€
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE (button) folded on the pre-flop
+Seat 6: boroillot (small blind) folded on the turn
+Seat 7: spigaouwin (big blind) folded on the turn
+Seat 8: yvan42230 folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-46-1335470677 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:04:37 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #6 is the button
+Seat 1: kinou56 (3.76€)
+Seat 2: saadliig (10.72€)
+Seat 3: kidcassidy (5.10€)
+Seat 4: FILTONFLOUSE (5.43€)
+Seat 5: scottypep63 (5.49€)
+Seat 6: boroillot (4.28€)
+Seat 7: spigaouwin (5€)
+Seat 8: yvan42230 (3.68€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+spigaouwin posts small blind 0.02€
+yvan42230 posts big blind 0.05€
+Dealt to saadliig [Ad 7s]
+*** PRE-FLOP *** 
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE calls 0.05€
+boroillot calls 0.05€
+spigaouwin folds
+yvan42230 checks
+*** FLOP *** [2d 5d Ac]
+yvan42230 checks
+kinou56 bets 0.11€
+FILTONFLOUSE folds
+boroillot calls 0.11€
+yvan42230 folds
+*** TURN *** [2d 5d Ac][3s]
+kinou56 checks
+boroillot bets 0.44€
+kinou56 folds
+boroillot collected 0.85€ from pot
+*** SUMMARY ***
+Total pot 0.85€ | Rake 0.03€
+Board: [2d 5d Ac 3s]
+Seat 1: kinou56 folded on the turn
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE folded on the flop
+Seat 6: boroillot (button) won 0.85€
+Seat 7: spigaouwin (small blind) folded on the pre-flop
+Seat 8: yvan42230 (big blind) folded on the flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-47-1335470744 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:05:44 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #7 is the button
+Seat 1: kinou56 (3.60€)
+Seat 2: saadliig (10.72€)
+Seat 3: kidcassidy (5.10€)
+Seat 4: FILTONFLOUSE (5.38€)
+Seat 5: scottypep63 (5.49€)
+Seat 6: boroillot (4.53€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (3.63€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+yvan42230 posts small blind 0.02€
+EQUEUR posts big blind 0.05€
+Dealt to saadliig [9h Qc]
+*** PRE-FLOP *** 
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE calls 0.05€
+boroillot calls 0.05€
+spigaouwin folds
+yvan42230 folds
+EQUEUR checks
+*** FLOP *** [Qh 2d 9s]
+EQUEUR checks
+kinou56 checks
+FILTONFLOUSE checks
+boroillot bets 0.22€
+EQUEUR folds
+kinou56 folds
+FILTONFLOUSE folds
+boroillot collected 0.43€ from pot
+*** SUMMARY ***
+Total pot 0.43€ | Rake 0.01€
+Board: [Qh 2d 9s]
+Seat 1: kinou56 folded on the flop
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE folded on the flop
+Seat 6: boroillot won 0.43€
+Seat 7: spigaouwin (button) folded on the pre-flop
+Seat 8: yvan42230 (small blind) folded on the pre-flop
+Seat 9: EQUEUR (big blind) folded on the flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-48-1335470799 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:06:39 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #8 is the button
+Seat 1: kinou56 (3.55€)
+Seat 2: saadliig (10.72€)
+Seat 3: kidcassidy (5.10€)
+Seat 4: FILTONFLOUSE (5.33€)
+Seat 5: scottypep63 (5.49€)
+Seat 6: boroillot (4.69€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (3.61€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+EQUEUR posts small blind 0.02€
+kinou56 posts big blind 0.05€
+Dealt to saadliig [4c 5d]
+*** PRE-FLOP *** 
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE folds
+boroillot calls 0.05€
+spigaouwin folds
+yvan42230 folds
+EQUEUR folds
+kinou56 checks
+*** FLOP *** [Ah 3s 8s]
+kinou56 checks
+boroillot checks
+*** TURN *** [Ah 3s 8s][6c]
+kinou56 bets 0.12€
+boroillot raises 0.36€ to 0.48€
+kinou56 folds
+boroillot collected 0.70€ from pot
+*** SUMMARY ***
+Total pot 0.70€ | Rake 0.02€
+Board: [Ah 3s 8s 6c]
+Seat 1: kinou56 (big blind) folded on the turn
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE folded on the pre-flop
+Seat 6: boroillot won 0.70€
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 (button) folded on the pre-flop
+Seat 9: EQUEUR (small blind) folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-49-1335470843 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:07:23 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #9 is the button
+Seat 1: kinou56 (3.38€)
+Seat 2: saadliig (10.72€)
+Seat 3: kidcassidy (5.10€)
+Seat 4: FILTONFLOUSE (5.33€)
+Seat 5: Druss69 (5€)
+Seat 6: boroillot (4.86€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (3.61€)
+Seat 9: EQUEUR (4.98€)
+*** ANTE/BLINDS ***
+kinou56 posts small blind 0.02€
+saadliig posts big blind 0.05€
+Dealt to saadliig [Ah 8s]
+*** PRE-FLOP *** 
+kidcassidy folds
+FILTONFLOUSE folds
+boroillot folds
+spigaouwin folds
+yvan42230 calls 0.05€
+EQUEUR calls 0.05€
+kinou56 calls 0.03€
+saadliig checks
+*** FLOP *** [6c Js Kh]
+kinou56 checks
+saadliig checks
+yvan42230 bets 0.05€
+EQUEUR folds
+kinou56 calls 0.05€
+saadliig folds
+*** TURN *** [6c Js Kh][8d]
+kinou56 checks
+yvan42230 bets 0.05€
+kinou56 calls 0.05€
+*** RIVER *** [6c Js Kh 8d][3c]
+kinou56 checks
+yvan42230 bets 0.05€
+kinou56 calls 0.05€
+*** SHOW DOWN ***
+kinou56 shows [7d As] (High card : Ace)
+yvan42230 shows [9h Kc] (One pair : Kings)
+yvan42230 collected 0.47€ from pot
+*** SUMMARY ***
+Total pot 0.47€ | Rake 0.03€
+Board: [6c Js Kh 8d 3c]
+Seat 1: kinou56 (small blind) showed [7d As] and lost with High card : Ace
+Seat 2: saadliig (big blind) folded on the flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE folded on the pre-flop
+Seat 6: boroillot folded on the pre-flop
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 showed [9h Kc] and won 0.47€ with One pair : Kings
+Seat 9: EQUEUR (button) folded on the flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-50-1335470959 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:09:19 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #1 is the button
+Seat 1: kinou56 (3.18€)
+Seat 2: saadliig (10.67€)
+Seat 3: kidcassidy (5.10€)
+Seat 4: FILTONFLOUSE (5.33€)
+Seat 5: Druss69 (5€)
+Seat 6: boroillot (4.86€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (3.88€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+saadliig posts small blind 0.02€
+kidcassidy posts big blind 0.05€
+Dealt to saadliig [Kh 2c]
+*** PRE-FLOP *** 
+FILTONFLOUSE raises 0.15€ to 0.20€
+boroillot folds
+spigaouwin folds
+yvan42230 folds
+EQUEUR folds
+kinou56 calls 0.20€
+saadliig folds
+kidcassidy folds
+*** FLOP *** [4h Ad Qd]
+FILTONFLOUSE bets 0.24€
+kinou56 folds
+FILTONFLOUSE collected 0.68€ from pot
+*** SUMMARY ***
+Total pot 0.68€ | Rake 0.03€
+Board: [4h Ad Qd]
+Seat 1: kinou56 (button) folded on the flop
+Seat 2: saadliig (small blind) folded on the pre-flop
+Seat 3: kidcassidy (big blind) folded on the pre-flop
+Seat 4: FILTONFLOUSE won 0.68€
+Seat 6: boroillot folded on the pre-flop
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 folded on the pre-flop
+Seat 9: EQUEUR folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-51-1335470994 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:09:54 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #2 is the button
+Seat 1: kinou56 (2.98€)
+Seat 2: saadliig (10.65€)
+Seat 3: kidcassidy (5.05€)
+Seat 4: FILTONFLOUSE (5.57€)
+Seat 5: Druss69 (5€)
+Seat 6: boroillot (4.86€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (3.88€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+kidcassidy posts small blind 0.02€
+FILTONFLOUSE posts big blind 0.05€
+Dealt to saadliig [7c 8c]
+*** PRE-FLOP *** 
+boroillot folds
+spigaouwin folds
+yvan42230 folds
+EQUEUR folds
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE checks
+*** FLOP *** [Ac Td 7h]
+FILTONFLOUSE checks
+kinou56 checks
+*** TURN *** [Ac Td 7h][8h]
+FILTONFLOUSE checks
+kinou56 checks
+*** RIVER *** [Ac Td 7h 8h][As]
+FILTONFLOUSE checks
+kinou56 checks
+*** SHOW DOWN ***
+FILTONFLOUSE shows [5d 9c] (One pair : Aces)
+kinou56 shows [Jd Qs] (One pair : Aces)
+kinou56 collected 0.11€ from pot
+*** SUMMARY ***
+Total pot 0.11€ | Rake 0.01€
+Board: [Ac Td 7h 8h As]
+Seat 1: kinou56 showed [Jd Qs] and won 0.11€ with One pair : Aces
+Seat 2: saadliig (button) folded on the pre-flop
+Seat 3: kidcassidy (small blind) folded on the pre-flop
+Seat 4: FILTONFLOUSE (big blind) showed [5d 9c] and lost with One pair : Aces
+Seat 6: boroillot folded on the pre-flop
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 folded on the pre-flop
+Seat 9: EQUEUR folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-52-1335471040 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:10:40 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #3 is the button
+Seat 1: kinou56 (3.04€)
+Seat 2: saadliig (10.65€)
+Seat 3: kidcassidy (5.03€)
+Seat 4: FILTONFLOUSE (5.52€)
+Seat 5: Druss69 (5€)
+Seat 6: boroillot (4.86€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (3.88€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+FILTONFLOUSE posts small blind 0.02€
+Druss69 posts big blind 0.05€
+Dealt to saadliig [Ad 4s]
+*** PRE-FLOP *** 
+boroillot calls 0.05€
+spigaouwin folds
+yvan42230 folds
+EQUEUR folds
+kinou56 folds
+saadliig folds
+kidcassidy calls 0.05€
+FILTONFLOUSE calls 0.03€
+Druss69 checks
+*** FLOP *** [9d 3s 7d]
+FILTONFLOUSE checks
+Druss69 checks
+boroillot bets 0.20€
+kidcassidy folds
+FILTONFLOUSE folds
+Druss69 folds
+boroillot collected 0.39€ from pot
+*** SUMMARY ***
+Total pot 0.39€ | Rake 0.01€
+Board: [9d 3s 7d]
+Seat 1: kinou56 folded on the pre-flop
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy (button) folded on the flop
+Seat 4: FILTONFLOUSE (small blind) folded on the flop
+Seat 5: Druss69 (big blind) folded on the flop
+Seat 6: boroillot won 0.39€
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 folded on the pre-flop
+Seat 9: EQUEUR folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-53-1335471122 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:12:02 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #4 is the button
+Seat 1: kinou56 (3.04€)
+Seat 2: saadliig (10.65€)
+Seat 3: kidcassidy (4.98€)
+Seat 4: FILTONFLOUSE (5.47€)
+Seat 5: Druss69 (5€)
+Seat 6: boroillot (5€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (3.88€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+Druss69 posts small blind 0.02€
+boroillot posts big blind 0.05€
+Dealt to saadliig [Td Qc]
+*** PRE-FLOP *** 
+spigaouwin folds
+yvan42230 calls 0.05€
+EQUEUR folds
+kinou56 folds
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE folds
+Druss69 folds
+boroillot checks
+*** FLOP *** [Qd 5d 7d]
+boroillot checks
+yvan42230 checks
+*** TURN *** [Qd 5d 7d][Kh]
+boroillot bets 0.12€
+yvan42230 calls 0.12€
+*** RIVER *** [Qd 5d 7d Kh][5c]
+boroillot bets 0.36€
+yvan42230 folds
+boroillot collected 0.70€ from pot
+*** SUMMARY ***
+Total pot 0.70€ | Rake 0.02€
+Board: [Qd 5d 7d Kh 5c]
+Seat 1: kinou56 folded on the pre-flop
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE (button) folded on the pre-flop
+Seat 5: Druss69 (small blind) folded on the pre-flop
+Seat 6: boroillot (big blind) won 0.70€
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 folded on the river
+Seat 9: EQUEUR folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-54-1335471206 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:13:26 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #5 is the button
+Seat 1: kinou56 (3.04€)
+Seat 2: saadliig (10.65€)
+Seat 3: kidcassidy (4.98€)
+Seat 4: FILTONFLOUSE (5.47€)
+Seat 5: Druss69 (4.98€)
+Seat 6: boroillot (5.17€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (3.71€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+boroillot posts small blind 0.02€
+spigaouwin posts big blind 0.05€
+Dealt to saadliig [Kc 9h]
+*** PRE-FLOP *** 
+yvan42230 folds
+EQUEUR folds
+kinou56 folds
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE folds
+Druss69 folds
+boroillot calls 0.03€
+spigaouwin raises 0.05€ to 0.10€
+boroillot calls 0.05€
+*** FLOP *** [7d Kh 4h]
+boroillot checks
+spigaouwin checks
+*** TURN *** [7d Kh 4h][6d]
+boroillot checks
+spigaouwin checks
+*** RIVER *** [7d Kh 4h 6d][3d]
+boroillot bets 0.20€
+spigaouwin folds
+boroillot collected 0.39€ from pot
+*** SUMMARY ***
+Total pot 0.39€ | Rake 0.01€
+Board: [7d Kh 4h 6d 3d]
+Seat 1: kinou56 folded on the pre-flop
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE folded on the pre-flop
+Seat 5: Druss69 (button) folded on the pre-flop
+Seat 6: boroillot (small blind) won 0.39€
+Seat 7: spigaouwin (big blind) folded on the river
+Seat 8: yvan42230 folded on the pre-flop
+Seat 9: EQUEUR folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-55-1335471267 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:14:27 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #6 is the button
+Seat 1: kinou56 (3.04€)
+Seat 2: saadliig (10.65€)
+Seat 3: kidcassidy (4.98€)
+Seat 4: FILTONFLOUSE (5.47€)
+Seat 5: Druss69 (4.98€)
+Seat 6: boroillot (5.26€)
+Seat 7: spigaouwin (5€)
+Seat 8: yvan42230 (3.71€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+spigaouwin posts small blind 0.02€
+yvan42230 posts big blind 0.05€
+Dealt to saadliig [Jc 2d]
+*** PRE-FLOP *** 
+EQUEUR folds
+kinou56 calls 0.05€
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE folds
+Druss69 raises 0.15€ to 0.20€
+boroillot folds
+spigaouwin folds
+yvan42230 folds
+kinou56 raises 0.16€ to 0.36€
+Druss69 raises 3.06€ to 3.42€
+kinou56 calls 2.68€ and is all-in
+*** FLOP *** [3d Js Td]
+*** TURN *** [3d Js Td][Qd]
+*** RIVER *** [3d Js Td Qd][9s]
+*** SHOW DOWN ***
+kinou56 shows [Kd Kc] (Straight King high)
+Druss69 shows [As Ks] (Straight Ace high)
+Druss69 collected 6.13€ from pot
+*** SUMMARY ***
+Total pot 6.13€ | Rake 0.40€
+Board: [3d Js Td Qd 9s]
+Seat 1: kinou56 showed [Kd Kc] and lost with Straight King high
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE folded on the pre-flop
+Seat 5: Druss69 showed [As Ks] and won 6.13€ with Straight Ace high
+Seat 6: boroillot (button) folded on the pre-flop
+Seat 7: spigaouwin (small blind) folded on the pre-flop
+Seat 8: yvan42230 (big blind) folded on the pre-flop
+Seat 9: EQUEUR folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2868821-56-1335471324 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:15:24 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #7 is the button
+Seat 1: kinou56 (0€)
+Seat 2: saadliig (10.65€)
+Seat 3: kidcassidy (4.98€)
+Seat 4: FILTONFLOUSE (5.47€)
+Seat 5: Druss69 (7.69€)
+Seat 6: boroillot (5.26€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (3.66€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+yvan42230 posts small blind 0.02€
+EQUEUR posts big blind 0.05€
+Dealt to saadliig [8h Ts]
+*** PRE-FLOP *** 
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE folds
+Druss69 folds
+boroillot folds
+spigaouwin folds
+yvan42230 calls 0.03€
+EQUEUR checks
+*** FLOP *** [Kd 9d 6d]
+yvan42230 checks
+EQUEUR checks
+*** TURN *** [Kd 9d 6d][7h]
+yvan42230 checks
+EQUEUR checks
+*** RIVER *** [Kd 9d 6d 7h][Qh]
+yvan42230 bets 0.05€
+EQUEUR folds
+yvan42230 collected 0.14€ from pot
+*** SUMMARY ***
+Total pot 0.14€ | Rake 0.01€
+Board: [Kd 9d 6d 7h Qh]
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE folded on the pre-flop
+Seat 5: Druss69 folded on the pre-flop
+Seat 6: boroillot folded on the pre-flop
+Seat 7: spigaouwin (button) folded on the pre-flop
+Seat 8: yvan42230 (small blind) won 0.14€
+Seat 9: EQUEUR (big blind) folded on the river
+
+
+Winamax Poker - CashGame - HandId: #2868821-57-1335471385 - Holdem no limit (0.02€/0.05€) - 2012/04/26 20:16:25 UTC
+Table: 'Delhi 6' 9-max (real money) Seat #8 is the button
+Seat 1: kinou56 (3€)
+Seat 2: saadliig (10.65€)
+Seat 3: kidcassidy (4.98€)
+Seat 4: FILTONFLOUSE (5.47€)
+Seat 5: Druss69 (7.69€)
+Seat 6: boroillot (5.26€)
+Seat 7: spigaouwin (4.98€)
+Seat 8: yvan42230 (3.70€)
+Seat 9: EQUEUR (5€)
+*** ANTE/BLINDS ***
+EQUEUR posts small blind 0.02€
+kinou56 posts big blind 0.05€
+Dealt to saadliig [Jc Ts]
+*** PRE-FLOP *** 
+saadliig folds
+kidcassidy folds
+FILTONFLOUSE folds
+Druss69 folds
+boroillot raises 0.20€ to 0.25€
+spigaouwin folds
+yvan42230 folds
+EQUEUR folds
+kinou56 calls 0.20€
+*** FLOP *** [3h 5s 9d]
+kinou56 checks
+boroillot bets 0.52€
+kinou56 folds
+boroillot collected 1.01€ from pot
+*** SUMMARY ***
+Total pot 1.01€ | Rake 0.03€
+Board: [3h 5s 9d]
+Seat 1: kinou56 (big blind) folded on the flop
+Seat 2: saadliig folded on the pre-flop
+Seat 3: kidcassidy folded on the pre-flop
+Seat 4: FILTONFLOUSE folded on the pre-flop
+Seat 5: Druss69 folded on the pre-flop
+Seat 6: boroillot won 1.01€
+Seat 7: spigaouwin folded on the pre-flop
+Seat 8: yvan42230 (button) folded on the pre-flop
+Seat 9: EQUEUR (small blind) folded on the pre-flop
+
+
