@@ -19,7 +19,7 @@ namespace Awam.Tracker.Parser
         private static readonly Regex _regexParseHeader0 = new Regex("^Winamax Poker - Tournament", RegexOptions.Compiled);
         private static readonly Regex _regexParseHeader = new Regex(@"^Winamax Poker - (.*) - HandId: #([0-9\-]*) - Holdem no limit \((.*)€/(.*)€\) - (.*)", RegexOptions.Compiled);
         private static readonly Regex _regexParseSeats = new Regex(@"^Seat ([0-9]*): (.*) \((.*)€\)", RegexOptions.Compiled);
-        private static readonly Regex _regexParseTable = new Regex("^Table:", RegexOptions.Compiled);
+        private static readonly Regex _regexParseTable = new Regex(@"^Table:(.*)Seat #([1-9]) is the button", RegexOptions.Compiled);
         private static readonly Regex _regexParseAnteBlinds = new Regex(@"^\*\*\* AN", RegexOptions.Compiled);
         private static readonly Regex _regexParsePostsBlind = new Regex(@"^(.*) (posts|denies) (small|big) blind ?(" + floatPattern + @")?€?", RegexOptions.Compiled);
         private static readonly Regex _regexParseDealtToMe = new Regex(@"^Dealt to (.*) \[(.*) (.*)\]", RegexOptions.Compiled);
@@ -175,6 +175,7 @@ namespace Awam.Tracker.Parser
             Match match = _regexParseTable.Match(line);
             if (match.Success)
             {
+                hand.ButtonPosition = int.Parse(match.Groups[2].Value);
                 log(line);
                 return false;
             }
@@ -189,9 +190,12 @@ namespace Awam.Tracker.Parser
             {
                 log(line);
 
-                string seatNumber = match.Groups[1].Value;
-
-                hand.Players.Add(new HandPlayer {Player = match.Groups[2].Value});
+                hand.Players.Add(
+                    new HandPlayer 
+                    {
+                        Player = match.Groups[2].Value,
+                        SeatNumber = int.Parse(match.Groups[1].Value)
+                    });
                 
                 string stack = match.Groups[3].Value;
                 return false;

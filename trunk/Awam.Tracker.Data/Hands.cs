@@ -16,7 +16,7 @@ namespace Awam.Tracker.Data
                 comm.Connection = conn;
                 comm.CommandType = System.Data.CommandType.Text;
 
-                const string SqlCommandString = "insert  into [Hands] (Id, [User], Net, Time, ActionPreflop, ActionFlop, ActionTurn, ActionRiver, Card1, Card2, BB) Values ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', '{10}' )";
+                const string SqlCommandString = "insert  into [Hands] (Id, [User], Net, Time, ActionPreflop, ActionFlop, ActionTurn, ActionRiver, Card1, Card2, BB, Position, PositionButton) Values ('{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', '{10}', '{11}','{12}' )";
 
                 foreach (var hand in hands)
                 {
@@ -39,7 +39,9 @@ namespace Awam.Tracker.Data
                                 player.ActionRiver,
                                 player.Card1Str,
                                 player.Card2Str,
-                                hand.BigBlind);
+                                hand.BigBlind,
+                                player.SeatNumber,
+                                hand.ButtonPosition);
                         try
                         {
                             comm.ExecuteNonQuery();
