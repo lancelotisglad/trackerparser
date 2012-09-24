@@ -9,7 +9,8 @@ namespace Awam.Tracker.Data
         /// </summary>
         public static void ClearAll()
         {
-            using (SqlCeConnection conn = new SqlCeConnection(@"Data Source=C:\Data\awam\TrackerParser\TrackerParser\tester\bin\Debug\trackDB.sdf"))
+            
+            using (SqlCeConnection conn = new SqlCeConnection(Helper.ConnectionString))
             using (SqlCeCommand command = new SqlCeCommand())
             {
                 conn.Open();

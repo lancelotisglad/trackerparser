@@ -9,7 +9,7 @@ namespace Awam.Tracker.Data
     {
         public static void SaveHandsSqlCommand(IList<Hand> hands)
         {
-            using (SqlCeConnection conn = new SqlCeConnection(@"Data Source=C:\Data\awam\TrackerParser\TrackerParser\tester\bin\Debug\trackDB.sdf"))
+            using (SqlCeConnection conn = new SqlCeConnection(Helper.ConnectionString))
             using (SqlCeCommand comm = new SqlCeCommand())
             {
                 conn.Open();

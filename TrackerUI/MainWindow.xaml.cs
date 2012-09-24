@@ -288,7 +288,7 @@ namespace TrackerUI
 
         private void worker_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
-            Refresh(checkBox1.IsChecked == true);
+            Refresh(true);
         }
 
         private  void Refresh(bool clearAll)
