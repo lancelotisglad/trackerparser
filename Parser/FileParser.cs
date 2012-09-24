@@ -283,22 +283,39 @@ namespace Awam.Tracker.Parser
             //    return;
 
             string action = match.Groups[2].Value;
+
+            string actionAndAmount;
+            if (action == "raises")
+            {
+                actionAndAmount = action += " (" + match.Groups[5].Value + ")";
+            }
+            else
+            {
+                actionAndAmount = action += " (" + match.Groups[3].Value + ")";
+            }
+
+
             switch (step)
             {
                 case "preflop":
-                    hand[match.Groups[1].Value].ActionPreflop += string.IsNullOrEmpty(hand[match.Groups[1].Value].ActionPreflop) ? action : "," + action;
+                    hand[match.Groups[1].Value].ActionPreflop +=
+                        string.IsNullOrEmpty(hand[match.Groups[1].Value].ActionPreflop) ? actionAndAmount : "," + actionAndAmount;
                     break;
                 case "flop":
-                    hand[match.Groups[1].Value].ActionFlop += string.IsNullOrEmpty(hand[match.Groups[1].Value].ActionFlop) ? action : "," + action;
+                    hand[match.Groups[1].Value].ActionFlop +=
+                        string.IsNullOrEmpty(hand[match.Groups[1].Value].ActionFlop) ? actionAndAmount : "," + actionAndAmount;
                     break;
                 case "turn":
-                    hand[match.Groups[1].Value].ActionTurn += string.IsNullOrEmpty(hand[match.Groups[1].Value].ActionTurn) ? action : "," + action;
+                    hand[match.Groups[1].Value].ActionTurn +=
+                        string.IsNullOrEmpty(hand[match.Groups[1].Value].ActionTurn) ? actionAndAmount : "," + actionAndAmount;
                     break;
                 case "river":
-                    hand[match.Groups[1].Value].ActionRiver += string.IsNullOrEmpty(hand[match.Groups[1].Value].ActionRiver) ? action : "," + action;
+                    hand[match.Groups[1].Value].ActionRiver +=
+                        string.IsNullOrEmpty(hand[match.Groups[1].Value].ActionRiver) ? actionAndAmount : "," + actionAndAmount;
                     break;
             }
 
+           
             if (action == "checks")
                 return;
 
