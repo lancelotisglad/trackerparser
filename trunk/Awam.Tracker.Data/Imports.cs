@@ -8,7 +8,7 @@ namespace Awam.Tracker.Data
     {
         public static void LogFileImport(FileInfo fileInfo, DateTime startDate, DateTime endDate, string status)
         {
-            using (SqlCeConnection conn = new SqlCeConnection(@"Data Source=C:\Data\awam\TrackerParser\TrackerParser\tester\bin\Debug\trackDB.sdf"))
+            using (SqlCeConnection conn = new SqlCeConnection(Helper.ConnectionString))
             using (SqlCeCommand comm = new SqlCeCommand())
             {
                 conn.Open();
@@ -38,7 +38,7 @@ namespace Awam.Tracker.Data
         /// <param name="status">Import Status</param>
         public static void LogImport(DateTime beginDate, DateTime endDate, string status, string path)
         {
-            using (SqlCeConnection conn = new SqlCeConnection(@"Data Source=C:\Data\awam\TrackerParser\TrackerParser\tester\bin\Debug\trackDB.sdf"))
+            using (SqlCeConnection conn = new SqlCeConnection(Helper.ConnectionString))
             using (SqlCeCommand comm = new SqlCeCommand())
             {
                 conn.Open();
@@ -62,7 +62,7 @@ namespace Awam.Tracker.Data
 
         public static DateTime GetLastImportDate(string dir)
         {
-            using (SqlCeConnection conn = new SqlCeConnection(@"Data Source=C:\Data\awam\TrackerParser\TrackerParser\tester\bin\Debug\trackDB.sdf"))
+            using (SqlCeConnection conn = new SqlCeConnection(Helper.ConnectionString))
             using (SqlCeCommand comm = new SqlCeCommand())
             {
                 conn.Open();
@@ -84,7 +84,7 @@ namespace Awam.Tracker.Data
 
         public static DateTime GetLastImportFileDate(string fileName)
         {
-            using (SqlCeConnection conn = new SqlCeConnection(@"Data Source=C:\Data\awam\TrackerParser\TrackerParser\tester\bin\Debug\trackDB.sdf"))
+            using (SqlCeConnection conn = new SqlCeConnection(Helper.ConnectionString))
             using (SqlCeCommand comm = new SqlCeCommand())
             {
                 conn.Open();
