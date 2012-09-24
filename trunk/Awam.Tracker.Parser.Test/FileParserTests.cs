@@ -13,7 +13,8 @@ namespace Awam.Tracker.Parser.Test
         [TestMethod]
         public void FileParserTest()
         {
-            FileParser_Accessor parser = new FileParser_Accessor("Data\\BaseFile.txt", new DateTime());
+            FileParser_Accessor parser = 
+                new FileParser_Accessor("Data\\BaseFile.txt", new DateTime());
             var hands = parser.GetHandsFromFile();
             Assert.AreEqual(71, hands.Count);
         }
@@ -21,7 +22,8 @@ namespace Awam.Tracker.Parser.Test
         [TestMethod]
         public void FileParser_ButtonPositionTest()
         {
-            FileParser_Accessor parser = new FileParser_Accessor("Data\\BaseFile.txt", new DateTime());
+            FileParser_Accessor parser = 
+                new FileParser_Accessor("Data\\BaseFile.txt", new DateTime());
             var hands = parser.GetHandsFromFile();
 
             Assert.AreEqual(2, hands.First().ButtonPosition);
@@ -31,12 +33,28 @@ namespace Awam.Tracker.Parser.Test
         [TestMethod]
         public void FileParser_PlayerPositionTest()
         {
-            FileParser_Accessor parser = new FileParser_Accessor("Data\\BaseFile.txt", new DateTime());
+            FileParser_Accessor parser = 
+                new FileParser_Accessor("Data\\BaseFile.txt", new DateTime());
             var hands = parser.GetHandsFromFile();
 
             Assert.AreEqual(8, hands.First()["saadliig"].SeatNumber);
             Assert.AreEqual(2, hands.Last()["saadliig"].SeatNumber);
         }
 
+        [TestMethod]
+        public void FileParser_PlayerActionPreflopTest()
+        {
+            FileParser_Accessor parser =
+                new FileParser_Accessor("Data\\BaseFile.txt", new DateTime());
+            var hands = parser.GetHandsFromFile();
+
+            Assert.AreEqual("raises (0.10)",
+                hands.First()
+                ["azzarro123"].ActionPreflop);
+            Assert.AreEqual("raises (0.10),raises (0.64)",
+                hands.
+                Single(h => h.HandId == "2863240-284-1335391929")
+                ["azzarro123"].ActionPreflop);
+        }
     }
 }
