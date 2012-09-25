@@ -194,7 +194,8 @@ namespace Awam.Tracker.Parser
                     new HandPlayer 
                     {
                         Player = match.Groups[2].Value,
-                        SeatNumber = int.Parse(match.Groups[1].Value)
+                        SeatNumber = int.Parse(match.Groups[1].Value),
+                        Stack = float.Parse(match.Groups[3].Value)
                     });
                 
                 string stack = match.Groups[3].Value;

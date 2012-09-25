@@ -29,6 +29,7 @@
           <Property Name="Position" Type="int" />
           <Property Name="pk" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="PositionButton" Type="int" />
+          <Property Name="Stack" Type="float" />
         </EntityType>
         <EntityType Name="LogFiles">
           <Key>
@@ -86,6 +87,7 @@
           <Property Type="Int32" Name="Position" />
           <Property Type="Int32" Name="pk" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Type="Int32" Name="PositionButton" />
+          <Property Type="Double" Name="Stack" />
         </EntityType>
         <EntityType Name="LogFiles">
           <Key>
@@ -124,6 +126,7 @@
           <EntitySetMapping Name="Hands">
             <EntityTypeMapping TypeName="trackDBModel.Hands">
               <MappingFragment StoreEntitySet="Hands">
+                <ScalarProperty Name="Stack" ColumnName="Stack" />
                 <ScalarProperty Name="PositionButton" ColumnName="PositionButton" />
                 <ScalarProperty Name="pk" ColumnName="pk" />
                 <ScalarProperty Name="Position" ColumnName="Position" />

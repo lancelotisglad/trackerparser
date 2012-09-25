@@ -534,6 +534,30 @@ namespace TrackerModel
         private Nullable<global::System.Int32> _PositionButton;
         partial void OnPositionButtonChanging(Nullable<global::System.Int32> value);
         partial void OnPositionButtonChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public Nullable<global::System.Double> Stack
+        {
+            get
+            {
+                return _Stack;
+            }
+            set
+            {
+                OnStackChanging(value);
+                ReportPropertyChanging("Stack");
+                _Stack = StructuralObject.SetValidValue(value);
+                ReportPropertyChanged("Stack");
+                OnStackChanged();
+            }
+        }
+        private Nullable<global::System.Double> _Stack;
+        partial void OnStackChanging(Nullable<global::System.Double> value);
+        partial void OnStackChanged();
 
         #endregion
     
