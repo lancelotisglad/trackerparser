@@ -42,6 +42,17 @@ namespace Awam.Tracker.Parser.Test
         }
 
         [TestMethod]
+        public void FileParser_PlayerStackTest()
+        {
+            FileParser_Accessor parser =
+                new FileParser_Accessor("Data\\BaseFile.txt", new DateTime());
+            var hands = parser.GetHandsFromFile();
+
+            Assert.AreEqual(6.17f, hands.First()["azzarro123"].Stack);
+            Assert.AreEqual(10.65f, hands.Last()["saadliig"].Stack);
+        }
+
+        [TestMethod]
         public void FileParser_PlayerActionPreflopTest()
         {
             FileParser_Accessor parser =

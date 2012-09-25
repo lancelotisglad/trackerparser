@@ -48,7 +48,8 @@ namespace Awam.Tracker.Data.Tests
                         PaidRiver = 0.7f,
                         PaidTurn = 0.8f,
                         SeatNumber = 4,
-                        Player = "player1"
+                        Player = "player1",
+                        Stack = 6.52d
                     };
 
             hand.Players.Add(player);
@@ -65,8 +66,30 @@ namespace Awam.Tracker.Data.Tests
                 Assert.AreEqual(t.Hands.First().Id, "4545454");
                 Assert.AreEqual(t.Hands.First().Time, new DateTime(2000, 1, 1));
                 Assert.AreEqual(t.Hands.First().Position, 4);
+                Assert.AreEqual(t.Hands.First().Stack, 6.52d);
             }
 
         }
+
+        public static bool nearlyEqual(float a, float b)
+        {
+            float epsilon = 0.000001f;
+            float absA = Math.Abs(a);
+            float absB = Math.Abs(b);
+            float diff = Math.Abs(a - b);
+
+            if (a*b == 0)
+            {
+                return diff < (epsilon*epsilon);
+            }
+            else
+            {
+                return diff/(absA + absB) < epsilon;
+            }
+        }
+
+
     }
 }
+
+
