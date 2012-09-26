@@ -117,6 +117,14 @@
       <Project>{3FEC1A29-04AF-4CFB-954C-7082C4C77264}</Project>
       <Name>Awam.Tracker.FileProcessor</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Awam.Tracker.Model\Awam.Tracker.Model.csproj">
+      <Project>{11D1892F-EF96-4B79-A4FC-9C0E084FF9E5}</Project>
+      <Name>Awam.Tracker.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Parser\Awam.Tracker.Parser.csproj">
+      <Project>{B06788AE-66E9-4D31-81E5-3E55A8A20AC4}</Project>
+      <Name>Awam.Tracker.Parser</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TrackerModel\TrackerModel.csproj">
       <Project>{463E3EDA-D481-4EBA-901D-7F248FF3AE24}</Project>
       <Name>TrackerModel</Name>

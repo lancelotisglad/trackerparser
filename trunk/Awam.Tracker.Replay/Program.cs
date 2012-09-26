@@ -34,7 +34,6 @@ namespace Awam.Tracker.Replay
                 ReplayStreet(hands, "turn");
                 ReplayStreet(hands, "river");
 
-
                 Console.Read();
             }
         }
@@ -61,9 +60,7 @@ namespace Awam.Tracker.Replay
                 if (position == firstPosition)
                 {
                     if (lastactionFromrun == string.Empty)
-                    {
                         break;
-                    }
 
                     lastactionFromrun = string.Empty;
                     run++;
@@ -77,7 +74,7 @@ namespace Awam.Tracker.Replay
             string action = string.Empty;
             switch (street)
             {
-                case "preflop" :
+                case "preflop":
                     action = hands.Single(x => x.Position == position).ActionPreflop;
                     break;
                 case "flop":

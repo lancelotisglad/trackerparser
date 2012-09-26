@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackerModel", "TrackerMode
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackerUI", "TrackerUI\TrackerUI.csproj", "{76C65A55-829B-4D34-AFD5-3640FF9856AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackerTest", "TrackerTest\TrackerTest.csproj", "{2335CD3C-841B-42E1-80A4-F37AA1264521}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ECD6580E-E8CB-4D16-8A5C-6D92621128C7}"
 	ProjectSection(SolutionItems) = preProject
 		Local.testsettings = Local.testsettings
@@ -83,16 +81,6 @@ Global
 		{76C65A55-829B-4D34-AFD5-3640FF9856AA}.Release|Mixed Platforms.Build.0 = Release|x86
 		{76C65A55-829B-4D34-AFD5-3640FF9856AA}.Release|x86.ActiveCfg = Release|x86
 		{76C65A55-829B-4D34-AFD5-3640FF9856AA}.Release|x86.Build.0 = Release|x86
-		{2335CD3C-841B-42E1-80A4-F37AA1264521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2335CD3C-841B-42E1-80A4-F37AA1264521}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2335CD3C-841B-42E1-80A4-F37AA1264521}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{2335CD3C-841B-42E1-80A4-F37AA1264521}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{2335CD3C-841B-42E1-80A4-F37AA1264521}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{2335CD3C-841B-42E1-80A4-F37AA1264521}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2335CD3C-841B-42E1-80A4-F37AA1264521}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2335CD3C-841B-42E1-80A4-F37AA1264521}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{2335CD3C-841B-42E1-80A4-F37AA1264521}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{2335CD3C-841B-42E1-80A4-F37AA1264521}.Release|x86.ActiveCfg = Release|Any CPU
 		{3FEC1A29-04AF-4CFB-954C-7082C4C77264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3FEC1A29-04AF-4CFB-954C-7082C4C77264}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FEC1A29-04AF-4CFB-954C-7082C4C77264}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -156,5 +144,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
 	EndGlobalSection
 EndGlobal

@@ -26,7 +26,7 @@ namespace tester
             if (args.Count() > 1 && args[1] != null)
                 from = DateTime.Parse(args[1]);
 
-            FileProcessor fileProcessor  = new FileProcessor(_path);
+            FileProcessor fileProcessor  = new FileProcessor(new WinamaxParser(), _path );
             fileProcessor.ProcessImportOnModifiedFilesSinceLastImport(_path, true);
 
             Console.Read();
