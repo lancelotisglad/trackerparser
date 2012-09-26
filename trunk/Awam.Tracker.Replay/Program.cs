@@ -29,23 +29,23 @@ namespace Awam.Tracker.Replay
 
                 var hands = dbHand.ToArray();
 
-                ReplayStreet(hands, "preflop");
-                ReplayStreet(hands, "flop");
-                ReplayStreet(hands, "turn");
-                ReplayStreet(hands, "river");
-
+                ReplayStreet(hands, Enumeration.Street.Preflop);
+                ReplayStreet(hands, Enumeration.Street.Flop);
+                ReplayStreet(hands, Enumeration.Street.Turn);
+                ReplayStreet(hands, Enumeration.Street.River);
+                
                 Console.Read();
             }
         }
 
-        private static void ReplayStreet(Hands[] hands, string street)
+        private static void ReplayStreet(Hands[] hands, Enumeration.Street street)
         {
          
             Console.WriteLine("-----------");
             Console.WriteLine("Action "+street);
             Console.WriteLine("-----------");
 
-            int position = GetFirstPlayer(hands, street == "preflop").Position;
+            int position = GetFirstPlayer(hands, street == Enumeration.Street.Preflop).Position;
             int firstPosition = position;
             
             int run = 0;
@@ -68,26 +68,26 @@ namespace Awam.Tracker.Replay
             }
         }
 
-        static string GetActionPositionRun(Hands[] hands, int position, int run,string street)
+        static string GetActionPositionRun(Hands[] hands, int position, int run, Enumeration.Street street)
         {
             var user = hands.Single(x => x.Position == position).User;
             string action = string.Empty;
             switch (street)
             {
-                case "preflop":
+                case Enumeration.Street.Preflop:
                     action = hands.Single(x => x.Position == position).ActionPreflop;
                     break;
-                case "flop":
+                case Enumeration.Street.Flop:
                     action = hands.Single(x => x.Position == position).ActionFlop;
                     break;
-                case "turn":
+                case Enumeration.Street.Turn:
                     action = hands.Single(x => x.Position == position).ActionTurn;
                     break;
-                case "river":
+                case Enumeration.Street.River:
                     action = hands.Single(x => x.Position == position).ActionRiver;
                     break;
                 default:
-                    throw new ArgumentException("this street does not exist", street);
+                    throw new ArgumentException("this street does not exist", street.ToString());
             }
 
             if (action == string.Empty)
