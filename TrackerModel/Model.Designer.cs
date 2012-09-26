@@ -562,6 +562,30 @@ namespace TrackerModel
         private Nullable<global::System.Double> _Stack;
         partial void OnStackChanging(Nullable<global::System.Double> value);
         partial void OnStackChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public global::System.String ActionBlind
+        {
+            get
+            {
+                return _ActionBlind;
+            }
+            set
+            {
+                OnActionBlindChanging(value);
+                ReportPropertyChanging("ActionBlind");
+                _ActionBlind = StructuralObject.SetValidValue(value, true);
+                ReportPropertyChanged("ActionBlind");
+                OnActionBlindChanged();
+            }
+        }
+        private global::System.String _ActionBlind;
+        partial void OnActionBlindChanging(global::System.String value);
+        partial void OnActionBlindChanged();
 
         #endregion
     

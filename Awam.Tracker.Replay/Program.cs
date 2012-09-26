@@ -13,7 +13,9 @@ namespace Awam.Tracker.Replay
 
         static void Main(string[] args)
         {
-            string idHand = "2863240-273-1335391174";
+            string id1 = "2863240-273-1335391174";
+            string id2 = "2863240-274-1335391222";
+            string idHand = id2;
 
             using (trackDBEntities2 t = new trackDBEntities2())
             {
@@ -22,23 +24,42 @@ namespace Awam.Tracker.Replay
 
                 var sortedHand = dbHand.ToList().OrderBy(x => x.Position);
 
+                Console.WriteLine("Button on seat " + dbHand.First().PositionButton);
                 foreach (var handse in sortedHand)
                 {
-                    Console.WriteLine(handse.User + " (" + handse.Stack + ")");
+                    Console.WriteLine("Seat "+ handse.Position +":" +handse.User + " (" + handse.Stack + ")");
                 }
 
                 var hands = dbHand.ToArray();
 
-                ReplayStreet(hands, Enumeration.Street.Preflop);
-                ReplayStreet(hands, Enumeration.Street.Flop);
-                ReplayStreet(hands, Enumeration.Street.Turn);
-                ReplayStreet(hands, Enumeration.Street.River);
-                
+                bool continu = ReplayStreet(hands, Enumeration.Street.Blind);
+                if (continu)
+                    continu = ReplayStreet(hands, Enumeration.Street.Preflop);
+                if (continu)
+                    continu = ReplayStreet(hands, Enumeration.Street.Flop);
+                if (continu)
+                    continu = ReplayStreet(hands, Enumeration.Street.Turn);
+                if (continu)
+                    ReplayStreet(hands, Enumeration.Street.River);
+
+                Console.WriteLine("-----------");
+                Console.WriteLine("Summary");
+                Console.WriteLine("-----------");
+
+                foreach (var handse in sortedHand)
+                {
+                    string wonloosefold =
+                        handse.Net > 0 ? " won " : (handse.Net == 0 ? " folds preflop " : " loose ");
+                    Console.WriteLine(handse.User + wonloosefold + (handse.Net != 0 ? handse.Net.ToString() : ""));
+                }
+
+                Console.WriteLine("Rake : " + sortedHand.Sum(x => x.Net));
+
                 Console.Read();
             }
         }
 
-        private static void ReplayStreet(Hands[] hands, Enumeration.Street street)
+        private static bool ReplayStreet(Hands[] hands, Enumeration.Street street)
         {
          
             Console.WriteLine("-----------");
@@ -55,6 +76,11 @@ namespace Awam.Tracker.Replay
                 string action = GetActionPositionRun(hands, position, run, street);
                 if (action != string.Empty)
                     Console.WriteLine(action);
+
+                if (action.Contains("collected"))
+                {
+                    return false;
+                }
                 position = getNext(hands, position).Position;
                 lastactionFromrun += action;
                 if (position == firstPosition)
@@ -66,6 +92,7 @@ namespace Awam.Tracker.Replay
                     run++;
                 }
             }
+            return true;
         }
 
         static string GetActionPositionRun(Hands[] hands, int position, int run, Enumeration.Street street)
@@ -74,6 +101,9 @@ namespace Awam.Tracker.Replay
             string action = string.Empty;
             switch (street)
             {
+                case Enumeration.Street.Blind:
+                    action = hands.Single(x => x.Position == position).ActionBlind;
+                    break;
                 case Enumeration.Street.Preflop:
                     action = hands.Single(x => x.Position == position).ActionPreflop;
                     break;

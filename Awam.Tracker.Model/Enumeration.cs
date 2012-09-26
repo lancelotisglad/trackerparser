@@ -7,6 +7,6 @@ namespace Awam.Tracker.Model
 {
     public static class Enumeration
     {
-        public enum Street { Preflop, Flop, Turn, River }
+        public enum Street { Blind, Preflop, Flop, Turn, River }
     }
 }

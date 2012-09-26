@@ -12,6 +12,7 @@ namespace Awam.Tracker.Model
         public string Card1Str { get; set; }
         public string Card2Str { get; set; }
 
+        public string ActionBlind { get; set; }
         public string ActionPreflop { get; set; }
         public string ActionFlop { get; set; }
         public string ActionTurn { get; set; }
