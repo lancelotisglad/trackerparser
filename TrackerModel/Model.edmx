@@ -26,9 +26,9 @@
           <Property Name="Card1" Type="nvarchar" MaxLength="100" />
           <Property Name="Card2" Type="nvarchar" MaxLength="100" />
           <Property Name="BB" Type="float" />
-          <Property Name="Position" Type="int" />
+          <Property Name="Position" Type="int" Nullable="false" />
           <Property Name="pk" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
-          <Property Name="PositionButton" Type="int" />
+          <Property Name="PositionButton" Type="int" Nullable="false" />
           <Property Name="Stack" Type="float" />
         </EntityType>
         <EntityType Name="LogFiles">
@@ -64,31 +64,11 @@
     <edmx:ConceptualModels>
       <Schema Namespace="trackDBModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
         <EntityContainer Name="trackDBEntities2" annotation:LazyLoadingEnabled="true">
-          <EntitySet Name="Hands" EntityType="trackDBModel.Hands" />
           <EntitySet Name="LogFiles" EntityType="trackDBModel.LogFiles" />
           <EntitySet Name="LogImport" EntityType="trackDBModel.LogImport" />
           <EntitySet Name="MyCards" EntityType="trackDBModel.MyCards" />
+          <EntitySet Name="Hands" EntityType="trackDBModel.Hands" />
         </EntityContainer>
-        <EntityType Name="Hands">
-          <Key>
-            <PropertyRef Name="pk" />
-          </Key>
-          <Property Type="String" Name="Id" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Type="String" Name="User" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Type="Double" Name="Net" />
-          <Property Type="DateTime" Name="Time" />
-          <Property Type="String" Name="ActionPreflop" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Type="String" Name="ActionFlop" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Type="String" Name="ActionTurn" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Type="String" Name="ActionRiver" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Type="String" Name="Card1" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Type="String" Name="Card2" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Type="Double" Name="BB" />
-          <Property Type="Int32" Name="Position" />
-          <Property Type="Int32" Name="pk" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Type="Int32" Name="PositionButton" />
-          <Property Type="Double" Name="Stack" />
-        </EntityType>
         <EntityType Name="LogFiles">
           <Key>
             <PropertyRef Name="Id" />
@@ -117,33 +97,32 @@
           <Property Type="String" Name="Card1" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Type="String" Name="Card2" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
         </EntityType>
+        <EntityType Name="Hands">
+          <Key>
+            <PropertyRef Name="pk" />
+          </Key>
+          <Property Type="String" Name="Id" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="User" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="Double" Name="Net" />
+          <Property Type="DateTime" Name="Time" />
+          <Property Type="String" Name="ActionPreflop" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ActionFlop" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ActionTurn" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="ActionRiver" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Card1" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="Card2" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="Double" Name="BB" />
+          <Property Type="Int32" Name="Position" Nullable="false" />
+          <Property Type="Int32" Name="pk" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="Int32" Name="PositionButton" Nullable="false" />
+          <Property Type="Double" Name="Stack" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="trackDBModelStoreContainer" CdmEntityContainer="trackDBEntities2">
-          <EntitySetMapping Name="Hands">
-            <EntityTypeMapping TypeName="trackDBModel.Hands">
-              <MappingFragment StoreEntitySet="Hands">
-                <ScalarProperty Name="Stack" ColumnName="Stack" />
-                <ScalarProperty Name="PositionButton" ColumnName="PositionButton" />
-                <ScalarProperty Name="pk" ColumnName="pk" />
-                <ScalarProperty Name="Position" ColumnName="Position" />
-                <ScalarProperty Name="BB" ColumnName="BB" />
-                <ScalarProperty Name="Card2" ColumnName="Card2" />
-                <ScalarProperty Name="Card1" ColumnName="Card1" />
-                <ScalarProperty Name="ActionRiver" ColumnName="ActionRiver" />
-                <ScalarProperty Name="ActionTurn" ColumnName="ActionTurn" />
-                <ScalarProperty Name="ActionFlop" ColumnName="ActionFlop" />
-                <ScalarProperty Name="ActionPreflop" ColumnName="ActionPreflop" />
-                <ScalarProperty Name="Time" ColumnName="Time" />
-                <ScalarProperty Name="Net" ColumnName="Net" />
-                <ScalarProperty Name="User" ColumnName="User" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="LogFiles">
             <EntityTypeMapping TypeName="trackDBModel.LogFiles">
               <MappingFragment StoreEntitySet="LogFiles">
@@ -175,6 +154,27 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="Hands">
+            <EntityTypeMapping TypeName="trackDBModel.Hands">
+              <MappingFragment StoreEntitySet="Hands">
+                <ScalarProperty Name="Stack" ColumnName="Stack" />
+                <ScalarProperty Name="PositionButton" ColumnName="PositionButton" />
+                <ScalarProperty Name="pk" ColumnName="pk" />
+                <ScalarProperty Name="Position" ColumnName="Position" />
+                <ScalarProperty Name="BB" ColumnName="BB" />
+                <ScalarProperty Name="Card2" ColumnName="Card2" />
+                <ScalarProperty Name="Card1" ColumnName="Card1" />
+                <ScalarProperty Name="ActionRiver" ColumnName="ActionRiver" />
+                <ScalarProperty Name="ActionTurn" ColumnName="ActionTurn" />
+                <ScalarProperty Name="ActionFlop" ColumnName="ActionFlop" />
+                <ScalarProperty Name="ActionPreflop" ColumnName="ActionPreflop" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="Net" ColumnName="Net" />
+                <ScalarProperty Name="User" ColumnName="User" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
@@ -195,11 +195,11 @@
     </Options>
     <!-- Diagram content (shape and connector positions) -->
     <Diagrams>
-      <Diagram Name="Model">
-        <EntityTypeShape EntityType="trackDBModel.Hands" Width="1.5" PointX="0.75" PointY="0.75" Height="3.5186979166666656" />
+      <Diagram Name="Model" ZoomLevel="60">
         <EntityTypeShape EntityType="trackDBModel.LogFiles" Width="1.5" PointX="2.75" PointY="0.75" Height="1.9802864583333326" />
         <EntityTypeShape EntityType="trackDBModel.LogImport" Width="1.5" PointX="2.75" PointY="3.75" Height="1.9802864583333317" />
         <EntityTypeShape EntityType="trackDBModel.MyCards" Width="1.5" PointX="4.75" PointY="0.75" Height="1.5956835937499996" />
+        <EntityTypeShape EntityType="trackDBModel.Hands" Width="1.5" PointX="5.375" PointY="3.75" Height="3.9033007812499996" />
       </Diagram>
     </Diagrams>
   </Designer>

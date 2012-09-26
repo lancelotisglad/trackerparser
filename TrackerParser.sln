@@ -28,6 +28,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awam.Tracker.Parser.Test", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awam.Tracker.Data.Tests", "Awam.Tracker.Data.Tests\Awam.Tracker.Data.Tests.csproj", "{829CACFF-63BD-4F02-84E1-4B3051F156D8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Awam.Tracker.Replay", "Awam.Tracker.Replay\Awam.Tracker.Replay.csproj", "{F9E186F6-E9C0-4E8D-8C40-58AF5E2E34E9}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = TrackerParser.vsmdi
@@ -141,6 +143,16 @@ Global
 		{829CACFF-63BD-4F02-84E1-4B3051F156D8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{829CACFF-63BD-4F02-84E1-4B3051F156D8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{829CACFF-63BD-4F02-84E1-4B3051F156D8}.Release|x86.ActiveCfg = Release|Any CPU
+		{F9E186F6-E9C0-4E8D-8C40-58AF5E2E34E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9E186F6-E9C0-4E8D-8C40-58AF5E2E34E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9E186F6-E9C0-4E8D-8C40-58AF5E2E34E9}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F9E186F6-E9C0-4E8D-8C40-58AF5E2E34E9}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F9E186F6-E9C0-4E8D-8C40-58AF5E2E34E9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F9E186F6-E9C0-4E8D-8C40-58AF5E2E34E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9E186F6-E9C0-4E8D-8C40-58AF5E2E34E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9E186F6-E9C0-4E8D-8C40-58AF5E2E34E9}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F9E186F6-E9C0-4E8D-8C40-58AF5E2E34E9}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F9E186F6-E9C0-4E8D-8C40-58AF5E2E34E9}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
