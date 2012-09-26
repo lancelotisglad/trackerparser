@@ -30,6 +30,7 @@
           <Property Name="pk" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="PositionButton" Type="int" Nullable="false" />
           <Property Name="Stack" Type="float" />
+          <Property Name="ActionBlind" Type="nvarchar" MaxLength="100" />
         </EntityType>
         <EntityType Name="LogFiles">
           <Key>
@@ -116,6 +117,7 @@
           <Property Type="Int32" Name="pk" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Type="Int32" Name="PositionButton" Nullable="false" />
           <Property Type="Double" Name="Stack" />
+          <Property Type="String" Name="ActionBlind" MaxLength="100" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -157,6 +159,7 @@
           <EntitySetMapping Name="Hands">
             <EntityTypeMapping TypeName="trackDBModel.Hands">
               <MappingFragment StoreEntitySet="Hands">
+                <ScalarProperty Name="ActionBlind" ColumnName="ActionBlind" />
                 <ScalarProperty Name="Stack" ColumnName="Stack" />
                 <ScalarProperty Name="PositionButton" ColumnName="PositionButton" />
                 <ScalarProperty Name="pk" ColumnName="pk" />
@@ -199,7 +202,7 @@
         <EntityTypeShape EntityType="trackDBModel.LogFiles" Width="1.5" PointX="2.75" PointY="0.75" Height="1.9802864583333326" />
         <EntityTypeShape EntityType="trackDBModel.LogImport" Width="1.5" PointX="2.75" PointY="3.75" Height="1.9802864583333317" />
         <EntityTypeShape EntityType="trackDBModel.MyCards" Width="1.5" PointX="4.75" PointY="0.75" Height="1.5956835937499996" />
-        <EntityTypeShape EntityType="trackDBModel.Hands" Width="1.5" PointX="5.375" PointY="3.75" Height="3.9033007812499996" />
+        <EntityTypeShape EntityType="trackDBModel.Hands" Width="3.625" PointX="5.375" PointY="3.75" Height="3.9033007812499996" />
       </Diagram>
     </Diagrams>
   </Designer>

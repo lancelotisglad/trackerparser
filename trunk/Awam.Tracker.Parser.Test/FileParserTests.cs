@@ -62,10 +62,37 @@ namespace Awam.Tracker.Parser.Test
             Assert.AreEqual("raises (0.10)",
                 hands.First()
                 ["azzarro123"].ActionPreflop);
+
             Assert.AreEqual("raises (0.10),raises (0.64)",
                 hands.
                 Single(h => h.HandId == "2863240-284-1335391929")
                 ["azzarro123"].ActionPreflop);
+        }
+
+        [TestMethod]
+        public void FileParser_PlayerActionBlindTest()
+        {
+            WinamaxParser parser =
+                new WinamaxParser();
+            var hands = parser.Parse("Data\\BaseFile.txt", new DateTime());
+
+            Assert.AreEqual("posts small blind 0.02€",
+                hands.First()
+                ["Nzashryl"].ActionBlind);
+
+            Assert.AreEqual("posts big blind 0.05€",
+                hands.First()
+                ["vince1351"].ActionBlind);
+        }
+
+        [TestMethod]
+        public void FileParser_PlayerNetTest()
+        {
+            WinamaxParser parser =
+                new WinamaxParser();
+            var hands = parser.Parse("Data\\BaseFile.txt", new DateTime());
+
+            Assert.AreEqual(1.14,hands.First()["doulali"].MyMoneyCollected);
         }
     }
 }

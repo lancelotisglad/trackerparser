@@ -221,6 +221,8 @@ namespace Awam.Tracker.Parser
             {
                 log(line);
 
+             //   hand[match.Groups[1].Value].ActionBlind = line.Replace(match.Groups[1].Value, "").TrimStart();
+
                 if (match.Groups[4].Value != string.Empty)
                 {
                     hand[match.Groups[1].Value].PaidPreflop = float.Parse(match.Groups[4].Value);
@@ -286,11 +288,11 @@ namespace Awam.Tracker.Parser
             string actionAndAmount;
             if (action == "raises")
             {
-                actionAndAmount = action += " (" + match.Groups[5].Value + ")";
+                actionAndAmount = action + " (" + match.Groups[5].Value + ")";
             }
             else
             {
-                actionAndAmount = action += " (" + match.Groups[3].Value + ")";
+                actionAndAmount = action + " (" + match.Groups[3].Value + ")";
             }
 
 
