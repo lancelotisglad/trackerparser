@@ -68,22 +68,6 @@ namespace TrackerModel
         /// <summary>
         /// No Metadata Documentation available.
         /// </summary>
-        public ObjectSet<Hands> Hands
-        {
-            get
-            {
-                if ((_Hands == null))
-                {
-                    _Hands = base.CreateObjectSet<Hands>("Hands");
-                }
-                return _Hands;
-            }
-        }
-        private ObjectSet<Hands> _Hands;
-    
-        /// <summary>
-        /// No Metadata Documentation available.
-        /// </summary>
         public ObjectSet<LogFiles> LogFiles
         {
             get
@@ -128,17 +112,25 @@ namespace TrackerModel
             }
         }
         private ObjectSet<MyCards> _MyCards;
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        public ObjectSet<Hands> Hands
+        {
+            get
+            {
+                if ((_Hands == null))
+                {
+                    _Hands = base.CreateObjectSet<Hands>("Hands");
+                }
+                return _Hands;
+            }
+        }
+        private ObjectSet<Hands> _Hands;
 
         #endregion
         #region AddTo Methods
-    
-        /// <summary>
-        /// Deprecated Method for adding a new object to the Hands EntitySet. Consider using the .Add method of the associated ObjectSet&lt;T&gt; property instead.
-        /// </summary>
-        public void AddToHands(Hands hands)
-        {
-            base.AddObject("Hands", hands);
-        }
     
         /// <summary>
         /// Deprecated Method for adding a new object to the LogFiles EntitySet. Consider using the .Add method of the associated ObjectSet&lt;T&gt; property instead.
@@ -163,6 +155,14 @@ namespace TrackerModel
         {
             base.AddObject("MyCards", myCards);
         }
+    
+        /// <summary>
+        /// Deprecated Method for adding a new object to the Hands EntitySet. Consider using the .Add method of the associated ObjectSet&lt;T&gt; property instead.
+        /// </summary>
+        public void AddToHands(Hands hands)
+        {
+            base.AddObject("Hands", hands);
+        }
 
         #endregion
     }
@@ -185,11 +185,15 @@ namespace TrackerModel
         /// <summary>
         /// Create a new Hands object.
         /// </summary>
+        /// <param name="position">Initial value of the Position property.</param>
         /// <param name="pk">Initial value of the pk property.</param>
-        public static Hands CreateHands(global::System.Int32 pk)
+        /// <param name="positionButton">Initial value of the PositionButton property.</param>
+        public static Hands CreateHands(global::System.Int32 position, global::System.Int32 pk, global::System.Int32 positionButton)
         {
             Hands hands = new Hands();
+            hands.Position = position;
             hands.pk = pk;
+            hands.PositionButton = positionButton;
             return hands;
         }
 
@@ -463,9 +467,9 @@ namespace TrackerModel
         /// <summary>
         /// No Metadata Documentation available.
         /// </summary>
-        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=false)]
         [DataMemberAttribute()]
-        public Nullable<global::System.Int32> Position
+        public global::System.Int32 Position
         {
             get
             {
@@ -480,8 +484,8 @@ namespace TrackerModel
                 OnPositionChanged();
             }
         }
-        private Nullable<global::System.Int32> _Position;
-        partial void OnPositionChanging(Nullable<global::System.Int32> value);
+        private global::System.Int32 _Position;
+        partial void OnPositionChanging(global::System.Int32 value);
         partial void OnPositionChanged();
     
         /// <summary>
@@ -514,9 +518,9 @@ namespace TrackerModel
         /// <summary>
         /// No Metadata Documentation available.
         /// </summary>
-        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=false)]
         [DataMemberAttribute()]
-        public Nullable<global::System.Int32> PositionButton
+        public global::System.Int32 PositionButton
         {
             get
             {
@@ -531,8 +535,8 @@ namespace TrackerModel
                 OnPositionButtonChanged();
             }
         }
-        private Nullable<global::System.Int32> _PositionButton;
-        partial void OnPositionButtonChanging(Nullable<global::System.Int32> value);
+        private global::System.Int32 _PositionButton;
+        partial void OnPositionButtonChanging(global::System.Int32 value);
         partial void OnPositionButtonChanged();
     
         /// <summary>
