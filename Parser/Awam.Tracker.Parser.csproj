@@ -43,8 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileParser.cs" />
+    <Compile Include="IFileParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WinamaxParser.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Awam.Tracker.Data\Awam.Tracker.Data.csproj">

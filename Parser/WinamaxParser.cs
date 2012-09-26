@@ -11,7 +11,7 @@ using Awam.Tracker.Model;
 
 namespace Awam.Tracker.Parser
 {
-    public class FileParser
+    public class WinamaxParser : IFileParser
     {
         private static readonly string floatPattern = @"[-+]?[0-9]*\.?[0-9]+";
         private static readonly string actionPattern = @"^(.*) (raises|folds|calls|collected|bets|checks) ?(" + floatPattern + @")?€? ?(to )?([-+]?[0-9]*\.?[0-9]+)?";
@@ -38,8 +38,8 @@ namespace Awam.Tracker.Parser
         private static readonly Regex _regexParseSummary = new Regex(@"^Total pot (.*)€ \| (No rake|Rake (.*)€)", RegexOptions.Compiled);
         private static readonly Regex _regexParseSummary2 = new Regex(@"^Board*|Seat*|^\s*$", RegexOptions.Compiled);
 
-        private readonly string _filePath;
-        private readonly DateTime _lastDate;
+        private string _filePath;
+        private DateTime _lastDate;
 
         delegate bool Step(Hand hand, string line);
 
@@ -51,9 +51,8 @@ namespace Awam.Tracker.Parser
             //            File.AppendAllLines(@"c:\temp\file.txt", new  []{line});
         }
 
-        public FileParser(string filePath, DateTime lastImport)
+        public WinamaxParser()
         {   
-            _filePath = filePath;
             ExecuteStep = new Step[] {
                 ParseHeader,
                 ParseTable,
@@ -74,14 +73,13 @@ namespace Awam.Tracker.Parser
                 ParseSummaryTitle,
                 ParseSummary
             };
-
-            _lastDate = lastImport;
         }
 
-        public void Parse()
+        public IList<Hand> Parse(string filePath, DateTime lastImport)
         {
-            IList<Hand> hands = GetHandsFromFile();
-            Hands.SaveHandsSqlCommand(hands);
+            _filePath = filePath;
+            _lastDate = lastImport;
+            return GetHandsFromFile();
         }
 
         private IList<Hand> GetHandsFromFile()

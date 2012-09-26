@@ -13,18 +13,18 @@ namespace Awam.Tracker.Parser.Test
         [TestMethod]
         public void FileParserTest()
         {
-            FileParser_Accessor parser = 
-                new FileParser_Accessor("Data\\BaseFile.txt", new DateTime());
-            var hands = parser.GetHandsFromFile();
+            WinamaxParser parser =
+                new WinamaxParser();
+            var hands = parser.Parse("Data\\BaseFile.txt", new DateTime());
             Assert.AreEqual(71, hands.Count);
         }
 
         [TestMethod]
         public void FileParser_ButtonPositionTest()
         {
-            FileParser_Accessor parser = 
-                new FileParser_Accessor("Data\\BaseFile.txt", new DateTime());
-            var hands = parser.GetHandsFromFile();
+            WinamaxParser parser =
+                new WinamaxParser();
+            var hands = parser.Parse("Data\\BaseFile.txt", new DateTime());
 
             Assert.AreEqual(2, hands.First().ButtonPosition);
             Assert.AreEqual(8, hands.Last().ButtonPosition);
@@ -33,9 +33,9 @@ namespace Awam.Tracker.Parser.Test
         [TestMethod]
         public void FileParser_PlayerPositionTest()
         {
-            FileParser_Accessor parser = 
-                new FileParser_Accessor("Data\\BaseFile.txt", new DateTime());
-            var hands = parser.GetHandsFromFile();
+            WinamaxParser parser =
+                new WinamaxParser();
+            var hands = parser.Parse("Data\\BaseFile.txt", new DateTime());
 
             Assert.AreEqual(8, hands.First()["saadliig"].SeatNumber);
             Assert.AreEqual(2, hands.Last()["saadliig"].SeatNumber);
@@ -44,9 +44,9 @@ namespace Awam.Tracker.Parser.Test
         [TestMethod]
         public void FileParser_PlayerStackTest()
         {
-            FileParser_Accessor parser =
-                new FileParser_Accessor("Data\\BaseFile.txt", new DateTime());
-            var hands = parser.GetHandsFromFile();
+            WinamaxParser parser =
+                new WinamaxParser();
+            var hands = parser.Parse("Data\\BaseFile.txt", new DateTime());
 
             Assert.AreEqual(6.17f, hands.First()["azzarro123"].Stack);
             Assert.AreEqual(10.65f, hands.Last()["saadliig"].Stack);
@@ -55,9 +55,9 @@ namespace Awam.Tracker.Parser.Test
         [TestMethod]
         public void FileParser_PlayerActionPreflopTest()
         {
-            FileParser_Accessor parser =
-                new FileParser_Accessor("Data\\BaseFile.txt", new DateTime());
-            var hands = parser.GetHandsFromFile();
+            WinamaxParser parser =
+                new WinamaxParser();
+            var hands = parser.Parse("Data\\BaseFile.txt", new DateTime());
 
             Assert.AreEqual("raises (0.10)",
                 hands.First()

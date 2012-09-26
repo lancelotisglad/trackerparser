@@ -19,6 +19,7 @@ using System.Windows.Threading;
 using AmCharts.Windows;
 using AmCharts.Windows.Core;
 using Awam.Tracker.FileProcessor;
+using Awam.Tracker.Parser;
 using TrackerModel;
 
 namespace TrackerUI
@@ -28,7 +29,7 @@ namespace TrackerUI
     /// </summary>
     public partial class MainWindow : Window
     {
-
+        private IFileParser _parser = new WinamaxParser();
 
         public MainWindow()
         {
@@ -293,14 +294,14 @@ namespace TrackerUI
 
         private  void Refresh(bool clearAll)
         {
-            FileProcessor fileProcessor = new FileProcessor(_path);
+            FileProcessor fileProcessor = new FileProcessor(_parser, _path);
             fileProcessor.NewFileProcessed += fileProcessor_NewFileProcessed;
             fileProcessor.ProcessImportOnModifiedFilesSinceLastImport(_path, clearAll);
         }
 
         private void Refresh(FileInfo file)
         {
-            FileProcessor fileProcessor = new FileProcessor(_path);
+            FileProcessor fileProcessor = new FileProcessor(_parser, _path);
             fileProcessor.NewFileProcessed += fileProcessor_NewFileProcessed;
             fileProcessor.ProcessFile(file);
         }

@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using Awam.Tracker.Data;
+using Awam.Tracker.Model;
 using Awam.Tracker.Parser;
 
 namespace Awam.Tracker.FileProcessor
@@ -14,10 +15,12 @@ namespace Awam.Tracker.FileProcessor
         public event NewFileProcessedHandler NewFileProcessed;
 
         private readonly string _path;
+        private IFileParser _parser;
 
-        public FileProcessor(string directory)
+        public FileProcessor(IFileParser parser,  string directory)
         {
             _path = directory;
+            _parser = parser;
         }
 
         public void ProcessImportOnModifiedFilesSinceLastImport(string directoryPath, bool clearData = false)
@@ -27,28 +30,26 @@ namespace Awam.Tracker.FileProcessor
                 Management.ClearAll();
             }
             DateTime lastDate = Imports.GetLastImportDate(directoryPath);
-            ProcessImport(directoryPath, lastDate, clearData);
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+            IList<Hand> hands = ProcessImport(directoryPath, lastDate);
+            Hands.SaveHandsSqlCommand(hands);
+            sw.Stop();
+            Console.WriteLine("Terminé : " + hands.Count() + " en " + sw.ElapsedMilliseconds);
         }
 
-        private void ProcessImport(string directoryPath, DateTime from, bool clearData = false)
+        private IList<Hand> ProcessImport(string directoryPath, DateTime from)
         {
             DateTime startDate = DateTime.UtcNow;
             string status = "success";
+            List<Hand> hands = new List<Hand>();
             try
             {
                 var files = GetFilesModifiedOrCreatedSinceADate(directoryPath, from);
-
-                Stopwatch sw = new Stopwatch();
-                sw.Start();
-
                 foreach (var fileInfo in files)
                 {
-                    ProcessFile(fileInfo);
+                    hands.AddRange(ProcessFile(fileInfo));
                 }
-
-                sw.Stop();
-                Console.WriteLine("Terminé : " + files.Count() + " en " + sw.ElapsedMilliseconds);
-                Console.WriteLine("Terminé");
             }
             catch (Exception e)
             {
@@ -58,11 +59,12 @@ namespace Awam.Tracker.FileProcessor
             {
                 DateTime endDate = DateTime.UtcNow;
                 Imports.LogImport(startDate, endDate, status, _path);
-
             }
+
+            return hands;
         }
 
-        public void ProcessFile(FileInfo fileInfo)
+        public IList<Hand> ProcessFile(FileInfo fileInfo)
         {
             OnNewFileProcessed(new NewFileProcessedEventArgs(fileInfo.Name));
 
@@ -70,14 +72,14 @@ namespace Awam.Tracker.FileProcessor
             string fileStatus = "succes";
             var lastImportDate = Imports.GetLastImportFileDate(fileInfo.Name);
 
-            FileParser fileParser = new FileParser(fileInfo.FullName, lastImportDate);
             try
             {
-                fileParser.Parse();
+                return _parser.Parse(fileInfo.FullName, lastImportDate);
             }
             catch (Exception e)
             {
                 fileStatus = "fail : " + e.Message + " " + e.StackTrace;
+                return new List<Hand>();
             }
             finally
             {
