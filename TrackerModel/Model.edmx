@@ -17,7 +17,7 @@
           </Key>
           <Property Name="Id" Type="nvarchar" MaxLength="100" />
           <Property Name="User" Type="nvarchar" MaxLength="100" />
-          <Property Name="Net" Type="float" />
+          <Property Name="Net" Type="money" />
           <Property Name="Time" Type="datetime" />
           <Property Name="ActionPreflop" Type="nvarchar" MaxLength="100" />
           <Property Name="ActionFlop" Type="nvarchar" MaxLength="100" />
@@ -25,11 +25,11 @@
           <Property Name="ActionRiver" Type="nvarchar" MaxLength="100" />
           <Property Name="Card1" Type="nvarchar" MaxLength="100" />
           <Property Name="Card2" Type="nvarchar" MaxLength="100" />
-          <Property Name="BB" Type="float" />
+          <Property Name="BB" Type="money" />
           <Property Name="Position" Type="int" Nullable="false" />
           <Property Name="pk" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="PositionButton" Type="int" Nullable="false" />
-          <Property Name="Stack" Type="float" />
+          <Property Name="Stack" Type="money" />
           <Property Name="ActionBlind" Type="nvarchar" MaxLength="100" />
         </EntityType>
         <EntityType Name="LogFiles">
@@ -104,7 +104,7 @@
           </Key>
           <Property Type="String" Name="Id" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Type="String" Name="User" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Type="Double" Name="Net" />
+          <Property Type="Decimal" Name="Net" Precision="19" Scale="4" />
           <Property Type="DateTime" Name="Time" />
           <Property Type="String" Name="ActionPreflop" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Type="String" Name="ActionFlop" MaxLength="100" FixedLength="false" Unicode="true" />
@@ -112,11 +112,11 @@
           <Property Type="String" Name="ActionRiver" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Type="String" Name="Card1" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Type="String" Name="Card2" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Type="Double" Name="BB" />
+          <Property Type="Decimal" Name="BB" Precision="19" Scale="4" />
           <Property Type="Int32" Name="Position" Nullable="false" />
           <Property Type="Int32" Name="pk" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Type="Int32" Name="PositionButton" Nullable="false" />
-          <Property Type="Double" Name="Stack" />
+          <Property Type="Decimal" Name="Stack" Precision="19" Scale="4" />
           <Property Type="String" Name="ActionBlind" MaxLength="100" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
@@ -202,7 +202,7 @@
         <EntityTypeShape EntityType="trackDBModel.LogFiles" Width="1.5" PointX="2.75" PointY="0.75" Height="1.9802864583333326" />
         <EntityTypeShape EntityType="trackDBModel.LogImport" Width="1.5" PointX="2.75" PointY="3.75" Height="1.9802864583333317" />
         <EntityTypeShape EntityType="trackDBModel.MyCards" Width="1.5" PointX="4.75" PointY="0.75" Height="1.5956835937499996" />
-        <EntityTypeShape EntityType="trackDBModel.Hands" Width="3.625" PointX="5.375" PointY="3.75" Height="3.9033007812499996" />
+        <EntityTypeShape EntityType="trackDBModel.Hands" Width="1.5" PointX="5.375" PointY="3.75" Height="4.0956022135416674" />
       </Diagram>
     </Diagrams>
   </Designer>

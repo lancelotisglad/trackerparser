@@ -18,15 +18,15 @@ namespace Awam.Tracker.Model
         public string ActionTurn { get; set; }
         public string ActionRiver { get; set; }
 
-        public float MyMoneyAddedInPot { get; set; }
-        public float MyMoneyCollected { get; set; }
+        public decimal MyMoneyAddedInPot { get; set; }
+        public decimal MyMoneyCollected { get; set; }
 
-        public float PaidPreflop { get; set; }
-        public float PaidFlop { get; set; }
-        public float PaidTurn { get; set; }
-        public float PaidRiver { get; set; }
+        public decimal PaidPreflop { get; set; }
+        public decimal PaidFlop { get; set; }
+        public decimal PaidTurn { get; set; }
+        public decimal PaidRiver { get; set; }
 
         public double SeatNumber { get; set; }
-        public double Stack { get; set; }
+        public decimal Stack { get; set; }
     }
 }

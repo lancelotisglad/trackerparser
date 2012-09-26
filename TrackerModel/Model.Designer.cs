@@ -253,7 +253,7 @@ namespace TrackerModel
         /// </summary>
         [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
         [DataMemberAttribute()]
-        public Nullable<global::System.Double> Net
+        public Nullable<global::System.Decimal> Net
         {
             get
             {
@@ -268,8 +268,8 @@ namespace TrackerModel
                 OnNetChanged();
             }
         }
-        private Nullable<global::System.Double> _Net;
-        partial void OnNetChanging(Nullable<global::System.Double> value);
+        private Nullable<global::System.Decimal> _Net;
+        partial void OnNetChanging(Nullable<global::System.Decimal> value);
         partial void OnNetChanged();
     
         /// <summary>
@@ -445,7 +445,7 @@ namespace TrackerModel
         /// </summary>
         [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
         [DataMemberAttribute()]
-        public Nullable<global::System.Double> BB
+        public Nullable<global::System.Decimal> BB
         {
             get
             {
@@ -460,8 +460,8 @@ namespace TrackerModel
                 OnBBChanged();
             }
         }
-        private Nullable<global::System.Double> _BB;
-        partial void OnBBChanging(Nullable<global::System.Double> value);
+        private Nullable<global::System.Decimal> _BB;
+        partial void OnBBChanging(Nullable<global::System.Decimal> value);
         partial void OnBBChanged();
     
         /// <summary>
@@ -544,7 +544,7 @@ namespace TrackerModel
         /// </summary>
         [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
         [DataMemberAttribute()]
-        public Nullable<global::System.Double> Stack
+        public Nullable<global::System.Decimal> Stack
         {
             get
             {
@@ -559,8 +559,8 @@ namespace TrackerModel
                 OnStackChanged();
             }
         }
-        private Nullable<global::System.Double> _Stack;
-        partial void OnStackChanging(Nullable<global::System.Double> value);
+        private Nullable<global::System.Decimal> _Stack;
+        partial void OnStackChanging(Nullable<global::System.Decimal> value);
         partial void OnStackChanged();
     
         /// <summary>

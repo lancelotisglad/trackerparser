@@ -62,17 +62,17 @@ namespace TrackerUI
                 if (hands.Count == 0)
                     return;
 
-                double? coll = 0;
+                decimal? coll = 0;
                 int index = 0;
                 int count = hands.Count();
                 int modulo = (int) Math.Round((float) count/1000, 0);
                 modulo = modulo == 0 ? 1 : modulo;
                 int nbPoints = 0;
 
-                double? totalBBWon = 0;
+                decimal? totalBBWon = 0;
                 foreach (var h in hands.OrderBy(x => x.Time))
                 {
-                    double? bbWon = h.Net/h.BB;
+                    decimal? bbWon = h.Net/h.BB;
                     totalBBWon += bbWon;
                     index++;
                     if (comboBox2.SelectedValue == "BB")
@@ -193,7 +193,7 @@ namespace TrackerUI
         public class Point : DependencyObject
         {
            
-            public Point(DateTime date, double? value, int index)
+            public Point(DateTime date, decimal? value, int index)
             {
                 Date = date;
                 Value = value;
@@ -213,10 +213,10 @@ namespace TrackerUI
                 set { SetValue(_index, value); }
             }
 
-            public static readonly DependencyProperty _value = DependencyProperty.Register("Value", typeof(double), typeof(Point));
-            public double? Value
+            public static readonly DependencyProperty _value = DependencyProperty.Register("Value", typeof(decimal), typeof(Point));
+            public decimal? Value
             {
-                get { return (double)GetValue(_value); }
+                get { return (decimal)GetValue(_value); }
                 set { SetValue(_value, value); }
             }
         }
