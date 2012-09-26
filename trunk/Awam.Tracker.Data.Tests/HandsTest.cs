@@ -43,13 +43,13 @@ namespace Awam.Tracker.Data.Tests
                         Card2Str = "3c",
                         MyMoneyAddedInPot = 2,
                         MyMoneyCollected = 1,
-                        PaidFlop = 0.5f,
-                        PaidPreflop = 0.6f,
-                        PaidRiver = 0.7f,
-                        PaidTurn = 0.8f,
+                        PaidFlop = 0.5m,
+                        PaidPreflop = 0.6m,
+                        PaidRiver = 0.7m,
+                        PaidTurn = 0.8m,
                         SeatNumber = 4,
                         Player = "player1",
-                        Stack = 6.52d
+                        Stack = 6.52m
                     };
 
             hand.Players.Add(player);

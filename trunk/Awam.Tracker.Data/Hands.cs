@@ -24,7 +24,7 @@ namespace Awam.Tracker.Data
                     {
                         if (string.IsNullOrEmpty(player.ActionPreflop))
                             continue;
-                        float f = player.PaidPreflop + player.PaidFlop + player.PaidTurn + player.PaidRiver;
+                        decimal f = player.PaidPreflop + player.PaidFlop + player.PaidTurn + player.PaidRiver;
 
                         comm.CommandText =
                             string.Format(

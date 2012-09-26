@@ -193,7 +193,7 @@ namespace Awam.Tracker.Parser
                     {
                         Player = match.Groups[2].Value,
                         SeatNumber = int.Parse(match.Groups[1].Value),
-                        Stack = float.Parse(match.Groups[3].Value)
+                        Stack = decimal.Parse(match.Groups[3].Value)
                     });
                 
                 string stack = match.Groups[3].Value;
@@ -221,11 +221,11 @@ namespace Awam.Tracker.Parser
             {
                 log(line);
 
-             //   hand[match.Groups[1].Value].ActionBlind = line.Replace(match.Groups[1].Value, "").TrimStart();
+                hand[match.Groups[1].Value].ActionBlind = line.Replace(match.Groups[1].Value, "").TrimStart();
 
                 if (match.Groups[4].Value != string.Empty)
                 {
-                    hand[match.Groups[1].Value].PaidPreflop = float.Parse(match.Groups[4].Value);
+                    hand[match.Groups[1].Value].PaidPreflop = decimal.Parse(match.Groups[4].Value);
                 }
                 return false;
             }
@@ -322,15 +322,15 @@ namespace Awam.Tracker.Parser
 
             if (action == "collected")
             {
-                hand[match.Groups[1].Value].MyMoneyCollected = float.Parse(match.Groups[3].Value);
+                hand[match.Groups[1].Value].MyMoneyCollected = decimal.Parse(match.Groups[3].Value);
                 return;
             }
 
-            float f = 0;
+            decimal f = 0;
             if (action != "raises")
             {
                 if (match.Groups[3].Value != string.Empty)
-                    f = float.Parse(match.Groups[3].Value);
+                    f = decimal.Parse(match.Groups[3].Value);
                 switch (step)
                 {
                     case "preflop":
@@ -349,7 +349,7 @@ namespace Awam.Tracker.Parser
             }
             else
             {
-                f = float.Parse(match.Groups[5].Value);
+                f = decimal.Parse(match.Groups[5].Value);
 
                 switch (step)
                 {
@@ -484,7 +484,7 @@ namespace Awam.Tracker.Parser
             {
                 //if (m.Groups[1].Value == me)
                 //{
-                hand[match.Groups[1].Value].MyMoneyCollected = float.Parse(match.Groups[2].Value);
+                hand[match.Groups[1].Value].MyMoneyCollected = decimal.Parse(match.Groups[2].Value);
                     log(line);
                 //}
                 return false;
