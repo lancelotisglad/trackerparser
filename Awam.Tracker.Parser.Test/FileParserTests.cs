@@ -48,8 +48,8 @@ namespace Awam.Tracker.Parser.Test
                 new WinamaxParser();
             var hands = parser.Parse("Data\\BaseFile.txt", new DateTime());
 
-            Assert.AreEqual(6.17f, hands.First()["azzarro123"].Stack);
-            Assert.AreEqual(10.65f, hands.Last()["saadliig"].Stack);
+            Assert.AreEqual(6.17m, hands.First()["azzarro123"].Stack);
+            Assert.AreEqual(10.65m, hands.Last()["saadliig"].Stack);
         }
 
         [TestMethod]
