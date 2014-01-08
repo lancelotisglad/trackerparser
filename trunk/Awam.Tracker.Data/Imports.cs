@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Data.SqlServerCe;
 using System.IO;
+using Awam.Tracker.Model;
 
 namespace Awam.Tracker.Data
 {
-    public class Imports
+    public class Imports : IImports
     {
-        public static void LogFileImport(FileInfo fileInfo, DateTime startDate, DateTime endDate, string status)
+        public void LogFileImport(FileInfo fileInfo, DateTime startDate, DateTime endDate, string status, Hand lastImportedHand)
         {
             using (SqlCeConnection conn = new SqlCeConnection(Helper.ConnectionString))
             using (SqlCeCommand comm = new SqlCeCommand())
@@ -16,7 +17,7 @@ namespace Awam.Tracker.Data
                 comm.CommandType = System.Data.CommandType.Text;
 
                 const string SqlCommandString =
-                    "insert  into [LogFiles] (FileName, StartDate, EndDate, Status ) Values ( '{0}', '{1}', '{2}', '{3}' )";
+                    "insert  into [LogFiles] (FileName, StartDate, EndDate, Status, LastHandId, LastHandDate ) Values ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}' )";
 
                 comm.CommandText =
                     string.Format(
@@ -24,7 +25,9 @@ namespace Awam.Tracker.Data
                         fileInfo.Name,
                         startDate.ToString("yyyy/MM/dd HH:mm:ss.fff"),
                         endDate.ToString("yyyy/MM/dd HH:mm:ss.fff"),
-                        status);
+                        status,
+                        lastImportedHand.HandId,
+                        lastImportedHand.Time.ToString("yyyy/MM/dd HH:mm:ss.fff"));
 
                 comm.ExecuteNonQuery();
             }
@@ -36,7 +39,7 @@ namespace Awam.Tracker.Data
         /// <param name="beginDate">Start Date</param>
         /// <param name="endDate">End Date</param>
         /// <param name="status">Import Status</param>
-        public static void LogImport(DateTime beginDate, DateTime endDate, string status, string path)
+        public void LogImport(DateTime beginDate, DateTime endDate, string status, string path)
         {
             using (SqlCeConnection conn = new SqlCeConnection(Helper.ConnectionString))
             using (SqlCeCommand comm = new SqlCeCommand())
@@ -60,7 +63,7 @@ namespace Awam.Tracker.Data
             }
         }
 
-        public static DateTime GetLastImportDate(string dir)
+        public DateTime GetLastImportDate(string dir)
         {
             using (SqlCeConnection conn = new SqlCeConnection(Helper.ConnectionString))
             using (SqlCeCommand comm = new SqlCeCommand())
@@ -82,7 +85,7 @@ namespace Awam.Tracker.Data
             }
         }
 
-        public static DateTime GetLastImportFileDate(string fileName)
+        public DateTime GetLastImportFileDate(string fileName)
         {
             using (SqlCeConnection conn = new SqlCeConnection(Helper.ConnectionString))
             using (SqlCeCommand comm = new SqlCeCommand())
@@ -92,7 +95,7 @@ namespace Awam.Tracker.Data
                 comm.CommandType = System.Data.CommandType.Text;
 
                 const string SqlCommandString =
-                    "Select Max(StartDate) from [LogFiles] where FileName = '{0}'";
+                    "Select Max(LastHandDate) from [LogFiles] where FileName = '{0}'";
 
                 comm.CommandText =
                     string.Format(
@@ -100,8 +103,16 @@ namespace Awam.Tracker.Data
                         fileName);
 
                 var d = comm.ExecuteScalar();
-                return d == DBNull.Value ? DateTime.MinValue : Convert.ToDateTime(d);
+                return d == DBNull.Value ? DateTime.MinValue : (DateTime)d;
             }
         }
+    }
+
+    public interface IImports
+    {
+        void LogFileImport(FileInfo fileInfo, DateTime startDate, DateTime endDate, string status, Hand lastImportedHand);
+        void LogImport(DateTime beginDate, DateTime endDate, string status, string path);
+        DateTime GetLastImportDate(string dir);
+        DateTime GetLastImportFileDate(string fileName);
     }
 }

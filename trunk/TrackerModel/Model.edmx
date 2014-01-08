@@ -31,6 +31,8 @@
           <Property Name="PositionButton" Type="int" Nullable="false" />
           <Property Name="Stack" Type="money" />
           <Property Name="ActionBlind" Type="nvarchar" MaxLength="100" />
+          <Property Name="TableName" Type="nvarchar" MaxLength="100" />
+          <Property Name="GameType" Type="nvarchar" MaxLength="100" />
         </EntityType>
         <EntityType Name="LogFiles">
           <Key>
@@ -41,6 +43,8 @@
           <Property Name="StartDate" Type="datetime" />
           <Property Name="EndDate" Type="datetime" />
           <Property Name="Status" Type="nvarchar" />
+          <Property Name="LastHandId" Type="nvarchar" MaxLength="100" />
+          <Property Name="LastHandDate" Type="datetime" />
         </EntityType>
         <EntityType Name="LogImport">
           <Key>
@@ -79,6 +83,8 @@
           <Property Type="DateTime" Name="StartDate" />
           <Property Type="DateTime" Name="EndDate" />
           <Property Type="String" Name="Status" MaxLength="4000" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="LastHandId" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="DateTime" Name="LastHandDate" />
         </EntityType>
         <EntityType Name="LogImport">
           <Key>
@@ -118,6 +124,8 @@
           <Property Type="Int32" Name="PositionButton" Nullable="false" />
           <Property Type="Decimal" Name="Stack" Precision="19" Scale="4" />
           <Property Type="String" Name="ActionBlind" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="TableName" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Type="String" Name="GameType" MaxLength="100" FixedLength="false" Unicode="true" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -128,6 +136,8 @@
           <EntitySetMapping Name="LogFiles">
             <EntityTypeMapping TypeName="trackDBModel.LogFiles">
               <MappingFragment StoreEntitySet="LogFiles">
+                <ScalarProperty Name="LastHandDate" ColumnName="LastHandDate" />
+                <ScalarProperty Name="LastHandId" ColumnName="LastHandId" />
                 <ScalarProperty Name="Status" ColumnName="Status" />
                 <ScalarProperty Name="EndDate" ColumnName="EndDate" />
                 <ScalarProperty Name="StartDate" ColumnName="StartDate" />
@@ -159,6 +169,8 @@
           <EntitySetMapping Name="Hands">
             <EntityTypeMapping TypeName="trackDBModel.Hands">
               <MappingFragment StoreEntitySet="Hands">
+                <ScalarProperty Name="GameType" ColumnName="GameType" />
+                <ScalarProperty Name="TableName" ColumnName="TableName" />
                 <ScalarProperty Name="ActionBlind" ColumnName="ActionBlind" />
                 <ScalarProperty Name="Stack" ColumnName="Stack" />
                 <ScalarProperty Name="PositionButton" ColumnName="PositionButton" />
@@ -198,7 +210,7 @@
     </Options>
     <!-- Diagram content (shape and connector positions) -->
     <Diagrams>
-      <Diagram Name="Model" ZoomLevel="60">
+      <Diagram Name="Model" ZoomLevel="102">
         <EntityTypeShape EntityType="trackDBModel.LogFiles" Width="1.5" PointX="2.75" PointY="0.75" Height="1.9802864583333326" />
         <EntityTypeShape EntityType="trackDBModel.LogImport" Width="1.5" PointX="2.75" PointY="3.75" Height="1.9802864583333317" />
         <EntityTypeShape EntityType="trackDBModel.MyCards" Width="1.5" PointX="4.75" PointY="0.75" Height="1.5956835937499996" />

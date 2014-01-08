@@ -5,20 +5,58 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.IO;
+using Awam.Tracker.Data;
 using Awam.Tracker.FileProcessor;
 using Awam.Tracker.Parser;
+using System.Windows.Forms;
+using System.Runtime.InteropServices;
+
 
 namespace tester
 {
     class Program
     {
-        static readonly string _winamaxDefaultPath = @"C:\Data\awam\TrackerParser\histo\FewFiles";
+        static readonly string _winamaxDefaultPath = @"C:\_DATA\_awam\__TrackerParser\historyLight";
         static string _path = string.Empty;
+
+        [DllImport("user32.dll", SetLastError = true)]
+        [return: MarshalAs(UnmanagedType.Bool)]
+        static extern bool GetWindowRect(IntPtr hWnd, ref RECT lpRect);
+        [StructLayout(LayoutKind.Sequential)]
+        private struct RECT
+        {
+            public int Left;
+            public int Top;
+            public int Right;
+            public int Bottom;
+        }
 
         static void Main(string[] args)
         {
+
+            //Process[] processlist = Process.GetProcesses();
+
+            //foreach (Process process in processlist)
+            //{
+                
+            //    if (!String.IsNullOrEmpty(process.MainWindowTitle))
+            //    {
+            //        Console.WriteLine("Process: {0} ID: {1} Window title: {2}", process.ProcessName, process.Id, process.MainWindowTitle);
+
+            //        RECT rct = new RECT();
+            //        GetWindowRect(hWnd, ref rct);
+            //    }
+            //}
+            //FileProcessor ppfileProcessor = new FileProcessor(new WinamaxParser(), new DataRepository(), _winamaxDefaultPath);
+            //ppfileProcessor.WatchAndProcessLive();
+
+            
+
+            //while (Console.Read() != 'q') ;
+            //return;
+
             _path = _winamaxDefaultPath;
-            DateTime from  = DateTime.MinValue;
+            DateTime from = DateTime.MinValue;
 
             if (args.Count() > 0 && args[0] != null)
                 _path = args[0];
@@ -26,8 +64,15 @@ namespace tester
             if (args.Count() > 1 && args[1] != null)
                 from = DateTime.Parse(args[1]);
 
-            FileProcessor fileProcessor  = new FileProcessor(new WinamaxParser(), _path );
-            fileProcessor.ProcessImportOnModifiedFilesSinceLastImport(_path, true);
+            FileProcessor fileProcessor = new FileProcessor(new WinamaxParser(), new DataRepository(), _path);
+            fileProcessor.ProcessImportOnModifiedFilesSinceLastImport(true);
+
+
+            //var vpip = new DataRepository().GetStatisticsRepository().GetVPIPByPlayer("saadliig");
+            //var pfr = new DataRepository().GetStatisticsRepository().GetPFRByPlayer("saadliig");
+
+
+            //Console.WriteLine(vpip + "  " + pfr);
 
             Console.Read();
         }
