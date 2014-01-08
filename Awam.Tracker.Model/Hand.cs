@@ -29,5 +29,9 @@ namespace Awam.Tracker.Model
         {
             get { return Players.Single(p => p.Player == player); }
         }
+
+        public string TableName { get; set; }
+
+        public string TypeGame { get; set; }
     }
 }

@@ -2,12 +2,12 @@
 
 namespace Awam.Tracker.Data
 {
-    public class Management
+    public class Management : IManagement
     {
         /// <summary>
         /// Delete all Hands from database
         /// </summary>
-        public static void ClearAll()
+        public void ClearAll()
         {
             
             using (SqlCeConnection conn = new SqlCeConnection(Helper.ConnectionString))
@@ -27,5 +27,10 @@ namespace Awam.Tracker.Data
                 command.ExecuteNonQuery();
             }
         }
+    }
+
+    public interface IManagement
+    {
+        void ClearAll();
     }
 }

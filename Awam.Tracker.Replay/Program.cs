@@ -15,7 +15,8 @@ namespace Awam.Tracker.Replay
         {
             string id1 = "2863240-273-1335391174";
             string id2 = "2863240-274-1335391222";
-            string idHand = id2;
+            string id3 = "2946511-432-1336777177";
+            string idHand = id3;
 
             using (trackDBEntities2 t = new trackDBEntities2())
             {

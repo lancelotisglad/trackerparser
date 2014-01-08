@@ -55,7 +55,7 @@ namespace Awam.Tracker.Data.Tests
             hand.Players.Add(player);
             hands.Add(hand);
 
-            Hands.SaveHandsSqlCommand(hands);
+            new Hands().SaveHandsSqlCommand(hands);
 
             using (trackDBEntities2 t = new trackDBEntities2())
             {

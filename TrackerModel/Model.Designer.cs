@@ -586,6 +586,54 @@ namespace TrackerModel
         private global::System.String _ActionBlind;
         partial void OnActionBlindChanging(global::System.String value);
         partial void OnActionBlindChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public global::System.String TableName
+        {
+            get
+            {
+                return _TableName;
+            }
+            set
+            {
+                OnTableNameChanging(value);
+                ReportPropertyChanging("TableName");
+                _TableName = StructuralObject.SetValidValue(value, true);
+                ReportPropertyChanged("TableName");
+                OnTableNameChanged();
+            }
+        }
+        private global::System.String _TableName;
+        partial void OnTableNameChanging(global::System.String value);
+        partial void OnTableNameChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public global::System.String GameType
+        {
+            get
+            {
+                return _GameType;
+            }
+            set
+            {
+                OnGameTypeChanging(value);
+                ReportPropertyChanging("GameType");
+                _GameType = StructuralObject.SetValidValue(value, true);
+                ReportPropertyChanged("GameType");
+                OnGameTypeChanged();
+            }
+        }
+        private global::System.String _GameType;
+        partial void OnGameTypeChanging(global::System.String value);
+        partial void OnGameTypeChanged();
 
         #endregion
     
@@ -737,6 +785,54 @@ namespace TrackerModel
         private global::System.String _Status;
         partial void OnStatusChanging(global::System.String value);
         partial void OnStatusChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public global::System.String LastHandId
+        {
+            get
+            {
+                return _LastHandId;
+            }
+            set
+            {
+                OnLastHandIdChanging(value);
+                ReportPropertyChanging("LastHandId");
+                _LastHandId = StructuralObject.SetValidValue(value, true);
+                ReportPropertyChanged("LastHandId");
+                OnLastHandIdChanged();
+            }
+        }
+        private global::System.String _LastHandId;
+        partial void OnLastHandIdChanging(global::System.String value);
+        partial void OnLastHandIdChanged();
+    
+        /// <summary>
+        /// No Metadata Documentation available.
+        /// </summary>
+        [EdmScalarPropertyAttribute(EntityKeyProperty=false, IsNullable=true)]
+        [DataMemberAttribute()]
+        public Nullable<global::System.DateTime> LastHandDate
+        {
+            get
+            {
+                return _LastHandDate;
+            }
+            set
+            {
+                OnLastHandDateChanging(value);
+                ReportPropertyChanging("LastHandDate");
+                _LastHandDate = StructuralObject.SetValidValue(value);
+                ReportPropertyChanged("LastHandDate");
+                OnLastHandDateChanged();
+            }
+        }
+        private Nullable<global::System.DateTime> _LastHandDate;
+        partial void OnLastHandDateChanging(Nullable<global::System.DateTime> value);
+        partial void OnLastHandDateChanged();
 
         #endregion
     

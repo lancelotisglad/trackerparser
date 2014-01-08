@@ -19,7 +19,7 @@ namespace Awam.Tracker.Parser
         private static readonly Regex _regexParseHeader0 = new Regex("^Winamax Poker - Tournament", RegexOptions.Compiled);
         private static readonly Regex _regexParseHeader = new Regex(@"^Winamax Poker - (.*) - HandId: #([0-9\-]*) - Holdem no limit \((.*)€/(.*)€\) - (.*)", RegexOptions.Compiled);
         private static readonly Regex _regexParseSeats = new Regex(@"^Seat ([0-9]*): (.*) \((.*)€\)", RegexOptions.Compiled);
-        private static readonly Regex _regexParseTable = new Regex(@"^Table:(.*)Seat #([1-9]) is the button", RegexOptions.Compiled);
+        private static readonly Regex _regexParseTable = new Regex(@"^Table: '(.*)' (.*) Seat #([1-9]) is the button", RegexOptions.Compiled);
         private static readonly Regex _regexParseAnteBlinds = new Regex(@"^\*\*\* AN", RegexOptions.Compiled);
         private static readonly Regex _regexParsePostsBlind = new Regex(@"^(.*) (posts|denies) (small|big) blind ?(" + floatPattern + @")?€?", RegexOptions.Compiled);
         private static readonly Regex _regexParseDealtToMe = new Regex(@"^Dealt to (.*) \[(.*) (.*)\]", RegexOptions.Compiled);
@@ -39,6 +39,12 @@ namespace Awam.Tracker.Parser
         private static readonly Regex _regexParseSummary2 = new Regex(@"^Board*|Seat*|^\s*$", RegexOptions.Compiled);
 
         private string _filePath;
+
+        public string FilePath
+        {
+            get { return _filePath; }
+        }
+
         private DateTime _lastDate;
 
         delegate bool Step(Hand hand, string line);
@@ -47,8 +53,7 @@ namespace Awam.Tracker.Parser
 
         private void log(string line)
         {
-            //Console.WriteLine(line);
-            //            File.AppendAllLines(@"c:\temp\file.txt", new  []{line});
+           Console.WriteLine(line);           
         }
 
         public WinamaxParser()
@@ -125,7 +130,11 @@ namespace Awam.Tracker.Parser
                         line = streamReader.ReadLine();
                     }
                 }
-                hands.Add(hand);
+
+                if (hand.Time.Ticks > _lastDate.Ticks)
+                {
+                    hands.Add(hand);
+                }
             }
             return hands;
         }
@@ -173,7 +182,9 @@ namespace Awam.Tracker.Parser
             Match match = _regexParseTable.Match(line);
             if (match.Success)
             {
-                hand.ButtonPosition = int.Parse(match.Groups[2].Value);
+                hand.TableName = match.Groups[1].Value;
+                hand.TypeGame = match.Groups[2].Value;
+                hand.ButtonPosition = int.Parse(match.Groups[3].Value);
                 log(line);
                 return false;
             }
@@ -279,40 +290,30 @@ namespace Awam.Tracker.Parser
 
         private void SetAction(Match match, Hand hand, string step)
         {
-          
-            //if (match.Groups[1].Value != me)
-            //    return;
-
             string action = match.Groups[2].Value;
-
-            string actionAndAmount;
-            if (action == "raises")
-            {
-                actionAndAmount = action + " (" + match.Groups[5].Value + ")";
-            }
-            else
-            {
-                actionAndAmount = action + " (" + match.Groups[3].Value + ")";
-            }
+            string playername = match.Groups[1].Value;
+            
+            string amount = action == "raises" ? match.Groups[5].Value : match.Groups[3].Value;
+            string actionAndAmount = action + " (" + amount + ")";
 
 
             switch (step)
             {
                 case "preflop":
-                    hand[match.Groups[1].Value].ActionPreflop +=
-                        string.IsNullOrEmpty(hand[match.Groups[1].Value].ActionPreflop) ? actionAndAmount : "," + actionAndAmount;
+                    hand[playername].ActionPreflop +=
+                        string.IsNullOrEmpty(hand[playername].ActionPreflop) ? actionAndAmount : "," + actionAndAmount;
                     break;
                 case "flop":
-                    hand[match.Groups[1].Value].ActionFlop +=
-                        string.IsNullOrEmpty(hand[match.Groups[1].Value].ActionFlop) ? actionAndAmount : "," + actionAndAmount;
+                    hand[playername].ActionFlop +=
+                        string.IsNullOrEmpty(hand[playername].ActionFlop) ? actionAndAmount : "," + actionAndAmount;
                     break;
                 case "turn":
-                    hand[match.Groups[1].Value].ActionTurn +=
-                        string.IsNullOrEmpty(hand[match.Groups[1].Value].ActionTurn) ? actionAndAmount : "," + actionAndAmount;
+                    hand[playername].ActionTurn +=
+                        string.IsNullOrEmpty(hand[playername].ActionTurn) ? actionAndAmount : "," + actionAndAmount;
                     break;
                 case "river":
-                    hand[match.Groups[1].Value].ActionRiver +=
-                        string.IsNullOrEmpty(hand[match.Groups[1].Value].ActionRiver) ? actionAndAmount : "," + actionAndAmount;
+                    hand[playername].ActionRiver +=
+                        string.IsNullOrEmpty(hand[playername].ActionRiver) ? actionAndAmount : "," + actionAndAmount;
                     break;
             }
 
@@ -322,7 +323,7 @@ namespace Awam.Tracker.Parser
 
             if (action == "collected")
             {
-                hand[match.Groups[1].Value].MyMoneyCollected = decimal.Parse(match.Groups[3].Value);
+                hand[playername].MyMoneyCollected = decimal.Parse(match.Groups[3].Value);
                 return;
             }
 
@@ -334,16 +335,16 @@ namespace Awam.Tracker.Parser
                 switch (step)
                 {
                     case "preflop":
-                        hand[match.Groups[1].Value].PaidPreflop += f;
+                        hand[playername].PaidPreflop += f;
                         break;
                     case "flop":
-                        hand[match.Groups[1].Value].PaidFlop += f;
+                        hand[playername].PaidFlop += f;
                         break;
                     case "turn":
-                        hand[match.Groups[1].Value].PaidTurn += f;
+                        hand[playername].PaidTurn += f;
                         break;
                     case "river":
-                        hand[match.Groups[1].Value].PaidRiver += f;
+                        hand[playername].PaidRiver += f;
                         break;
                 }
             }
@@ -354,16 +355,16 @@ namespace Awam.Tracker.Parser
                 switch (step)
                 {
                     case "preflop":
-                        hand[match.Groups[1].Value].PaidPreflop = f;
+                        hand[playername].PaidPreflop = f;
                         break;
                     case "flop":
-                        hand[match.Groups[1].Value].PaidFlop = f;
+                        hand[playername].PaidFlop = f;
                         break;
                     case "turn":
-                        hand[match.Groups[1].Value].PaidTurn = f;
+                        hand[playername].PaidTurn = f;
                         break;
                     case "river":
-                        hand[match.Groups[1].Value].PaidRiver = f;
+                        hand[playername].PaidRiver = f;
                         break;
                 }
             }
