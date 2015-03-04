@@ -99,7 +99,7 @@ namespace Awam.Tracker.Replay
         static string GetActionPositionRun(Hands[] hands, int position, int run, Enumeration.Street street)
         {
             var user = hands.Single(x => x.Position == position).User;
-            string action = string.Empty;
+            string action;
             switch (street)
             {
                 case Enumeration.Street.Blind:

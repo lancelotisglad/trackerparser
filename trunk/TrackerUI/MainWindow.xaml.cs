@@ -79,7 +79,7 @@ namespace TrackerUI
                     decimal? bbWon = h.Net / h.BB;
                     totalBBWon += bbWon;
                     index++;
-                    if (comboBox2.SelectedValue == "BB")
+                    if (comboBox2.SelectedValue.ToString() == "BB")
                         coll += bbWon;
                     else
                         coll += h.Net;
@@ -144,8 +144,8 @@ namespace TrackerUI
                 textBox1.Text += Environment.NewLine;
                 textBox1.Text += " % bets f : " + countBetsFlop * 100 / count + "%";
 
-                LineChart1.InvalidateMeasure();
-                LineChart1.SeriesSource = Data;
+                //LineChart1.InvalidateMeasure();
+                //LineChart1.SeriesSource = Data;
             }
         }
 
@@ -211,7 +211,9 @@ namespace TrackerUI
                 Value = value;
                 Index = index;
             }
+
             public static readonly DependencyProperty _date = DependencyProperty.Register("Date", typeof(DateTime), typeof(Point));
+            
             public DateTime Date
             {
                 get { return (DateTime)GetValue(_date); }

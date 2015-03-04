@@ -38,6 +38,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{CF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPUI", "TPUI\TPUI.csproj", "{F741FFD8-1B71-403A-80F1-043B8DE9A706}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITrack", "ITrack\ITrack.csproj", "{E47255F7-A9E6-4FC5-9675-BC2BC3EB6FEB}"
+EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = TrackerParser.vsmdi
@@ -171,6 +173,16 @@ Global
 		{F741FFD8-1B71-403A-80F1-043B8DE9A706}.Release|Mixed Platforms.Build.0 = Release|x86
 		{F741FFD8-1B71-403A-80F1-043B8DE9A706}.Release|x86.ActiveCfg = Release|x86
 		{F741FFD8-1B71-403A-80F1-043B8DE9A706}.Release|x86.Build.0 = Release|x86
+		{E47255F7-A9E6-4FC5-9675-BC2BC3EB6FEB}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E47255F7-A9E6-4FC5-9675-BC2BC3EB6FEB}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{E47255F7-A9E6-4FC5-9675-BC2BC3EB6FEB}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{E47255F7-A9E6-4FC5-9675-BC2BC3EB6FEB}.Debug|x86.ActiveCfg = Debug|x86
+		{E47255F7-A9E6-4FC5-9675-BC2BC3EB6FEB}.Debug|x86.Build.0 = Debug|x86
+		{E47255F7-A9E6-4FC5-9675-BC2BC3EB6FEB}.Release|Any CPU.ActiveCfg = Release|x86
+		{E47255F7-A9E6-4FC5-9675-BC2BC3EB6FEB}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E47255F7-A9E6-4FC5-9675-BC2BC3EB6FEB}.Release|Mixed Platforms.Build.0 = Release|x86
+		{E47255F7-A9E6-4FC5-9675-BC2BC3EB6FEB}.Release|x86.ActiveCfg = Release|x86
+		{E47255F7-A9E6-4FC5-9675-BC2BC3EB6FEB}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -101,3 +101,318 @@ Seat 7: saadliig folded on the flop
 Seat 8: AymS77 folded on the turn
 Seat 9: reneguy1986 folded on the pre-flop
 
+
+Winamax Poker - CashGame - HandId: #2939888-406-1336669346 - Holdem no limit (0.02€/0.05€) - 2019/07/10 10:24:26 UTC
+Table: 'Delhi 2' 9-max (real money) Seat #3 is the button
+Seat 1: titiquenti (5.93€)
+Seat 2: laroulotte (4.54€)
+Seat 3: yellowrat (8.47€)
+Seat 4: Xial (4.51€)
+Seat 5: BABEN-BOW (4.19€)
+Seat 6: King Of Balt (4.85€)
+Seat 7: saadliig (5€)
+Seat 8: AymS77 (4.54€)
+Seat 9: reneguy1986 (4.19€)
+*** ANTE/BLINDS ***
+Xial posts small blind 0.02€
+BABEN-BOW posts big blind 0.05€
+saadliig posts big blind 0.05€ out of position
+Dealt to saadliig [3c 4s]
+*** PRE-FLOP *** 
+saadliig checks
+AymS77 calls 0.05€
+reneguy1986 folds
+titiquenti folds
+laroulotte calls 0.05€
+yellowrat folds
+Xial folds
+BABEN-BOW checks
+*** FLOP *** [3d Kc 7d]
+BABEN-BOW checks
+saadliig checks  
+AymS77 bets 0.05€
+laroulotte calls 0.05€
+BABEN-BOW raises 0.15€ to 0.20€
+saadliig folds
+AymS77 calls 0.15€
+laroulotte calls 0.15€
+*** TURN *** [3d Kc 7d][6h]
+BABEN-BOW bets 0.55€
+AymS77 folds
+laroulotte folds
+BABEN-BOW collected 1.32€ from pot
+*** SUMMARY ***
+Total pot 1.32€ | Rake 0.05€
+Board: [3d Kc 7d 6h]
+Seat 1: titiquensi folded on the pre-flop
+Seat 2: laroulotte folded on the turn
+Seat 3: yellowrat (button) folded on the pre-flop
+Seat 4: Xial (small blind) folded on the pre-flop
+Seat 5: BABEN-BOW (big blind) won 1.32€
+Seat 7: saadliig folded on the flop
+Seat 8: AymS77 folded on the turn
+Seat 9: reneguy1986 folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2939888-406-1336669346 - Holdem no limit (0.02€/0.05€) - 2019/07/10 10:25:26 UTC
+Table: 'Delhi 2' 9-max (real money) Seat #3 is the button
+Seat 1: titiquenti (5.93€)
+Seat 2: laroulotte (4.54€)
+Seat 3: yellowrat (8.47€)
+Seat 4: Xial (4.51€)
+Seat 5: BABEN-BOW (4.19€)
+Seat 6: King Of Balt (4.85€)
+Seat 7: saadliig (5€)
+Seat 8: AymS77 (4.54€)
+Seat 9: reneguy1986 (4.19€)
+*** ANTE/BLINDS ***
+Xial posts small blind 0.02€
+BABEN-BOW posts big blind 0.05€
+saadliig posts big blind 0.05€ out of position
+Dealt to saadliig [3c 4s]
+*** PRE-FLOP *** 
+saadliig checks
+AymS77 calls 0.05€
+reneguy1986 folds
+titiquenti folds
+laroulotte calls 0.05€
+yellowrat folds
+Xial folds
+BABEN-BOW checks
+*** FLOP *** [3d Kc 7d]
+BABEN-BOW checks
+saadliig checks  
+AymS77 bets 0.05€
+laroulotte calls 0.05€
+BABEN-BOW raises 0.15€ to 0.20€
+saadliig folds
+AymS77 calls 0.15€
+laroulotte calls 0.15€
+*** TURN *** [3d Kc 7d][6h]
+BABEN-BOW bets 0.55€
+AymS77 folds
+laroulotte folds
+BABEN-BOW collected 1.32€ from pot
+*** SUMMARY ***
+Total pot 1.32€ | Rake 0.05€
+Board: [3d Kc 7d 6h]
+Seat 1: titiquensi folded on the pre-flop
+Seat 2: laroulotte folded on the turn
+Seat 3: yellowrat (button) folded on the pre-flop
+Seat 4: Xial (small blind) folded on the pre-flop
+Seat 5: BABEN-BOW (big blind) won 1.32€
+Seat 7: saadliig folded on the flop
+Seat 8: AymS77 folded on the turn
+Seat 9: reneguy1986 folded on the pre-flop
+
+
+
+Winamax Poker - CashGame - HandId: #2939888-406-1336669346 - Holdem no limit (0.02€/0.05€) - 2019/07/10 10:26:26 UTC
+Table: 'Delhi 2' 9-max (real money) Seat #3 is the button
+Seat 1: titiquenti (5.93€)
+Seat 2: laroulotte (4.54€)
+Seat 3: yellowrat (8.47€)
+Seat 4: Xial (4.51€)
+Seat 5: BABEN-BOW (4.19€)
+Seat 6: King Of Balt (4.85€)
+Seat 7: saadliig (5€)
+Seat 8: AymS77 (4.54€)
+Seat 9: reneguy1986 (4.19€)
+*** ANTE/BLINDS ***
+Xial posts small blind 0.02€
+BABEN-BOW posts big blind 0.05€
+saadliig posts big blind 0.05€ out of position
+Dealt to saadliig [3c 4s]
+*** PRE-FLOP *** 
+saadliig checks
+AymS77 calls 0.05€
+reneguy1986 folds
+titiquenti folds
+laroulotte calls 0.05€
+yellowrat folds
+Xial folds
+BABEN-BOW checks
+*** FLOP *** [3d Kc 7d]
+BABEN-BOW checks
+saadliig checks  
+AymS77 bets 0.05€
+laroulotte calls 0.05€
+BABEN-BOW raises 0.15€ to 0.20€
+saadliig folds
+AymS77 calls 0.15€
+laroulotte calls 0.15€
+*** TURN *** [3d Kc 7d][6h]
+BABEN-BOW bets 0.55€
+AymS77 folds
+laroulotte folds
+BABEN-BOW collected 1.32€ from pot
+*** SUMMARY ***
+Total pot 1.32€ | Rake 0.05€
+Board: [3d Kc 7d 6h]
+Seat 1: titiquensi folded on the pre-flop
+Seat 2: laroulotte folded on the turn
+Seat 3: yellowrat (button) folded on the pre-flop
+Seat 4: Xial (small blind) folded on the pre-flop
+Seat 5: BABEN-BOW (big blind) won 1.32€
+Seat 7: saadliig folded on the flop
+Seat 8: AymS77 folded on the turn
+Seat 9: reneguy1986 folded on the pre-flop
+
+
+Winamax Poker - CashGame - HandId: #2939888-406-1336669346 - Holdem no limit (0.02€/0.05€) - 2019/07/10 10:27:26 UTC
+Table: 'Delhi 2' 9-max (real money) Seat #3 is the button
+Seat 1: titiquenti (5.93€)
+Seat 2: laroulotte (4.54€)
+Seat 3: yellowrat (8.47€)
+Seat 4: Xial (4.51€)
+Seat 5: BABEN-BOW (4.19€)
+Seat 6: King Of Balt (4.85€)
+Seat 7: saadliig (5€)
+Seat 8: AymS77 (4.54€)
+Seat 9: reneguy1986 (4.19€)
+*** ANTE/BLINDS ***
+Xial posts small blind 0.02€
+BABEN-BOW posts big blind 0.05€
+saadliig posts big blind 0.05€ out of position
+Dealt to saadliig [3c 4s]
+*** PRE-FLOP *** 
+saadliig checks
+AymS77 calls 0.05€
+reneguy1986 folds
+titiquenti folds
+laroulotte calls 0.05€
+yellowrat folds
+Xial folds
+BABEN-BOW checks
+*** FLOP *** [3d Kc 7d]
+BABEN-BOW checks
+saadliig checks  
+AymS77 bets 0.05€
+laroulotte calls 0.05€
+BABEN-BOW raises 0.15€ to 0.20€
+saadliig folds
+AymS77 calls 0.15€
+laroulotte calls 0.15€
+*** TURN *** [3d Kc 7d][6h]
+BABEN-BOW bets 0.55€
+AymS77 folds
+laroulotte folds
+BABEN-BOW collected 1.32€ from pot
+*** SUMMARY ***
+Total pot 1.32€ | Rake 0.05€
+Board: [3d Kc 7d 6h]
+Seat 1: titiquensi folded on the pre-flop
+Seat 2: laroulotte folded on the turn
+Seat 3: yellowrat (button) folded on the pre-flop
+Seat 4: Xial (small blind) folded on the pre-flop
+Seat 5: BABEN-BOW (big blind) won 1.32€
+Seat 7: saadliig folded on the flop
+Seat 8: AymS77 folded on the turn
+Seat 9: reneguy1986 folded on the pre-flop
+
+
+
+
+Winamax Poker - CashGame - HandId: #2939888-406-1336669346 - Holdem no limit (0.02€/0.05€) - 2019/07/10 10:35:26 UTC
+Table: 'Delhi 2' 9-max (real money) Seat #3 is the button
+Seat 1: titiquenti (5.93€)
+Seat 2: laroulotte (4.54€)
+Seat 3: yellowrat (8.47€)
+Seat 4: Xial (4.51€)
+Seat 5: BABEN-BOW (4.19€)
+Seat 6: King Of Balt (4.85€)
+Seat 7: saadliig (5€)
+Seat 8: AymS77 (4.54€)
+Seat 9: reneguy1986 (4.19€)
+*** ANTE/BLINDS ***
+Xial posts small blind 0.02€
+BABEN-BOW posts big blind 0.05€
+saadliig posts big blind 0.05€ out of position
+Dealt to saadliig [3c 4s]
+*** PRE-FLOP *** 
+saadliig checks
+AymS77 calls 0.05€
+reneguy1986 folds
+titiquenti folds
+laroulotte calls 0.05€
+yellowrat folds
+Xial folds
+BABEN-BOW checks
+*** FLOP *** [3d Kc 7d]
+BABEN-BOW checks
+saadliig checks  
+AymS77 bets 0.05€
+laroulotte calls 0.05€
+BABEN-BOW raises 0.15€ to 0.20€
+saadliig folds
+AymS77 calls 0.15€
+laroulotte calls 0.15€
+*** TURN *** [3d Kc 7d][6h]
+BABEN-BOW bets 0.55€
+AymS77 folds
+laroulotte folds
+BABEN-BOW collected 1.32€ from pot
+*** SUMMARY ***
+Total pot 1.32€ | Rake 0.05€
+Board: [3d Kc 7d 6h]
+Seat 1: titiquensi folded on the pre-flop
+Seat 2: laroulotte folded on the turn
+Seat 3: yellowrat (button) folded on the pre-flop
+Seat 4: Xial (small blind) folded on the pre-flop
+Seat 5: BABEN-BOW (big blind) won 1.32€
+Seat 7: saadliig folded on the flop
+Seat 8: AymS77 folded on the turn
+Seat 9: reneguy1986 folded on the pre-flop
+
+
+
+Winamax Poker - CashGame - HandId: #2939888-406-1336669346 - Holdem no limit (0.02€/0.05€) - 2019/07/10 10:36:26 UTC
+Table: 'Delhi 2' 9-max (real money) Seat #3 is the button
+Seat 1: titiquenti (5.93€)
+Seat 2: laroulotte (4.54€)
+Seat 3: yellowrat (8.47€)
+Seat 4: Xial (4.51€)
+Seat 5: BABEN-BOW (4.19€)
+Seat 6: King Of Balt (4.85€)
+Seat 7: saadliig (5€)
+Seat 8: AymS77 (4.54€)
+Seat 9: reneguy1986 (4.19€)
+*** ANTE/BLINDS ***
+Xial posts small blind 0.02€
+BABEN-BOW posts big blind 0.05€
+saadliig posts big blind 0.05€ out of position
+Dealt to saadliig [3c 4s]
+*** PRE-FLOP *** 
+saadliig checks
+AymS77 calls 0.05€
+reneguy1986 folds
+titiquenti folds
+laroulotte calls 0.05€
+yellowrat folds
+Xial folds
+BABEN-BOW checks
+*** FLOP *** [3d Kc 7d]
+BABEN-BOW checks
+saadliig checks  
+AymS77 bets 0.05€
+laroulotte calls 0.05€
+BABEN-BOW raises 0.15€ to 0.20€
+saadliig folds
+AymS77 calls 0.15€
+laroulotte calls 0.15€
+*** TURN *** [3d Kc 7d][6h]
+BABEN-BOW bets 0.55€
+AymS77 folds
+laroulotte folds
+BABEN-BOW collected 1.32€ from pot
+*** SUMMARY ***
+Total pot 1.32€ | Rake 0.05€
+Board: [3d Kc 7d 6h]
+Seat 1: titiquensi folded on the pre-flop
+Seat 2: laroulotte folded on the turn
+Seat 3: yellowrat (button) folded on the pre-flop
+Seat 4: Xial (small blind) folded on the pre-flop
+Seat 5: BABEN-BOW (big blind) won 1.32€
+Seat 7: saadliig folded on the flop
+Seat 8: AymS77 folded on the turn
+Seat 9: reneguy1986 folded on the pre-flop
