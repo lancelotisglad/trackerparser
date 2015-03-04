@@ -15,8 +15,8 @@ namespace Awam.Tracker.FileProcessor
         public event NewFileProcessedHandler NewFileProcessed;
 
         private readonly string _path;
-        private IFileParser _parser;
-        private IDataRepository _dataRepository;
+        private readonly IFileParser _parser;
+        private readonly IDataRepository _dataRepository;
         private FileSystemWatcher _fsw;
 
         public FileProcessor(IFileParser parser, IDataRepository dataRepository, string directory)
@@ -36,7 +36,7 @@ namespace Awam.Tracker.FileProcessor
             Stopwatch sw = new Stopwatch();
             sw.Start();
             IList<Hand> hands = ProcessImport( lastDate);
-            //_dataRepository.GetHandsRepository().SaveHandsSqlCommand(hands);
+            _dataRepository.GetHandsRepository().SaveHandsSqlCommand(hands);
             sw.Stop();
             Console.WriteLine("Terminé : " + hands.Count() + " en " + sw.ElapsedMilliseconds);
         }
@@ -77,7 +77,7 @@ namespace Awam.Tracker.FileProcessor
             {
                 hands = _parser.Parse(fileInfo.FullName, lastImportDate);
                 _dataRepository.GetHandsRepository().SaveHandsSqlCommand(hands);
-                OnNewFileProcessed(new NewFileProcessedEventArgs(fileInfo.Name, hands.Last()));                
+                OnNewFileProcessed(new NewFileProcessedEventArgs(fileInfo.Name, hands.Count, hands.Last()));                
             }
             catch (Exception e)
             {
@@ -141,15 +141,13 @@ namespace Awam.Tracker.FileProcessor
                 {
                     filesProcessedRecently[fileInfo.FullName] = DateTime.Now;
 
-                    /// log info
                     Console.Write("processing " + e.FullPath);
                     var hands = ProcessFile(fileInfo);
                     _dataRepository.GetHandsRepository().SaveHandsSqlCommand(hands);
                 }
             }
-            catch (Exception ex)
+            catch
             {
-                /// log erreur
             }
             finally
             {
@@ -163,10 +161,11 @@ namespace Awam.Tracker.FileProcessor
 
     public class NewFileProcessedEventArgs : EventArgs
     {
-        public NewFileProcessedEventArgs(string newFile, Hand lastHand)
+        public NewFileProcessedEventArgs(string newFile, int nbHands, Hand lastHand)
         {
             _newFile = newFile;
             _lastHand = lastHand;
+            _nbHands = nbHands;
         }
 
         protected string _newFile;
@@ -183,6 +182,12 @@ namespace Awam.Tracker.FileProcessor
             set { _lastHand = value; }
         }
 
-        
+        protected int _nbHands;
+        public int NbHands
+        {
+            get { return _nbHands; }
+            set { _nbHands = value; }
+        }
+
     }
 }

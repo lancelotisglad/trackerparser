@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using Awam.Tracker.Data;
+using System.Threading;
 using Awam.Tracker.Model;
 
 
@@ -13,52 +13,40 @@ namespace Awam.Tracker.Parser
 {
     public class WinamaxParser : IFileParser
     {
-        private static readonly string floatPattern = @"[-+]?[0-9]*\.?[0-9]+";
-        private static readonly string actionPattern = @"^(.*) (raises|folds|calls|collected|bets|checks) ?(" + floatPattern + @")?€? ?(to )?([-+]?[0-9]*\.?[0-9]+)?";
+        private const string _floatPattern = @"[-+]?[0-9]*\.?[0-9]+";
+        private const string _actionPattern = @"^(.*) (raises|folds|calls|collected|bets|checks) ?(" + _floatPattern + @")?€? ?(to )?([-+]?[0-9]*\.?[0-9]+)?";
 
         private static readonly Regex _regexParseHeader0 = new Regex("^Winamax Poker - Tournament", RegexOptions.Compiled);
         private static readonly Regex _regexParseHeader = new Regex(@"^Winamax Poker - (.*) - HandId: #([0-9\-]*) - Holdem no limit \((.*)€/(.*)€\) - (.*)", RegexOptions.Compiled);
         private static readonly Regex _regexParseSeats = new Regex(@"^Seat ([0-9]*): (.*) \((.*)€\)", RegexOptions.Compiled);
         private static readonly Regex _regexParseTable = new Regex(@"^Table: '(.*)' (.*) Seat #([1-9]) is the button", RegexOptions.Compiled);
         private static readonly Regex _regexParseAnteBlinds = new Regex(@"^\*\*\* AN", RegexOptions.Compiled);
-        private static readonly Regex _regexParsePostsBlind = new Regex(@"^(.*) (posts|denies) (small|big) blind ?(" + floatPattern + @")?€?", RegexOptions.Compiled);
+        private static readonly Regex _regexParsePostsBlind = new Regex(@"^(.*) (posts|denies) (small|big) blind ?(" + _floatPattern + @")?€?", RegexOptions.Compiled);
         private static readonly Regex _regexParseDealtToMe = new Regex(@"^Dealt to (.*) \[(.*) (.*)\]", RegexOptions.Compiled);
         private static readonly Regex _regexParsePreFlopTitle = new Regex(@"^\*\*\* PR", RegexOptions.Compiled);
-        private static readonly Regex _regexParsePreflop = new Regex(actionPattern, RegexOptions.Compiled);
+        private static readonly Regex _regexParsePreflop = new Regex(_actionPattern, RegexOptions.Compiled);
         private static readonly Regex _regexParseFlopTitle = new Regex(@"^\*\*\* FL", RegexOptions.Compiled);
-        private static readonly Regex _regexParseFlop = new Regex(actionPattern, RegexOptions.Compiled);
+        private static readonly Regex _regexParseFlop = new Regex(_actionPattern, RegexOptions.Compiled);
         private static readonly Regex _regexParseTurnTitle = new Regex(@"^\*\*\* TU", RegexOptions.Compiled);
-        private static readonly Regex _regexParseTurn = new Regex(actionPattern, RegexOptions.Compiled);
+        private static readonly Regex _regexParseTurn = new Regex(_actionPattern, RegexOptions.Compiled);
         private static readonly Regex _regexParseRiverTitle = new Regex(@"^\*\*\* RI", RegexOptions.Compiled);
-        private static readonly Regex _regexParseRiver = new Regex(actionPattern, RegexOptions.Compiled);
+        private static readonly Regex _regexParseRiver = new Regex(_actionPattern, RegexOptions.Compiled);
         private static readonly Regex _regexParseShowDownTitle = new Regex(@"^\*\*\* SH", RegexOptions.Compiled);
         private static readonly Regex _regexParseShowDown1 = new Regex(@"^(.*) (shows) \[(.*) (.*)\]", RegexOptions.Compiled);
-        private static readonly Regex _regexParseShowDown2 = new Regex(@"^(.*) collected (" + floatPattern + @")€", RegexOptions.Compiled);
+        private static readonly Regex _regexParseShowDown2 = new Regex(@"^(.*) collected (" + _floatPattern + @")€", RegexOptions.Compiled);
         private static readonly Regex _regexParseSummaryTitle = new Regex(@"^\*\*\* SU", RegexOptions.Compiled);
         private static readonly Regex _regexParseSummary = new Regex(@"^Total pot (.*)€ \| (No rake|Rake (.*)€)", RegexOptions.Compiled);
         private static readonly Regex _regexParseSummary2 = new Regex(@"^Board*|Seat*|^\s*$", RegexOptions.Compiled);
 
-        private string _filePath;
-
-        public string FilePath
-        {
-            get { return _filePath; }
-        }
-
-        private DateTime _lastDate;
-
         delegate bool Step(Hand hand, string line);
 
-        private Step[] ExecuteStep;
-
-        private void log(string line)
-        {
-           Console.WriteLine(line);           
-        }
-
+        private readonly Step[] _executeStep;
+        
         public WinamaxParser()
-        {   
-            ExecuteStep = new Step[] {
+        {
+            Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
+
+            _executeStep = new Step[] {
                 ParseHeader,
                 ParseTable,
                 ParseSeats,
@@ -79,59 +67,65 @@ namespace Awam.Tracker.Parser
                 ParseSummary
             };
         }
-
+        
         public IList<Hand> Parse(string filePath, DateTime lastImport)
         {
-            _filePath = filePath;
-            _lastDate = lastImport;
-            return GetHandsFromFile();
+            return GetHandsFromFile(filePath, lastImport);
         }
 
-        private IList<Hand> GetHandsFromFile()
+        private IList<Hand> GetHandsFromFile(string filePath, DateTime lastImport)
         {
             IList<Hand> hands = new List<Hand>();
-            using (StreamReader streamReader = 
+            using (var streamReader = 
                 new StreamReader(
                     new FileStream(
-                        _filePath, 
-                        FileMode.Open, 
-                        FileAccess.Read, 
-                        FileShare.Read),
+                        filePath, 
+                        FileMode.Open, FileAccess.Read, FileShare.Read),
                     Encoding.UTF8))
             {
-
                 int stepNumber = 0;
 
-                Hand hand = new Hand { Players = new List<HandPlayer>() };
+                // hand initialization
+                var hand = new Hand { Players = new List<HandPlayer>() };
 
                 string line = streamReader.ReadLine();
               
                 while (streamReader.Peek() >= 0)
                 {
-                    bool expressionNotFoundGoToFollowingStepWithTheSameLine = ExecuteStep[stepNumber](hand, line);
+                    // Each step returns:
+                    // false, if the line processed matches the step, meaning the next line can be processed by the same step
+                    // true, if the line processed doesn't match, meaning the next step must process the same line
+                    bool expressionNotFoundGoToFollowingStepWithTheSameLine = _executeStep[stepNumber](hand, line);
+                    // next step
                     if (expressionNotFoundGoToFollowingStepWithTheSameLine)
                     {
-                        if (stepNumber != ExecuteStep.Count() - 1)
+                        
+                        if (stepNumber != _executeStep.Count() - 1)
                         {
                             stepNumber++;
                         }
+                        // last step: 
                         else
                         {
-                            if (hand.Time > _lastDate)
+                            // add the hand to Hands
+                            if (hand.Time.Ticks > lastImport.Ticks)
                             {
                                 hands.Add(hand);
                             }
+                            // reinitialize a new hand
+                            // starting on the first step
                             hand = new Hand { Players = new List<HandPlayer>() };
                             stepNumber = 0;
                         }
                     }
+                    // next line
                     else
                     {
                         line = streamReader.ReadLine();
                     }
                 }
 
-                if (hand.Time.Ticks > _lastDate.Ticks)
+                if (hand.Time.Ticks > lastImport.Ticks)
                 {
                     hands.Add(hand);
                 }
@@ -170,7 +164,8 @@ namespace Awam.Tracker.Parser
                     CultureInfo.InvariantCulture);
 
 
-                hand.BigBlind = float.Parse(bigBlind);
+                hand.BigBlind = float.Parse(bigBlind,
+                    CultureInfo.InvariantCulture);
                 hand.HandId = handId;
                 return false;
             }
@@ -286,90 +281,6 @@ namespace Awam.Tracker.Parser
                 return false;
             }
             return true;
-        }
-
-        private void SetAction(Match match, Hand hand, string step)
-        {
-            string action = match.Groups[2].Value;
-            string playername = match.Groups[1].Value;
-            
-            string amount = action == "raises" ? match.Groups[5].Value : match.Groups[3].Value;
-            string actionAndAmount = action + " (" + amount + ")";
-
-
-            switch (step)
-            {
-                case "preflop":
-                    hand[playername].ActionPreflop +=
-                        string.IsNullOrEmpty(hand[playername].ActionPreflop) ? actionAndAmount : "," + actionAndAmount;
-                    break;
-                case "flop":
-                    hand[playername].ActionFlop +=
-                        string.IsNullOrEmpty(hand[playername].ActionFlop) ? actionAndAmount : "," + actionAndAmount;
-                    break;
-                case "turn":
-                    hand[playername].ActionTurn +=
-                        string.IsNullOrEmpty(hand[playername].ActionTurn) ? actionAndAmount : "," + actionAndAmount;
-                    break;
-                case "river":
-                    hand[playername].ActionRiver +=
-                        string.IsNullOrEmpty(hand[playername].ActionRiver) ? actionAndAmount : "," + actionAndAmount;
-                    break;
-            }
-
-           
-            if (action == "checks")
-                return;
-
-            if (action == "collected")
-            {
-                hand[playername].MyMoneyCollected = decimal.Parse(match.Groups[3].Value);
-                return;
-            }
-
-            decimal f = 0;
-            if (action != "raises")
-            {
-                if (match.Groups[3].Value != string.Empty)
-                    f = decimal.Parse(match.Groups[3].Value);
-                switch (step)
-                {
-                    case "preflop":
-                        hand[playername].PaidPreflop += f;
-                        break;
-                    case "flop":
-                        hand[playername].PaidFlop += f;
-                        break;
-                    case "turn":
-                        hand[playername].PaidTurn += f;
-                        break;
-                    case "river":
-                        hand[playername].PaidRiver += f;
-                        break;
-                }
-            }
-            else
-            {
-                f = decimal.Parse(match.Groups[5].Value);
-
-                switch (step)
-                {
-                    case "preflop":
-                        hand[playername].PaidPreflop = f;
-                        break;
-                    case "flop":
-                        hand[playername].PaidFlop = f;
-                        break;
-                    case "turn":
-                        hand[playername].PaidTurn = f;
-                        break;
-                    case "river":
-                        hand[playername].PaidRiver = f;
-                        break;
-                }
-            }
-
-
         }
 
         private bool ParseFlopTitle(Hand hand, string line)
@@ -525,5 +436,95 @@ namespace Awam.Tracker.Parser
 
             return true;
         }
+
+        private static void SetAction(Match match, Hand hand, string step)
+        {
+            string action = match.Groups[2].Value;
+            string playername = match.Groups[1].Value;
+
+            string amount = action == "raises" ? match.Groups[5].Value : match.Groups[3].Value;
+            string actionAndAmount = action + " (" + amount + ")";
+
+
+            switch (step)
+            {
+                case "preflop":
+                    hand[playername].ActionPreflop +=
+                        string.IsNullOrEmpty(hand[playername].ActionPreflop) ? actionAndAmount : "," + actionAndAmount;
+                    break;
+                case "flop":
+                    hand[playername].ActionFlop +=
+                        string.IsNullOrEmpty(hand[playername].ActionFlop) ? actionAndAmount : "," + actionAndAmount;
+                    break;
+                case "turn":
+                    hand[playername].ActionTurn +=
+                        string.IsNullOrEmpty(hand[playername].ActionTurn) ? actionAndAmount : "," + actionAndAmount;
+                    break;
+                case "river":
+                    hand[playername].ActionRiver +=
+                        string.IsNullOrEmpty(hand[playername].ActionRiver) ? actionAndAmount : "," + actionAndAmount;
+                    break;
+            }
+
+
+            if (action == "checks")
+                return;
+
+            if (action == "collected")
+            {
+                hand[playername].MyMoneyCollected = decimal.Parse(match.Groups[3].Value);
+                return;
+            }
+
+            decimal f = 0;
+            if (action != "raises")
+            {
+                if (match.Groups[3].Value != string.Empty)
+                    f = decimal.Parse(match.Groups[3].Value);
+                switch (step)
+                {
+                    case "preflop":
+                        hand[playername].PaidPreflop += f;
+                        break;
+                    case "flop":
+                        hand[playername].PaidFlop += f;
+                        break;
+                    case "turn":
+                        hand[playername].PaidTurn += f;
+                        break;
+                    case "river":
+                        hand[playername].PaidRiver += f;
+                        break;
+                }
+            }
+            else
+            {
+                f = decimal.Parse(match.Groups[5].Value);
+
+                switch (step)
+                {
+                    case "preflop":
+                        hand[playername].PaidPreflop = f;
+                        break;
+                    case "flop":
+                        hand[playername].PaidFlop = f;
+                        break;
+                    case "turn":
+                        hand[playername].PaidTurn = f;
+                        break;
+                    case "river":
+                        hand[playername].PaidRiver = f;
+                        break;
+                }
+            }
+
+
+        }
+
+        private void log(string line)
+        {
+            Console.WriteLine(line);
+        }
+
     }
 }
